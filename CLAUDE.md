@@ -17,6 +17,15 @@ Tin quốc tế (khối §01, §02) phải quét kênh quốc tế trực tiếp
 - **Bị chặn bot / paywall** (CNBC 403 đã test; Bloomberg, Reuters, FT, WSJ, Nikkei Asia tương tự): lấy headline qua WebSearch với `allowed_domains` thay vì fetch.
 - **Quy tắc đối chiếu**: số liệu quan trọng (chỉ số, giá dầu, vàng) phải khớp ≥2 nguồn hoặc ghi rõ nguồn duy nhất; tin nóng chỉ có 1 wire đưa phải chú thích "chưa thấy xác nhận rộng rãi — cần theo dõi". Wire quốc tế nhanh hơn nhưng cũng cần cảnh giác tin giật tít.
 
+## Giao thức chống tin cũ (sự cố 10/06/2026: bản tin trộn bài tháng 3–5 thành "tin hôm nay")
+1. Luôn `Get-Date` trước khi viết — bản tin đề ngày hệ thống, không viết sự kiện chưa xảy ra.
+2. WebSearch chỉ là đầu mối. Mọi bài phải xác định **ngày đăng** trước khi dùng: CafeF = cụm số `-188YYMMDDxxxx.chn`; Vietstock = `/YYYY/MM/` trong path; Tuổi Trẻ = `YYYYMMDD` trong slug; URL không có ngày (investing, oilprice bài lẻ, yahoo) → WebFetch đọc ngày trong trang. **Không xác định được ngày = coi như cũ = không dùng.**
+3. Bài >24h chỉ được làm bối cảnh, phải ghi ngày rõ trong text ("hôm 08/06...").
+4. Query search luôn kèm ngày hôm nay; cấm search chủ đề trừu tượng không mốc thời gian ("Hormuz crisis", "Iran oil") — loại này lôi bài phân tích cũ SEO mạnh.
+5. Giá/chỉ số chỉ lấy từ WebFetch trang live, không lấy từ bài search.
+6. **Sanity check tin vs giá**: tin sốc cung ("Hormuz đóng cửa") mà giá live không phản ánh (Brent ~$92) → tin cũ/sai, loại.
+7. Tự kiểm cuối: rà từng item trong JSON, không trả lời được "nguồn này đăng ngày nào?" thì xóa item.
+
 ## Cấu trúc bản tin sáng (chuẩn phòng phân tích tự doanh, chốt 2026-06-10)
 - **Dashboard** (`chi_so[]`): VN-Index, thanh khoản HOSE, khối ngoại, lãi qua đêm LNH, USD/VND, S&P 500. Khi có nguồn ổn định thì thêm: VN30F1M + basis, tự doanh CTCK.
 - **§01 Qua đêm — toàn cầu** (loai `quoc_te`, `rong: true`): Mỹ đóng cửa (S&P/Nasdaq/Dow + lý do), US futures sáng, châu Á mở cửa (Nikkei/Kospi/HSI/TQ), hàng hóa (dầu, vàng, thép HRC/quặng, khí, ure...), DXY/lợi suất UST/CNY, tin NHTW lớn. **Mỗi item bắt buộc có `y_nghia`** — một câu tác động tới VN kèm mã/nhóm ngành liên quan (dầu→GAS PVD PVS BSR; HRC→HPG HSG NKG; tỷ giá→nợ USD & xuất khẩu; lợi suất Mỹ→định giá & dòng vốn EM; Yên/carry trade→biến động toàn cầu).
