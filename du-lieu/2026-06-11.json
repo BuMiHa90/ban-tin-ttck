@@ -1,0 +1,359 @@
+{
+  "ngay": "2026-06-11",
+  "phien": "2026-06-10",
+  "tieu_de": "Châu Á bật tăng — Hormuz định hình tuần FOMC",
+  "dan_de": "VN-Index phiên 10/6 hồi phục thêm +9,95 điểm lên 1.803 trong khi thanh khoản HOSE rơi xuống đáy mới 10.700 tỷ — dưới mức trung bình 20 ngày; châu Á sáng nay (11/6) bật tăng theo phản ứng hậu CPI Mỹ (Nikkei +1,34%, Kospi +0,55%). Trong khi đó, khủng hoảng Hormuz ngày càng sâu — 10 triệu thùng/ngày bị cắt nguồn cung, IEA dự báo Brent ~106 USD, Goldman cảnh báo $100+ nếu đóng cửa kéo dài thêm 1 tháng — kết hợp với FOMC 16–17/6 là cú sốc kép định hình tuần này.",
+  "chi_so": [
+    { "ten": "VN-Index", "gia_tri": "1.803,00", "phu": "+0,55%", "huong": "tang", "ghi_chu": "hồi phục ngày thứ hai liên tiếp, phiên 10/6" },
+    { "ten": "Thanh khoản HOSE", "gia_tri": "10.700 tỷ", "phu": "−22% DoD", "huong": "giam", "ghi_chu": "đáy mới hơn 1 năm, dưới TB 20 ngày" },
+    { "ten": "Khối ngoại", "gia_tri": "−536 tỷ", "phu": "Bán ròng", "huong": "giam", "ghi_chu": "MBB/VPB/SSI bị xả; VJC/CII/MWG được gom" },
+    { "ten": "Lãi qua đêm LNH", "gia_tri": "9,35%", "phu": "Không đổi", "huong": "canh_bao", "ghi_chu": "căng thanh khoản hệ thống tiếp diễn" },
+    { "ten": "USD/VND trung tâm", "gia_tri": "25.153", "phu": "tham chiếu 10/6", "huong": "canh_bao", "ghi_chu": "chờ SBV cập nhật sáng 11/6" },
+    { "ten": "S&P 500 (9/6 close)", "gia_tri": "7.386,65", "phu": "−0,26%", "huong": "giam", "ghi_chu": "Phiên 10/6 chưa xác nhận; châu Á 11/6 xanh" }
+  ],
+  "muc": [
+    {
+      "so": "01",
+      "ten": "Qua đêm — toàn cầu",
+      "loai": "quoc_te",
+      "rong": true,
+      "ghi_chu": "Phiên Mỹ 10/6 (futures + tham chiếu) và châu Á sáng 11/6",
+      "items": [
+        {
+          "ten": "S&P 500 (tham chiếu + futures 10/6)",
+          "gia_tri": "Futures: −1,10% trước CPI",
+          "thay_doi": "9/6 close: −0,26%",
+          "huong": "giam",
+          "y_nghia": "Futures mở cửa tiêu cực trước CPI tháng 5; châu Á sáng 11/6 bật xanh — tín hiệu Mỹ có thể đã hồi phục cuối phiên; kết quả đóng cửa 10/6 chưa xác nhận đủ nguồn khi viết bản tin"
+        },
+        {
+          "ten": "Nasdaq (futures 10/6)",
+          "gia_tri": "Futures: −1,59%",
+          "thay_doi": "9/6 close: −0,97%",
+          "huong": "giam",
+          "y_nghia": "Công nghệ toàn cầu tiếp tục áp lực — FPT, CMG nội địa theo xu hướng; xem phản ứng sau CPI để định hướng tuần"
+        },
+        {
+          "ten": "VIX — Chỉ số sợ hãi",
+          "gia_tri": "21,56",
+          "thay_doi": "+8,52%",
+          "huong": "canh_bao",
+          "y_nghia": "Tâm lý phòng thủ rõ rệt — dòng tiền rủi ro EM/cổ phiếu tăng trưởng chịu áp lực phân bổ ngắn hạn"
+        },
+        {
+          "ten": "Nikkei 225 (sáng 11/6)",
+          "gia_tri": "50.883,68",
+          "thay_doi": "+1,34% (+671 điểm)",
+          "huong": "tang",
+          "y_nghia": "Châu Á bật mạnh — nếu duy trì đến mở cửa VN, tâm lý dòng tiền nội có thể cải thiện theo"
+        },
+        {
+          "ten": "Kospi (sáng 11/6)",
+          "gia_tri": "4.026,45",
+          "thay_doi": "+0,55%",
+          "huong": "tang",
+          "y_nghia": "Phục hồi sau cú rơi chip −8% phiên 08/06; tâm lý vùng ổn định hơn — tín hiệu ngắn hạn tích cực cho nhóm công nghệ"
+        },
+        {
+          "ten": "Dầu Brent",
+          "gia_tri": "92,68 USD",
+          "thay_doi": "+1,34%",
+          "huong": "canh_bao",
+          "y_nghia": "Hormuz chưa giải quyết, IEA dự báo Brent ~106 USD — lợi GAS/PVD/PVS/BSR; hại HVN/vận tải/phân bón/nhựa"
+        },
+        {
+          "ten": "Dầu WTI",
+          "gia_tri": "89,57 USD",
+          "thay_doi": "+1,55%",
+          "huong": "canh_bao",
+          "y_nghia": "Spread Brent/WTI ~3 USD duy trì — nhập khẩu dầu châu Á đắt hơn đáng kể so với cùng kỳ năm trước"
+        },
+        {
+          "ten": "Vàng thế giới",
+          "gia_tri": "~4.010 USD",
+          "thay_doi": "hồi phục từ 4.192 USD (9/6)",
+          "huong": "trung_tinh",
+          "y_nghia": "Vàng phục hồi nhẹ trong phiên châu Á 11/6 — tâm lý trú ẩn chưa sụp đổ hoàn toàn dù bán mạnh đêm qua"
+        },
+        {
+          "ten": "US Treasury 10Y Yield",
+          "gia_tri": "4,5280%",
+          "thay_doi": "−0,53%",
+          "huong": "tang",
+          "y_nghia": "Lợi suất giảm nhẹ — nếu CPI hot đẩy lợi suất tăng lại, chi phí vốn và định giá EM/VN bị co ép thêm"
+        },
+        {
+          "ten": "CPI Mỹ tháng 5 (dự báo 4,2% YoY)",
+          "gia_tri": "Kết quả thực tế: chưa cập nhật",
+          "thay_doi": "tăng từ 3,8% tháng 4",
+          "huong": "xau",
+          "y_nghia": "CPI hot → Fed giữ lãi suất cao qua 2026, áp lực dòng vốn EM; xác suất tăng lãi tháng 12/2026 tăng lên ~30% theo CME FedWatch"
+        }
+      ]
+    },
+    {
+      "so": "02",
+      "ten": "Địa chính trị & rủi ro toàn cầu",
+      "loai": "diem",
+      "items": [
+        {
+          "text": "KHỦNG HOẢNG HORMUZ LEO THANG: Eo biển Hormuz gần như đóng cửa — chỉ ~3 tàu/ngày thay vì 120–140 bình thường, cắt ~10 triệu thùng/ngày. IEA điều chỉnh dự báo: thiếu hụt 1,78 mb/d cả năm 2026, tồn kho toàn cầu giảm 8,5 mb/d trong Q2. Goldman Sachs cảnh báo Brent $100+ nếu đóng cửa kéo dài thêm 1 tháng. CEO Saudi Aramco: thị trường không bình thường hóa đến 2027 nếu tắc nghẽn qua giữa tháng 6.",
+          "tone": "xau",
+          "y_nghia": "Cú sốc nguồn cung lớn nhất lịch sử dầu — hai chiều với VN: lợi GAS/PVD/PVS/BSR; đội chi phí HVN/vận tải/phân bón/nhựa; nếu $100+ thì lạm phát toàn cầu leo thang, risk-off ảnh hưởng dòng vốn EM"
+        },
+        {
+          "text": "Iran hợp thức hóa kiểm soát Hormuz lâu dài: Tehran đang立法 quyền kiểm soát và thu phí quá cảnh — không còn là chiến thuật chiến tranh mà là mô hình doanh thu bền vững. Kazakhstan, các nước nhập khẩu châu Á cầu cứu nguồn cung ngoài vùng Vịnh.",
+          "tone": "xau",
+          "y_nghia": "Rủi ro cấu trúc dài hạn: chi phí logistics và phí bảo hiểm tàu chở dầu tăng vĩnh viễn — ảnh hưởng toàn chuỗi cung ứng năng lượng toàn cầu"
+        },
+        {
+          "text": "Mỹ–Iran: trao đổi không kích tiếp diễn, Trung Quốc bắt đầu rút kho chiến lược bù thiếu hụt. Mỹ xả dự trữ LNG/LPG cho ASEAN — tín hiệu ổn định khu vực nhưng cũng cho thấy mức độ gián đoạn nghiêm trọng.",
+          "tone": "canh_bao",
+          "y_nghia": "Biến động dầu hai chiều mạnh trong từng phiên — GAS/PVS/PVD theo sát diễn biến; Mỹ xả LNG cho ASEAN có thể hỗ trợ nguồn cung khí khu vực"
+        },
+        {
+          "text": "Điều 301 VN: thuế lao động cưỡng bức đề xuất 12,5% (lấy ý kiến đến 06/07, điều trần 07/07) cộng điều tra SHTT từ 29/05 — hai làn sóng thuế chồng nhau vẫn là rủi ro xuất khẩu lớn nhất nửa cuối 2026.",
+          "tone": "xau",
+          "y_nghia": "Dệt may (TNG, TCM, MSH), thủy sản (VHC, ANV), gỗ (PTB), FDI/KCN — tâm lý nhà đầu tư FDI bị đè nặng trước mốc điều trần 07/07"
+        }
+      ]
+    },
+    {
+      "so": "03",
+      "ten": "Dòng tiền & vị thế",
+      "loai": "bang",
+      "items": [
+        {
+          "chi_tieu": "VNM ETF — công bố kết quả review HÔM NAY 11/6",
+          "gia_tri": "Ước: +MSB +VPL −VHM −POW −VIC",
+          "tone": "canh_bao",
+          "y_nghia": "Ngày công bố kết quả kỳ T6 — ước mua MSB +10,4tr cp, VCK +6,9tr, VPL +3,9tr; bán VHM −4tr, POW −2,75tr, VIC −1,9tr; cơ cấu đến 19/6, hiệu lực 22/6 — các mã này biến động theo thông báo chính thức ngày hôm nay"
+        },
+        {
+          "chi_tieu": "VJC — nguồn cung cổ phiếu tăng",
+          "gia_tri": "22,38tr cp từ 15/6 + 177,48tr cp cổ tức 30%",
+          "tone": "canh_bao",
+          "y_nghia": "22,38 triệu cp phát hành tư nhân 2017 vào giao dịch từ 15/6, tổng lưu hành tăng lên 591,6 triệu; áp lực pha loãng trung hạn dù VJC được mua ròng mạnh nhất HOSE phiên 10/6 (+46 tỷ)"
+        },
+        {
+          "chi_tieu": "Bitcoin (nhiệt kế khẩu vị retail)",
+          "gia_tri": "~61.595 USD",
+          "tone": "trung_tinh",
+          "y_nghia": "Tiền đầu cơ toàn cầu chưa rút hẳn khỏi tài sản rủi ro — nhưng cần theo dõi nếu VIX tiếp tục leo cao"
+        },
+        {
+          "chi_tieu": "Lãi suất huy động NHTM",
+          "gia_tri": "Phân hóa, nhích tăng một số kỳ hạn",
+          "tone": "trung_tinh",
+          "y_nghia": "Tiền gửi chưa đủ rẻ để đẩy mạnh dòng tiền sang chứng khoán — cạnh tranh kênh đầu tư tiếp diễn"
+        },
+        {
+          "chi_tieu": "Dư nợ margin toàn thị trường",
+          "gia_tri": "Mức cao",
+          "tone": "canh_bao",
+          "y_nghia": "Thanh khoản thấp + margin cao = dư địa đòn bẩy mỏng; áp lực bán giải chấp tập trung nếu thị trường điều chỉnh vượt ngưỡng"
+        }
+      ]
+    },
+    {
+      "so": "04",
+      "ten": "Trong nước — tín hiệu thị trường",
+      "loai": "diem",
+      "items": [
+        {
+          "text": "VN-Index phiên 10/6: tăng +9,95 điểm (+0,55%) lên 1.803 — hồi phục tiếp ngày thứ hai; thanh khoản HOSE tiếp tục rơi xuống 10.700 tỷ (−22% so với phiên 9/6, đáy mới hơn 1 năm).",
+          "tone": "trung_tinh"
+        },
+        {
+          "text": "Dòng tiền ngoại hẹp lại: khối ngoại bán ròng −536 tỷ (HOSE −579, HNX +33, UPCoM +10) — thu hẹp so với −900 tỷ phiên 9/6; mã bị xả mạnh nhất: MBB −88 tỷ, VPB −52 tỷ, SSI −50 tỷ. Mua mạnh: VJC +46 tỷ, CII +38 tỷ, MWG +30 tỷ.",
+          "tone": "trung_tinh"
+        },
+        {
+          "text": "Thanh khoản nội tiếp tục cạn: 10.700 tỷ — thấp nhất hơn 1 năm — dưới trung bình 20 ngày; không có dòng tiền nội xác nhận hồi phục là tín hiệu hồi phục còn mong manh.",
+          "tone": "xau"
+        },
+        {
+          "text": "Nhóm nổi sóng: CII và NVL kéo chỉ số buổi sáng; ACB +5%, STB +3,15% phiên 9/6 (ngân hàng vẫn là nhóm trụ đỡ chính). Dầu khí PLX −2,9%, BSR −1,9%, GAS −1,8% bị chốt lời.",
+          "tone": "trung_tinh"
+        },
+        {
+          "text": "Kỹ thuật (nhận định Vietstock Daily 10/6): Stochastic Oscillator cắt lên từ vùng quá bán — tín hiệu ngắn hạn tích cực nhẹ; MACD vẫn dưới zero, Bollinger Band dưới — cần thanh khoản xác nhận để không phải false signal.",
+          "tone": "trung_tinh"
+        }
+      ]
+    },
+    {
+      "so": "05",
+      "ten": "Vĩ mô & tiền tệ",
+      "loai": "bang",
+      "items": [
+        {
+          "chi_tieu": "Lãi suất qua đêm liên ngân hàng",
+          "gia_tri": "9,35%",
+          "tone": "canh_bao"
+        },
+        {
+          "chi_tieu": "Tỷ giá trung tâm SBV",
+          "gia_tri": "25.153 (tham chiếu 10/6)",
+          "tone": "canh_bao"
+        },
+        {
+          "chi_tieu": "CPI Mỹ tháng 5 — dự báo 4,2% YoY",
+          "gia_tri": "Kết quả thực tế: chưa cập nhật",
+          "tone": "canh_bao"
+        },
+        {
+          "chi_tieu": "FOMC 16–17/6 — xác suất giữ lãi",
+          "gia_tri": "98% (CME FedWatch)",
+          "tone": "trung_tinh"
+        },
+        {
+          "chi_tieu": "NFP tháng 5: 172.000 việc làm mới (vượt dự báo 85.000)",
+          "gia_tri": "Mạnh hơn kỳ vọng",
+          "tone": "canh_bao"
+        },
+        {
+          "chi_tieu": "Vàng SJC (tham chiếu 10/6)",
+          "gia_tri": "~143.800 VNĐ/lượng",
+          "tone": "trung_tinh"
+        }
+      ]
+    },
+    {
+      "so": "06",
+      "ten": "Doanh nghiệp & giao dịch nội bộ",
+      "loai": "ma",
+      "items": [
+        {
+          "ma": "TV3",
+          "tone": "xau",
+          "text": "Cổ phiếu tiếp tục áp lực sau khi Chủ tịch Nguyễn Như Hoàng Tuấn, TGĐ Lạc Thái Phước và Kế toán trưởng Phạm Hoàng Vinh bị khởi tố, bắt tạm giam (8/6). Công ty thông báo hoạt động vẫn bình thường.",
+          "y_nghia": "Áp lực bán kỹ thuật tiếp tục trong vài phiên tới; đây là mã thứ tư ngành tư vấn điện bị bắt giữ lãnh đạo (sau TV1, TV2, PC1) — rủi ro lan sang niềm tin toàn nhóm EPC điện"
+        },
+        {
+          "ma": "VJC",
+          "tone": "canh_bao",
+          "text": "22,38 triệu cổ phiếu phát hành tư nhân 2017 vào giao dịch từ 15/6, tổng lưu hành tăng lên 591,6 triệu. Kế hoạch phát hành thêm 177,48 triệu cp trả cổ tức (100:30 = 30%) trong thời gian tới.",
+          "y_nghia": "Nguồn cung tăng thêm từ 15/6 — áp lực ngắn hạn; VJC được khối ngoại mua mạnh nhất HOSE (+46 tỷ phiên 10/6) là tín hiệu tích cực ngắn hạn trung lập hóa một phần"
+        },
+        {
+          "ma": "C32",
+          "tone": "canh_bao",
+          "text": "C32 (Xây dựng) đề nghị cơ quan quản lý điều tra giao dịch bất thường cổ phiếu, lo ngại khả năng thâu tóm thù địch.",
+          "y_nghia": "Giao dịch bất thường cần theo dõi — sự kiện M&A/thâu tóm là catalyst hai chiều; chú ý diễn biến khối lượng và tỷ lệ sở hữu thay đổi"
+        },
+        {
+          "ma": "Ngành Điện EPC (TV1, TV2, PC1)",
+          "tone": "xau",
+          "text": "Làn sóng bắt giữ lãnh đạo tư vấn xây dựng điện mở rộng — TV1, TV2, PC1 và nay TV3 đều có lãnh đạo bị khởi tố trong cùng vụ án Bộ Công an mở rộng điều tra.",
+          "y_nghia": "Rủi ro quản trị toàn ngành EPC điện trung hạn; cần phân biệt nhóm vận hành điện (POW, NT2, REE) không bị ảnh hưởng trực tiếp và nhóm tư vấn/xây lắp đang chịu rủi ro pháp lý"
+        }
+      ]
+    },
+    {
+      "so": "07",
+      "ten": "Lịch sự kiện",
+      "loai": "lich",
+      "ghi_chu": "Tuần 11–15/6 và xa hơn",
+      "items": [
+        {
+          "khi": "Hôm nay 11/6",
+          "pham_vi": "VN",
+          "tone": "canh_bao",
+          "su_kien": "VNM ETF công bố kết quả review kỳ T6 (MarketVector) — thị trường theo sát danh sách mã thêm/loại; ước MSB +10,4tr, VCK +6,9tr, VPL +3,9tr; loại VHM −4tr, POW −2,75tr, VIC −1,9tr"
+        },
+        {
+          "khi": "15/6",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "22,38 triệu cổ phiếu VJC bắt đầu giao dịch trên HOSE — tổng lưu hành tăng lên 591,6 triệu cp"
+        },
+        {
+          "khi": "16–17/6",
+          "pham_vi": "QT",
+          "tone": "xau",
+          "su_kien": "Họp FOMC + dot plot + SEP — sự kiện quan trọng nhất tuần; 98% giữ lãi nhưng thông điệp 2026-2027 và phản ứng với CPI/Hormuz là biến số"
+        },
+        {
+          "khi": "18/6 (dự kiến)",
+          "pham_vi": "VN",
+          "tone": "canh_bao",
+          "su_kien": "Đáo hạn phái sinh VN30F2606 (thứ Năm tuần thứ ba) — chú ý biến động ATC phiên trước và trong ngày"
+        },
+        {
+          "khi": "19/6 (dự kiến)",
+          "pham_vi": "VN",
+          "tone": "trung_tinh",
+          "su_kien": "Cơ cấu danh mục VNM ETF kỳ T6 — lực mua/bán kỹ thuật từ quỹ theo danh mục công bố 11/6"
+        },
+        {
+          "khi": "22/6 (dự kiến)",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "Hiệu lực chính thức cơ cấu VNM ETF kỳ T6 — mua các mã thêm (MSB, VPL, VCK), bán các mã loại (VHM, POW, VIC)"
+        },
+        {
+          "khi": "07/07",
+          "pham_vi": "QT",
+          "tone": "xau",
+          "su_kien": "Điều trần USTR về thuế Điều 301 với hàng VN (sau đó chốt mức thuế 12,5% và phạm vi sản phẩm)"
+        },
+        {
+          "khi": "Theo dõi",
+          "pham_vi": "QT",
+          "tone": "canh_bao",
+          "su_kien": "Hormuz — giữa tháng 6 là mốc Saudi Aramco CEO nêu: nếu không thông tàu, thị trường không bình thường hóa đến 2027; theo dõi kênh IEA và OilPrice hàng ngày"
+        }
+      ]
+    },
+    {
+      "so": "08",
+      "ten": "Góc nhìn & chiến lược",
+      "loai": "muc_gia",
+      "ghi_chu": "Nhận định kỹ thuật từ các CTCK — không phải fact, không phải khuyến nghị",
+      "items": [
+        {
+          "nhan": "1.820",
+          "tone": "info",
+          "text": "Vùng kháng cự gần — cần thanh khoản xác nhận breakthrough (nhận định CTCK)"
+        },
+        {
+          "nhan": "1.803",
+          "tone": "tang",
+          "text": "Đóng cửa phiên 10/6 — trên 1.800 là tín hiệu ngắn hạn tích cực"
+        },
+        {
+          "nhan": "1.780",
+          "tone": "canh_bao",
+          "text": "Hỗ trợ gần — kiểm định nếu CPI hot + Mỹ tiếp tục điều chỉnh trước FOMC"
+        },
+        {
+          "nhan": "1.750",
+          "tone": "xau",
+          "text": "Hỗ trợ quan trọng — kịch bản xấu nếu FOMC hawkish bất ngờ + Hormuz leo thang thêm"
+        }
+      ]
+    }
+  ],
+  "danh_gia": "Phe bull tích lũy lý lẽ: VN-Index hồi phục hai phiên liên tiếp vượt 1.800, châu Á sáng 11/6 bật mạnh (Nikkei +1,34%, Kospi +0,55%) và VNM ETF review hôm nay có thể là catalyst ngắn hạn cho các mã trong danh mục; khối ngoại bán ròng đã thu hẹp đáng kể về −536 tỷ so với −900 tỷ hôm qua. Phe bear nắm nhiều bài hơn: thanh khoản HOSE tiếp tục lập đáy mới (10.700 tỷ — không có dòng tiền nội xác nhận hồi phục), khủng hoảng Hormuz đang hợp thức hóa thành cấu trúc dài hạn với rủi ro Brent $100+, và NFP tháng 5 mạnh hơn dự báo (172K vs 85K) cộng CPI dự báo 4,2% khiến Fed không thể cắt lãi trong 2026 — co ép dòng vốn EM. Biến số quyết định 24 giờ tới: kết quả CPI Mỹ tháng 5 (công bố 8:30 EDT 10/6, chưa xác nhận khi viết) — nếu CPI không vượt 4,2% và Mỹ đóng cửa dương, VN mở cửa theo đà châu Á tích cực và 1.820 là vùng kiểm định; nếu CPI hot cộng thêm leo thang Hormuz, vùng hỗ trợ 1.780 nhiều khả năng bị kiểm định trước FOMC 16–17/6.",
+  "quote": "Hormuz không còn là tin tức chiến tranh — Iran đang lập hóa đơn thu phí quá cảnh. Khi rủi ro địa chính trị trở thành chi phí cố định, thị trường phải định giá lại toàn bộ chuỗi cung ứng năng lượng.",
+  "nguon": [
+    { "ten": "CafeF — Phiên 10/6: Khối ngoại bán ròng hơn 500 tỷ", "url": "https://cafef.vn/phien-10-6-khoi-ngoai-ban-rong-hon-500-ty-dong-co-phieu-nao-bi-xa-manh-nhat-188260610153032391.chn" },
+    { "ten": "Vietstock Daily 10/06/2026: Lực cầu thăm dò", "url": "https://vietstock.vn/2026/06/vietstock-daily-10062026-luc-cau-tham-do-1636-1452383.htm" },
+    { "ten": "Tinnhanhchungkhoan — Phiên sáng 10/6: CII, NVL nổi sóng", "url": "https://www.tinnhanhchungkhoan.vn/phien-giao-dich-sang-106-cii-nvl-noi-song-vn-index-noi-dai-nhip-hoi-phuc-post392069.html" },
+    { "ten": "VnEconomy — Cảnh giác cưa chân bàn, khối ngoại vẫn bán thanh khoản thấp", "url": "https://vneconomy.vn/dac-biet-canh-giac-voi-hien-tuong-cua-chan-ban-khi-khoi-ngoai-van-ban-thanh-khoan-thap.htm" },
+    { "ten": "OilPrice — Giá dầu realtime và tin Hormuz/Iran", "url": "https://oilprice.com/" },
+    { "ten": "OilPrice — IEA Revises 2026 Forecast: Oil Deficit Widens as Iran War Cuts Production", "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Revises-2026-Forecast-Oil-Deficit-Widens-as-Iran-War-Cuts-Production.html" },
+    { "ten": "OilPrice — Goldman: Another Month of Hormuz Closure Means Over $100 Brent", "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Another-Month-of-Hormuz-Closure-Means-Over-100-Brent-Throughout-2026.html" },
+    { "ten": "OilPrice — Strait of Hormuz Constraints Keep Oil Prices Elevated", "url": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html" },
+    { "ten": "Investing.com — Crude Oil Prices Still Do Not Fully Reflect Hormuz Closure", "url": "https://www.investing.com/analysis/crude-oil-prices-still-do-not-fully-reflect-a-prolonged-hormuz-closure-200677364" },
+    { "ten": "Yahoo Finance — US Markets, Futures, VIX, Gold 10/6", "url": "https://finance.yahoo.com/markets/" },
+    { "ten": "Yahoo Finance — May inflation likely topped 4%", "url": "https://finance.yahoo.com/economy/policy/articles/may-inflation-likely-topped-4-193707038.html" },
+    { "ten": "TheStreet — Stock Market Today June 10: Futures Fall, Oil Rises, U.S.-Iran Escalate", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-10-2026" },
+    { "ten": "CafeF — Vietjet 22,38 triệu cổ phiếu giao dịch từ 15/6", "url": "https://cafef.vn/hon-22-trieu-co-phieu-vietjet-phat-hanh-9-nam-truoc-sap-duoc-giao-dich-188260610165857625.chn" },
+    { "ten": "Vietstock — Cổ đông Vietjet nhận 177 triệu cp mới", "url": "https://vietstock.vn/2026/06/co-dong-vietjet-sap-nhan-hon-177-trieu-cp-moi-738-1451683.htm" },
+    { "ten": "Tinnhanhchungkhoan — PECC3/TV3: lãnh đạo bị khởi tố", "url": "https://www.tinnhanhchungkhoan.vn/pecc3-tv3-chu-tich-tong-giam-doc-va-ke-toan-truong-dong-loat-bi-khoi-to-post392018.html" },
+    { "ten": "Tuổi Trẻ — TV3 Chủ tịch, TGĐ, Kế toán trưởng bị bắt tạm giam", "url": "https://tuoitre.vn/chu-tich-tong-giam-doc-va-ke-toan-truong-tv3-bi-khoi-to-bat-tam-giam-20260609170952886.htm" },
+    { "ten": "Federal Reserve — FOMC Calendar", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" }
+  ]
+}
