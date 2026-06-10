@@ -11,11 +11,16 @@ Giao tiếp và viết báo cáo bằng tiếng Việt. Giữ nguyên thuật ng
 - **Công bố thông tin chính thức**: HOSE (hsx.vn), HNX (hnx.com.vn), SSC (ssc.gov.vn)
 - **Vĩ mô / chính sách**: SBV (Ngân hàng Nhà nước), GSO (Tổng cục Thống kê), Bộ Tài chính
 
-## Nguồn quốc tế — đọc thẳng wire, KHÔNG chỉ chờ báo Việt dịch lại
-Tin quốc tế (khối §01, §02) phải quét kênh quốc tế trực tiếp trước, báo Việt chỉ để bổ sung/đối chiếu — báo Việt dịch chậm vài tiếng và lọc mất chi tiết (đã kiểm chứng 10/06: vụ Mỹ không kích Iran lên OilPrice trước khi báo Việt kịp đưa).
-- **WebFetch trực tiếp được** (đã test): oilprice.com (dầu + tin năng lượng/Trung Đông), tradingeconomics.com (mọi chỉ số/hàng hóa/lịch kinh tế), finance.yahoo.com, investing.com & vn.investing.com, barchart.com, federalreserve.gov, bls.gov; BBC/Al Jazeera cho địa chính trị.
-- **Bị chặn bot / paywall** (CNBC 403 đã test; Bloomberg, Reuters, FT, WSJ, Nikkei Asia tương tự): lấy headline qua WebSearch với `allowed_domains` thay vì fetch.
-- **Quy tắc đối chiếu**: số liệu quan trọng (chỉ số, giá dầu, vàng) phải khớp ≥2 nguồn hoặc ghi rõ nguồn duy nhất; tin nóng chỉ có 1 wire đưa phải chú thích "chưa thấy xác nhận rộng rãi — cần theo dõi". Wire quốc tế nhanh hơn nhưng cũng cần cảnh giác tin giật tít.
+## Nguồn tin: RSS-FIRST — KHÔNG dùng WebSearch để lấy tin (quy tắc từ 10/06/2026)
+**Tin tức lấy qua RSS feed trong [`nguon-rss.md`](nguon-rss.md)** — mỗi item RSS có `pubDate` chính xác, triệt tiêu hẳn rủi ro tin cũ của web search. Quy trình:
+1. WebFetch các feed RSS theo khối bản tin (danh sách + phân loại trong `nguon-rss.md`): quốc tế (WSJ Markets, MarketWatch Top Stories, Vietstock CK thế giới), năng lượng/địa chính trị (OilPrice), châu Á (FinanceAsia), trong nước (CafeF, Vietstock cổ phiếu / giao dịch nội bộ / vĩ mô, VnEconomy chứng khoán).
+2. **Chỉ dùng item có pubDate trong 24h** (trừ khi làm bối cảnh — phải ghi ngày rõ trong text).
+3. Cần chi tiết hơn headline → WebFetch bài gốc từ link trong feed.
+4. Feed "Cổ phiếu" của Vietstock có bài "Theo dấu dòng tiền cá mập" hàng ngày = số tự doanh + khối ngoại cho dashboard.
+- **WebSearch chỉ là dự phòng cuối** khi: feed chết, cần xác minh chéo tin nóng, hoặc chủ đề ngoài phạm vi feed — và bắt buộc tuân Giao thức chống tin cũ bên dưới.
+- **Giá realtime/chỉ số/tỷ giá/lịch kinh tế KHÔNG lấy từ RSS hay search** — WebFetch trang live: oilprice.com, tradingeconomics.com (+/calendar), finance.yahoo.com, vn.investing.com, barchart.com, federalreserve.gov, bls.gov.
+- **Quy tắc đối chiếu**: số liệu quan trọng phải khớp ≥2 nguồn hoặc ghi rõ nguồn duy nhất; tin nóng chỉ 1 nguồn đưa phải chú thích "chưa thấy xác nhận rộng rãi — cần theo dõi".
+- Feed nào 2 ngày liền không ra tin mới → đánh dấu nghi hỏng trong bản tin để user biết và sửa `nguon-rss.md`.
 
 ## Giao thức chống tin cũ (sự cố 10/06/2026: bản tin trộn bài tháng 3–5 thành "tin hôm nay")
 1. Luôn `Get-Date` trước khi viết — bản tin đề ngày hệ thống, không viết sự kiện chưa xảy ra.
