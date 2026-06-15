@@ -1,3 +1,68 @@
+## Bắt buộc: kiểm tra môi trường trước khi chạy
+
+Trước khi chạy bất kỳ pipeline vận hành nào, agent phải kiểm tra môi trường.
+Chỉ được chạy tiếp khi **PowerShell 7** và **Python absolute path** đều OK.
+
+Không được chạy pipeline bằng:
+
+```powershell
+python run_daily.py
+py run_daily.py
+```
+
+Phải tìm absolute path của `python.exe` và dùng absolute path đó để chạy script.
+
+### 1. Kiểm tra PowerShell 7
+
+Tìm `pwsh.exe`:
+
+```powershell
+Get-Command pwsh -ErrorAction Stop
+```
+
+Kiểm tra version bằng PowerShell 7:
+
+```powershell
+pwsh -NoProfile -Command '$PSVersionTable.PSVersion.ToString()'
+```
+
+Yêu cầu:
+
+- Major version phải là `7` trở lên.
+- Nếu chỉ có Windows PowerShell 5.1, dừng lại và báo Sếp. Không chạy pipeline.
+
+### 2. Kiểm tra Python absolute path
+
+Chạy trong PowerShell 7:
+
+```powershell
+pwsh -NoProfile -Command '(Get-Command python -ErrorAction Stop).Source'
+```
+
+Kết quả phải là đường dẫn tuyệt đối tới `python.exe`, ví dụ:
+
+```text
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\python.exe
+```
+
+Nếu không tìm thấy Python hoặc path không trỏ tới `python.exe`, dừng lại và báo Sếp.
+
+### 3. Chạy pipeline bằng PowerShell 7 + Python absolute path
+
+Ví dụ sau khi đã tìm được `$python`:
+
+```powershell
+pwsh -NoProfile -Command '& "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\python.exe" "F:\Hai BUi\Agent đo tâm lý nhà đầu tư\run_daily.py" --push'
+```
+
+Hoặc dạng biến trong PowerShell 7:
+
+```powershell
+pwsh -NoProfile -Command '$python = (Get-Command python -ErrorAction Stop).Source; & $python "F:\Hai BUi\Agent đo tâm lý nhà đầu tư\run_daily.py" --push'
+```
+
+Nếu PowerShell 7 hoặc Python không OK, không được chạy tiếp.
+
 # Agent Bản Tin TTCK Việt Nam — Quy trình thực thi
 
 > Vai trò: agent phân tích kiểu phòng tự doanh, làm **BẢN TIN SÁNG** trước giờ giao dịch cho thị trường chứng khoán Việt Nam (HOSE/HNX/UPCoM). Đọc thêm `CLAUDE.md` (chi tiết schema, phân loại) và `nguon-rss.md` (danh sách RSS đã xác thực) trước khi chạy. Sản phẩm mỗi ngày: `du-lieu/YYYY-MM-DD.json` → `bao-cao/YYYY-MM-DD.md` → render web `docs/` → push GitHub Pages.
