@@ -2,13 +2,13 @@
   "ngay": "2026-06-16",
   "phien": "2026-06-15",
   "tieu_de": "Tiền quay lại, nhưng chưa sạch tín hiệu",
-  "dan_de": "Phiên 15/06 cho thấy nhịp hồi rõ hơn: VN-Index tăng 7,66 điểm lên 1.799,31, thanh khoản HOSE khớp lệnh hơn 16,9 nghìn tỷ và độ rộng nghiêng mạnh về bên mua. Bức tranh dòng tiền cũng đảo chiều nhờ giao dịch thỏa thuận VIC: khối ngoại tổng cộng mua ròng 4,12 nghìn tỷ, tự doanh mua ròng hơn 1,26 nghìn tỷ với tâm điểm TCB. Ngoại biên tiếp tục thuận khi S&P 500 tăng mạnh, Nikkei bật gần 6% và Brent rơi về quanh 83,75 USD sau thỏa thuận Mỹ-Iran, nhưng mốc 1.800 vẫn chưa được chinh phục dứt khoát.",
+  "dan_de": "Phiên 15/06 cho thấy nhịp hồi rõ hơn: VN-Index tăng 7,66 điểm lên 1.799,31, thanh khoản HOSE khớp lệnh hơn 16,9 nghìn tỷ và độ rộng nghiêng mạnh về bên mua. Bức tranh dòng tiền cũng đảo chiều nhờ giao dịch thỏa thuận VIC: khối ngoại tổng cộng mua ròng 4,12 nghìn tỷ, tự doanh mua ròng hơn 1,26 nghìn tỷ với tâm điểm TCB. Ngoại biên tiếp tục thuận khi S&P 500 đóng cửa tăng khoảng 1,65%, Nikkei duy trì vùng cao theo Yahoo Finance và Brent rơi về quanh 83,75 USD sau thỏa thuận Mỹ-Iran, nhưng mốc 1.800 vẫn chưa được chinh phục dứt khoát.",
   "chi_so": [
     { "ten": "VN-Index", "gia_tri": "1.799,31", "phu": "+0,43%", "huong": "tang", "ghi_chu": "phiên 15/06 · giằng co quanh mốc 1.800" },
     { "ten": "Thanh khoản HOSE", "gia_tri": "16,9 nghìn tỷ", "phu": ">620 triệu cp", "huong": "tang", "ghi_chu": "khớp lệnh VN-Index · tăng so với phiên trước" },
     { "ten": "Tự doanh CTCK", "gia_tri": "+1,26 nghìn tỷ", "phu": "mua ròng", "huong": "tang", "ghi_chu": "TCB gần +1,03 nghìn tỷ; HPG +104 tỷ; VIC -92 tỷ" },
     { "ten": "Khối ngoại", "gia_tri": "+4,12 nghìn tỷ", "phu": "nhờ thỏa thuận VIC", "huong": "tang", "ghi_chu": "khớp lệnh vẫn bán ròng 507 tỷ; VIC thỏa thuận +4,49 nghìn tỷ" },
-    { "ten": "S&P 500", "gia_tri": "7.554,29", "phu": "+2,01%", "huong": "tang", "ghi_chu": "Yahoo Finance · phiên Mỹ 15/06" },
+    { "ten": "S&P 500", "gia_tri": "7.554,29", "phu": "+1,65%", "huong": "tang", "ghi_chu": "Yahoo Finance metadata · phiên Mỹ 15/06" },
     { "ten": "Dầu Brent", "gia_tri": "83,75 USD", "phu": "-10,04%", "huong": "giam", "ghi_chu": "Yahoo Finance BZ=F · giá giảm mạnh sau thỏa thuận Mỹ-Iran" }
   ],
   "muc": [
@@ -19,8 +19,8 @@
       "rong": true,
       "ghi_chu": "Tin và giá trong 24h đến sáng 16/06",
       "items": [
-        { "ten": "S&P 500", "gia_tri": "7.554,29", "thay_doi": "+2,01%", "huong": "tang", "y_nghia": "Risk-on toàn cầu tăng tốc sau tin Iran/Hormuz, hỗ trợ tâm lý EM và nhóm beta cao như chứng khoán, bất động sản trong phiên VN kế tiếp" },
-        { "ten": "Nikkei 225", "gia_tri": "69.317,5", "thay_doi": "+5,96%", "huong": "tang", "y_nghia": "Châu Á mở cửa rất mạnh làm nền tâm lý tốt cho VN, nhưng mốc 1.800 vẫn là điểm kiểm chứng lực cầu nội" },
+        { "ten": "S&P 500", "gia_tri": "7.554,29", "thay_doi": "+1,65%", "huong": "tang", "y_nghia": "Risk-on toàn cầu tăng tốc sau tin Iran/Hormuz, hỗ trợ tâm lý EM và nhóm beta cao như chứng khoán, bất động sản trong phiên VN kế tiếp" },
+        { "ten": "Nikkei 225", "gia_tri": "69.317,5", "thay_doi": "chưa cập nhật", "huong": "tang", "y_nghia": "Nikkei duy trì vùng cao theo Yahoo Finance, nhưng dữ liệu không trả % biến động đáng tin nên tác động với VN chỉ nên xem là nền tâm lý tham khảo" },
         { "ten": "Dầu Brent", "gia_tri": "83,75 USD", "thay_doi": "-10,04%", "huong": "giam", "y_nghia": "Dầu lao dốc bất lợi ngắn hạn cho GAS, PVD, PVS, BSR nhưng giảm áp lực chi phí cho vận tải, nhựa, phân bón và lạm phát nhập khẩu" },
         { "ten": "OilPrice", "gia_tri": "Hormuz/Houston", "thay_doi": "tin năng lượng dày đặc", "huong": "canh_bao", "y_nghia": "Câu chuyện năng lượng chuyển từ sốc nguồn cung sang tái định vị dòng chảy dầu, khiến nhóm dầu khí VN dễ biến động mạnh theo headline" },
         { "ten": "Vàng", "gia_tri": "tăng mạnh", "thay_doi": "theo Vietstock 16/06", "huong": "tang", "y_nghia": "Vàng cùng tăng với cổ phiếu cho thấy nhu cầu phòng vệ chưa biến mất, giữ nhiệt cho kênh vàng/SJC và cổ phiếu bán lẻ vàng như PNJ" }
@@ -164,6 +164,6 @@
     { "ten": "VnEconomy 15/06 — VN-Index vẫn cần thêm tín hiệu xác nhận", "url": "https://vneconomy.vn/vn-index-van-can-them-cac-tin-hieu-xac-nhan-ro-rang-hon-de-dinh-hinh-xu-huong-ke-tiep.htm" },
     { "ten": "WSJ Markets RSS 15/06 — U.S. stocks jump, oil drops on Iran pact", "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain" },
     { "ten": "OilPrice RSS 15/06 — Oil deal, Gulf supply, gasoline prices", "url": "https://oilprice.com/rss/main" },
-    { "ten": "Yahoo Finance 16/06 06:50 VN — ^GSPC, BZ=F, ^N225 live/last", "url": "https://finance.yahoo.com/" }
+    { "ten": "Yahoo Finance 16/06 sáng VN — ^GSPC, BZ=F, ^N225 chart/metadata", "url": "https://finance.yahoo.com/" }
   ]
 }
