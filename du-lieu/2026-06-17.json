@@ -1,0 +1,230 @@
+{
+  "ngay": "2026-06-17",
+  "phien": "2026-06-16",
+  "tieu_de": "Giữ 1.800, nhưng tiền chưa thật dày",
+  "dan_de": "Phiên 16/06 ghi nhận VN-Index tăng 8,63 điểm (+0,48%) và giữ được vùng trên 1.800, trong khi độ rộng cải thiện rõ với nhóm chứng khoán, bất động sản và tiêu dùng không thiết yếu nổi bật. Điểm trừ là thanh khoản khớp lệnh ba sàn giảm còn hơn 18,3 nghìn tỷ đồng, khối ngoại vẫn bán ròng và tự doanh quay sang bán ròng trên HOSE. Ngoại biên sáng 17/06 không còn thuận một chiều: S&P 500 giảm 0,57%, Brent rơi về 79,46 USD khi phần bù chiến tranh bị tháo bớt, còn Nikkei tăng mạnh theo Yahoo Finance.",
+  "chi_so": [
+    { "ten": "VN-Index", "gia_tri": "khoảng 1.808", "phu": "+0,48%", "huong": "tang", "ghi_chu": "phiên 16/06 · VnEconomy ghi tăng 8,63 điểm và đóng chắc trên 1.800" },
+    { "ten": "Thanh khoản HOSE", "gia_tri": "chưa cập nhật", "phu": "3 sàn >18,3 nghìn tỷ", "huong": "giam", "ghi_chu": "RSS chưa tách số HOSE riêng; VnEconomy ghi thanh khoản khớp lệnh ba sàn giảm" },
+    { "ten": "Tự doanh CTCK", "gia_tri": "-253 tỷ", "phu": "bán ròng HOSE", "huong": "giam", "ghi_chu": "VIC -127 tỷ, MWG -57 tỷ; TCB mua ròng hơn 12 tỷ" },
+    { "ten": "Khối ngoại", "gia_tri": "-401 tỷ", "phu": "bán ròng khớp lệnh HOSE", "huong": "giam", "ghi_chu": "VHM -150 tỷ; MBB -102 tỷ; TCB -92 tỷ; HPG +125 tỷ" },
+    { "ten": "S&P 500", "gia_tri": "7.511,35", "phu": "-0,57%", "huong": "giam", "ghi_chu": "Yahoo Finance chart · regularMarketTime 17/06 03:56 giờ VN" },
+    { "ten": "Dầu Brent", "gia_tri": "79,46 USD", "phu": "-4,46%", "huong": "giam", "ghi_chu": "Yahoo Finance BZ=F · regularMarketTime 17/06 06:38 giờ VN" }
+  ],
+  "muc": [
+    {
+      "so": "01",
+      "ten": "Qua đêm — toàn cầu",
+      "loai": "quoc_te",
+      "rong": true,
+      "ghi_chu": "Tin và giá trong 24h đến sáng 17/06",
+      "items": [
+        { "ten": "S&P 500", "gia_tri": "7.511,35", "thay_doi": "-0,57%", "huong": "giam", "y_nghia": "Chỉ số Mỹ hạ nhiệt sau nhịp tăng trước đó làm nền tâm lý EM kém thuận hơn, nhất là với nhóm beta cao như chứng khoán và bất động sản" },
+        { "ten": "Nikkei 225", "gia_tri": "69.317,5", "thay_doi": "+4,99%", "huong": "tang", "y_nghia": "Nikkei tăng mạnh hỗ trợ nền tâm lý châu Á, nhưng tác động với VN phụ thuộc việc VN-Index giữ được vùng 1.800 khi thanh khoản còn mỏng" },
+        { "ten": "Dầu Brent", "gia_tri": "79,46 USD", "thay_doi": "-4,46%", "huong": "giam", "y_nghia": "Brent giảm gây áp lực lên GAS, PVD, PVS, BSR trong ngắn hạn nhưng giảm chi phí đầu vào cho vận tải, nhựa và lạm phát nhập khẩu" },
+        { "ten": "OilPrice", "gia_tri": "Hormuz mở lại", "thay_doi": "phần bù chiến tranh bị tháo", "huong": "canh_bao", "y_nghia": "Kịch bản dầu chuyển từ sốc cung sang hạ nhiệt phần bù rủi ro khiến nhóm dầu khí VN dễ biến động theo headline hơn theo nền cơ bản" },
+        { "ten": "WSJ Markets", "gia_tri": "AI/SpaceX dẫn tin", "thay_doi": "tâm điểm công nghệ", "huong": "tang", "y_nghia": "Dòng tin AI tích cực duy trì sự chú ý với chủ đề công nghệ toàn cầu, có lợi về tâm lý cho FPT và nhóm hạ tầng số hơn là tác động trực tiếp lên chỉ số VN" }
+      ]
+    },
+    {
+      "so": "02",
+      "ten": "Địa chính trị & rủi ro toàn cầu",
+      "loai": "diem",
+      "items": [
+        {
+          "text": "OilPrice 16-17/06 liên tục cập nhật việc Hormuz mở lại, giá dầu lao dốc khi thị trường định giá chiến tranh kết thúc và thỏa thuận cho phép dầu Iran quay lại ngay.",
+          "tone": "tot",
+          "y_nghia": "Rủi ro địa chính trị hạ nhiệt hỗ trợ khẩu vị rủi ro chung, nhưng làm yếu câu chuyện giá dầu của GAS, PVD, PVS, BSR trong phiên"
+        },
+        {
+          "text": "VnEconomy 16/06 dẫn quan điểm chuyên gia rằng giá hàng hóa và lạm phát có thể còn cao dù chiến tranh vùng Vịnh kết thúc.",
+          "tone": "canh_bao",
+          "y_nghia": "Nếu mặt bằng hàng hóa không giảm sâu như dầu đang phản ánh, nhóm tiêu dùng và doanh nghiệp biên lợi nhuận mỏng vẫn chịu áp lực chi phí trong vài tuần tới"
+        },
+        {
+          "text": "Vietstock 17/06 đưa tin chính sách mới của Fed đối diện bài toán lạm phát và chi phí sinh hoạt trong bối cảnh thị trường chờ thông điệp FOMC.",
+          "tone": "canh_bao",
+          "y_nghia": "Thông điệp lãi suất cứng hơn kỳ vọng có thể kéo lợi suất USD lên và tạo áp lực cho định giá/dòng vốn EM"
+        },
+        {
+          "text": "Mốc Điều 301 với hàng Việt Nam chưa có diễn biến mới trong 24h, nhưng hạn góp ý 06/07 và điều trần 07/07 vẫn là rủi ro lịch cần theo dõi.",
+          "tone": "canh_bao",
+          "y_nghia": "Rủi ro thương mại vẫn treo ở nhóm xuất khẩu như dệt may, thủy sản, gỗ và KCN dù chưa phải catalyst của phiên 17/06"
+        }
+      ]
+    },
+    {
+      "so": "03",
+      "ten": "Dòng tiền & vị thế",
+      "loai": "bang",
+      "items": [
+        {
+          "chi_tieu": "Tổ chức trong nước 16/06",
+          "gia_tri": "+456,5 tỷ",
+          "tone": "tot",
+          "y_nghia": "Dòng tổ chức nội tiếp tục đỡ thị trường, tích cực cho nhóm chứng khoán và vốn hóa vừa trong bối cảnh ngoại còn bán ròng"
+        },
+        {
+          "chi_tieu": "Khối ngoại 16/06",
+          "gia_tri": "-373,3 tỷ tổng; -395 tỷ khớp lệnh",
+          "tone": "xau",
+          "y_nghia": "Áp lực bán ngoại vẫn tập trung ngân hàng và VHM, gây sức ép lên nhóm vốn hóa lớn trong phiên kế tiếp"
+        },
+        {
+          "chi_tieu": "Tự doanh CTCK 16/06",
+          "gia_tri": "-253 tỷ trên HOSE",
+          "tone": "xau",
+          "y_nghia": "Tự doanh đảo chiều bán ròng làm chất lượng dòng tiền kém hơn phiên trước, nhất là khi lực bán tập trung VIC và MWG"
+        },
+        {
+          "chi_tieu": "Thanh khoản khớp lệnh",
+          "gia_tri": ">18,3 nghìn tỷ trên 3 sàn",
+          "tone": "canh_bao",
+          "y_nghia": "Chỉ số tăng nhưng thanh khoản giảm cho thấy bên bán không quyết liệt, nhưng dòng tiền mới vẫn chưa xác nhận mạnh"
+        },
+        {
+          "chi_tieu": "Trái phiếu chính phủ",
+          "gia_tri": "khối ngoại mua ròng 710,6 tỷ tuần qua",
+          "tone": "trung_tinh",
+          "y_nghia": "Dòng tiền ngoại vào TPCP phản ánh nhu cầu tài sản an toàn bằng VND, chưa đồng nghĩa áp lực bán cổ phiếu đã kết thúc"
+        },
+        {
+          "chi_tieu": "Tài sản mã hóa",
+          "gia_tri": "BTC từng vượt 67.000 USD rồi giảm nhẹ",
+          "tone": "trung_tinh",
+          "y_nghia": "Khẩu vị rủi ro retail toàn cầu còn dè dặt, nên nhóm đầu cơ trong nước cần thêm tín hiệu thanh khoản để lan tỏa"
+        }
+      ]
+    },
+    {
+      "so": "04",
+      "ten": "Trong nước — tín hiệu thị trường",
+      "loai": "diem",
+      "items": [
+        { "text": "VN-Index phiên 16/06 tăng 8,63 điểm (+0,48%) và đóng cửa trên mốc 1.800; Vietstock ghi nhận chỉ số lên quanh 1.808 điểm.", "tone": "tot" },
+        { "text": "Độ rộng cải thiện: VnEconomy ghi HoSE có 179 mã tăng/109 mã giảm, còn Vietstock ghi toàn thị trường gần 430 mã tăng so với 250 mã giảm.", "tone": "tot" },
+        { "text": "Nhóm chứng khoán nổi bật với FTS, CTS, BSI tăng trần; VIX, VND, SHS và các mã cùng ngành tăng mạnh, phản ánh kỳ vọng nâng hạng và dòng tiền beta quay lại.", "tone": "tot" },
+        { "text": "Bất động sản duy trì sắc xanh ở NLG, NVL, PDR, KDH, CEO; nhóm Vingroup chỉ tăng nhẹ nhưng vẫn hỗ trợ chỉ số nhờ tỷ trọng vốn hóa lớn.", "tone": "trung_tinh" },
+        { "text": "Thanh khoản vẫn là điểm yếu: VnEconomy ghi khớp lệnh ba sàn giảm còn hơn 18.300 tỷ đồng dù phiên chiều có cải thiện so với buổi sáng.", "tone": "canh_bao" },
+        { "text": "Khối ngoại tiếp tục bán ròng, trong đó VHM, MBB, TCB, VPB, CTG bị bán mạnh; chiều mua có HPG, NLG, TCX, PNJ, SSI, POW.", "tone": "xau" }
+      ]
+    },
+    {
+      "so": "05",
+      "ten": "Vĩ mô & tiền tệ",
+      "loai": "bang",
+      "items": [
+        {
+          "chi_tieu": "Thâm hụt thương mại",
+          "gia_tri": "13,8 tỷ USD",
+          "tone": "trung_tinh",
+          "y_nghia": "VnEconomy dẫn quan điểm đây có thể là hiệu ứng nhập máy móc/linh kiện cho FDI, nên tác động lên chứng khoán thiên về theo dõi tỷ giá hơn là cú sốc ngay"
+        },
+        {
+          "chi_tieu": "Nâng hạng thị trường",
+          "gia_tri": "MSCI trước 2030",
+          "tone": "tot",
+          "y_nghia": "Nghị quyết 10-NQ/TW tạo câu chuyện trung hạn cho CTCK, ngân hàng lưu ký và nhóm vốn hóa lớn có khả năng hút dòng vốn ngoại"
+        },
+        {
+          "chi_tieu": "Khung pháp lý",
+          "gia_tri": "không để luật chờ nghị định",
+          "tone": "info",
+          "y_nghia": "Tốc độ hướng dẫn pháp lý nhanh hơn hỗ trợ môi trường kinh doanh, nhưng tác động thị trường thường cần thêm văn bản cụ thể"
+        },
+        {
+          "chi_tieu": "Lãi suất liên ngân hàng",
+          "gia_tri": "chưa cập nhật",
+          "tone": "info",
+          "y_nghia": "Thiếu số live trong feed sáng nay nên chưa kết luận áp lực thanh khoản tiền tệ mới"
+        },
+        {
+          "chi_tieu": "USD/VND",
+          "gia_tri": "chưa cập nhật",
+          "tone": "info",
+          "y_nghia": "Cần đối chiếu thêm trang live ngân hàng/NHNN trước khi dùng làm tín hiệu tỷ giá trong phiên"
+        }
+      ]
+    },
+    {
+      "so": "06",
+      "ten": "Doanh nghiệp & giao dịch nội bộ",
+      "loai": "ma",
+      "items": [
+        {
+          "ma": "VIW",
+          "tone": "trung_tinh",
+          "text": "Vinaconex thoái thành công hơn 35 triệu cp Viwaseen theo Vietstock 16/06.",
+          "y_nghia": "VIW chịu tác động thay đổi cơ cấu sở hữu trong ngắn hạn, còn chiều giá phụ thuộc bên nhận chuyển nhượng và thanh khoản sau giao dịch"
+        },
+        {
+          "ma": "VLB",
+          "tone": "tot",
+          "text": "VLB ghi nhận lợi nhuận tăng vọt nhờ xác định lại tiền cấp quyền khai thác khoáng sản nộp thừa tại nhiều mỏ đá ở Đồng Nai.",
+          "y_nghia": "VLB được hỗ trợ lợi nhuận ngắn hạn, nhưng tác động bền hơn cần kiểm tra phần lợi nhuận một lần và dòng tiền thực tế"
+        },
+        {
+          "ma": "VPC",
+          "tone": "canh_bao",
+          "text": "VPC bị mất tư cách công ty đại chúng, kiểm toán từ chối đưa ý kiến và vốn chủ sở hữu âm gần 9 tỷ đồng theo Vietstock 17/06.",
+          "y_nghia": "VPC chịu áp lực minh bạch và điều kiện giao dịch trong ngắn hạn, tác động lan tỏa chủ yếu ở nhóm cổ phiếu nhỏ rủi ro cao"
+        },
+        {
+          "ma": "BAF",
+          "tone": "trung_tinh",
+          "text": "BAF được nhắc trong bản tin Vietstock với mô hình trang trại công nghệ cao từ đối tác Muyuan và mục tiêu giảm giá vốn chăn nuôi.",
+          "y_nghia": "BAF có câu chuyện cải thiện biên lợi nhuận trung hạn, nhưng tác động phiên phụ thuộc giá heo và tiến độ vận hành trang trại"
+        },
+        {
+          "ma": "TCI",
+          "tone": "canh_bao",
+          "text": "TCI giảm sàn trong phiên cổ phiếu chứng khoán bùng nổ, đồng thời xuất hiện trong feed giao dịch lãnh đạo/cổ đông đáng chú ý.",
+          "y_nghia": "TCI chịu rủi ro lệch pha ngành trong phiên, cần theo dõi thêm công bố giao dịch để tách yếu tố kỹ thuật và sở hữu"
+        }
+      ]
+    },
+    {
+      "so": "07",
+      "ten": "Lịch sự kiện",
+      "loai": "lich",
+      "items": [
+        { "khi": "17/06", "pham_vi": "VN", "tone": "info", "su_kien": "Theo dõi phản ứng của VN-Index sau phiên giữ được mốc 1.800 ngày 16/06" },
+        { "khi": "17/06", "pham_vi": "QT", "tone": "canh_bao", "su_kien": "Ngày cuối FOMC và thông điệp lãi suất/dot plot của Fed" },
+        { "khi": "18/06", "pham_vi": "VN", "tone": "canh_bao", "su_kien": "Đáo hạn phái sinh VN30F2606 (dự kiến theo quy tắc thứ Năm tuần thứ 3)" },
+        { "khi": "19/06", "pham_vi": "VN", "tone": "trung_tinh", "su_kien": "Ngày cơ cấu ETF kỳ quý 2, hiệu lực dự kiến 22/06" },
+        { "khi": "06-07/07", "pham_vi": "QT", "tone": "canh_bao", "su_kien": "Hạn góp ý và điều trần Điều 301 với hàng Việt Nam tại Washington" },
+        { "khi": "cuối tháng 06", "pham_vi": "VN", "tone": "info", "su_kien": "Theo dõi số liệu CPI, IIP, bán lẻ và xuất nhập khẩu tháng 06 (dự kiến)" }
+      ]
+    },
+    {
+      "so": "08",
+      "ten": "Góc nhìn & chiến lược",
+      "loai": "muc_gia",
+      "ghi_chu": "Nhận định từ Vietstock/VnEconomy/CTCK — không phải fact",
+      "items": [
+        { "nhan": "1.800", "tone": "info", "text": "Mốc tâm lý đã được giữ trong phiên 16/06, nhưng thanh khoản giảm khiến tín hiệu vượt mốc chưa thật sạch" },
+        { "nhan": "Tiếp đà phục hồi", "tone": "trung_tinh", "text": "Vietstock Daily 17/06 đặt tiêu đề tiếp đà phục hồi, phù hợp với độ rộng cải thiện và nhóm chứng khoán hút tiền" },
+        { "nhan": "Thanh khoản phái sinh", "tone": "canh_bao", "text": "Vietstock nhận định thanh khoản phái sinh toàn thị trường lại sụt giảm, phản ánh tâm lý phòng vệ chưa biến mất trước phiên đáo hạn" },
+        { "nhan": "Chứng quyền", "tone": "canh_bao", "text": "Vietstock ghi triển vọng ngắn hạn chứng quyền đang xấu đi, cho thấy khẩu vị đòn bẩy vẫn phân hóa dù cơ sở hồi" },
+        { "nhan": "Dòng tiền", "tone": "trung_tinh", "text": "VnEconomy đánh giá dòng tiền suy yếu cho thấy thị trường vẫn cần tín hiệu tin cậy hơn để xác nhận sức cầu quy mô lớn" }
+      ]
+    }
+  ],
+  "quote": "VN-Index đã giữ được 1.800, nhưng dòng tiền chưa đủ dày để biến phiên tăng thành tín hiệu xác nhận sạch.",
+  "danh_gia": "Phe bull có thêm dữ kiện tích cực: VN-Index giữ được 1.800, độ rộng cải thiện, nhóm chứng khoán bùng nổ và tổ chức trong nước tiếp tục mua ròng. Phe bear vẫn có điểm tựa vì thanh khoản khớp lệnh giảm, khối ngoại bán ròng, tự doanh đảo chiều bán ròng và S&P 500 hạ nhiệt qua đêm. Biến số 24h tới là thông điệp FOMC, phản ứng của dầu quanh vùng 79-80 USD và khả năng dòng tiền nội tiếp tục lan từ chứng khoán sang các nhóm vốn hóa lớn. Nếu thanh khoản không cải thiện, vùng 1.800 có thể vẫn là vùng kiểm định cung hơn là nền xác nhận xu hướng.",
+  "nguon": [
+    { "ten": "Vietstock 17/06 06:02 — Đọc gì trước giờ giao dịch chứng khoán?", "url": "http://vietstock.vn/2026/06/1706-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1455122.htm" },
+    { "ten": "Vietstock 16/06 19:42 — Theo dấu dòng tiền cá mập 16/06", "url": "http://vietstock.vn/2026/06/theo-dau-dong-tien-ca-map-1606-nhom-vingroup-va-ngan-hang-thanh-tam-diem-ban-rong-830-1455108.htm" },
+    { "ten": "Vietstock 16/06 16:42 — Nhịp đập Thị trường 16/06", "url": "http://vietstock.vn/2026/06/nhip-dap-thi-truong-1606-luc-mua-lay-lai-uu-the-vn-index-bao-toan-moc-1800-1636-1454611.htm" },
+    { "ten": "Vietstock 16/06 18:17 — Vietstock Daily 17/06/2026", "url": "http://vietstock.vn/2026/06/vietstock-daily-17062026-tiep-da-phuc-hoi-1636-1454943.htm" },
+    { "ten": "Vietstock 16/06 18:00 — Vinaconex thoái VIW", "url": "http://vietstock.vn/2026/06/vinaconex-thoai-thanh-cong-hon-35-trieu-cp-viwaseen-viw-739-1454959.htm" },
+    { "ten": "Vietstock 16/06 13:11 — Không thể tiếp tục luật chờ nghị định", "url": "http://vietstock.vn/2026/06/khong-the-tiep-tuc-luat-cho-nghi-dinh-nghi-dinh-cho-thong-tu-761-1454724.htm" },
+    { "ten": "VnEconomy 16/06 15:30 — Trụ giữ nhịp, cổ phiếu chứng khoán bùng nổ", "url": "https://vneconomy.vn/tru-giu-nhip-co-phieu-chung-khoan-bung-no.htm" },
+    { "ten": "VnEconomy 16/06 22:41 — Tổ chức trong nước tiếp tục gom ròng", "url": "https://vneconomy.vn/to-chuc-trong-nuoc-tiep-tuc-gom-rong.htm" },
+    { "ten": "VnEconomy 16/06 15:43 — Thâm hụt thương mại 13,8 tỷ USD", "url": "https://vneconomy.vn/tham-hut-thuong-mai-138-ty-usd-khong-dang-lo-khong-phan-anh-vao-chung-khoan.htm" },
+    { "ten": "VnEconomy 16/06 22:42 — Giá hàng hóa và lạm phát sau chiến tranh vùng Vịnh", "url": "https://vneconomy.vn/gioi-chuyen-gia-gia-hang-hoa-va-lam-phat-se-con-cao-du-chien-tranh-o-vung-vinh-ket-thuc.htm" },
+    { "ten": "WSJ Markets RSS 16-17/06 — Markets/AI headlines", "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain" },
+    { "ten": "OilPrice RSS 16-17/06 — Oil crash, Hormuz reopens, Iran oil sales", "url": "https://oilprice.com/rss/main" },
+    { "ten": "Yahoo Finance 17/06 sáng VN — ^GSPC, BZ=F, ^N225 chart metadata", "url": "https://finance.yahoo.com/" }
+  ]
+}
