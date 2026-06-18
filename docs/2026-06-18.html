@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trụ kéo điểm, ngoại bán mạnh: dòng tiền vẫn phải kiểm định — Bản tin 18.06.2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;background:#EDF0F5;color:#122B4D;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:#1E6FD9;text-decoration:none}a:hover{text-decoration:underline}
+.khung{max-width:1100px;margin:0 auto;padding:0 20px}
+.topbar{background:#fff;border-bottom:3px solid #122B4D}
+.topbar .khung{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .logo{width:30px;height:30px;border-radius:50%;background:#122B4D;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px}
+.brand .ten{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.brand .phu{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#1E6FD9;font-weight:600}
+.tieude-bar{font-size:18px;font-weight:800;color:#122B4D}
+.meta-bar{text-align:right;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5B6B80;font-weight:600;line-height:1.8}
+.meta-bar b{color:#122B4D}
+.hero{background:#fff;border-bottom:1px solid #DDE3EC}
+.hero .khung{display:grid;grid-template-columns:minmax(220px,1fr) 2fr;gap:32px;padding-top:34px;padding-bottom:34px}
+.badge-ngay{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1E6FD9;border:1.5px solid #1E6FD9;padding:5px 12px;border-radius:4px;margin-bottom:14px}
+.hero h1{font-size:46px;line-height:1.08;font-weight:800;color:#122B4D;letter-spacing:-.01em}
+.hero .diem-nhan{font-size:21px;font-weight:700;line-height:1.4;margin-bottom:10px}
+.hero .diem-nhan .xanh{color:#1E6FD9}
+.hero .dande{font-size:14.5px;color:#44546A;font-style:italic}
+.metrics{background:#fff;padding:6px 0 26px}
+.metrics .khung{display:grid;grid-template-columns:repeat(auto-fit,minmax(152px,1fr));gap:14px}
+.mcard{border:1px solid #DDE3EC;border-radius:8px;padding:14px 16px;background:#fff}
+.mcard .nhan{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#5B6B80;margin-bottom:6px}
+.mcard .so{font-size:25px;font-weight:800;color:#122B4D;letter-spacing:-.01em;line-height:1.1}
+.mcard .phu{font-size:13px;font-weight:700;margin-top:3px}
+.mcard .chu{margin-top:9px;font-size:11px;color:#5B6B80;border-left:3px solid #DDE3EC;padding:2px 0 2px 9px;font-style:italic;line-height:1.45}
+.noidung{padding:26px 0 8px}
+.noidung .khung{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.sec{background:#fff;border:1px solid #DDE3EC;border-radius:10px;padding:22px 24px}
+.sec .dau{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
+.sec .so-sec{font-size:13px;font-weight:800;color:#1E6FD9;letter-spacing:.06em}
+.sec h2{font-size:19px;font-weight:800;color:#122B4D}
+.sec .ghichu-sec{font-size:11px;color:#8593A6;font-style:italic;margin-bottom:10px}
+.diem-item{display:flex;gap:11px;padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
+.diem-item:last-child{border-bottom:none}
+.diem-item .cham{flex:none;width:8px;height:8px;border-radius:50%;margin-top:7px}
+.bang-item{padding:8px 0;border-bottom:1px dashed #E4E9F0}
+.bang-item:last-child{border-bottom:none}
+.bang-dong{display:flex;justify-content:space-between;gap:14px;font-size:13.5px}
+.bang-dong .ct{color:#44546A}
+.bang-dong .gt{font-weight:800;white-space:nowrap;text-align:right}
+.ma-item{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
+.ma-item:last-child{border-bottom:none}
+.ma-chip{flex:none;font-size:11.5px;font-weight:800;padding:2px 9px;border-radius:4px;margin-top:2px;letter-spacing:.04em}
+.mucgia{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#44546A}
+.mucgia:last-child{border-bottom:none}
+.mucgia .nhan{flex:none;min-width:64px;text-align:center;font-weight:800;font-size:15px;padding:5px 10px;border-radius:5px;border-left:4px solid}
+.sec.rong{grid-column:1/-1}
+.qt-luoi{display:grid;grid-template-columns:1fr 1fr;gap:0 32px}
+.qt-item{padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px}
+.qt-dong{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.qt-ten{font-weight:600;color:#2C3E55}
+.qt-so{font-weight:800;color:#122B4D;white-space:nowrap}
+.qt-ynghia{margin-top:2px;font-size:12px;color:#0F4187;font-style:italic;line-height:1.5}
+.lich-item{display:flex;gap:9px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
+.lich-item:last-child{border-bottom:none}
+.lich-khi{flex:none;min-width:88px;text-align:center;font-weight:800;font-size:12px;padding:3px 8px;border-radius:4px}
+.lich-pv{flex:none;font-size:10px;font-weight:800;letter-spacing:.08em;padding:2px 6px;border-radius:3px;margin-top:3px}
+.quote{padding:10px 0 26px}
+.quote .hop{background:#E7F0FC;border-radius:10px;padding:26px 32px;display:flex;gap:18px;align-items:flex-start}
+.quote .dau-nhay{font-size:52px;font-weight:800;color:#1E6FD9;line-height:.8;font-family:Georgia,serif}
+.dg-tieude{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#1E6FD9;margin-bottom:7px}
+.quote p{font-size:16.5px;font-style:italic;font-weight:500;color:#0F4187;line-height:1.65}
+.quote .ai{margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#1E6FD9;font-style:normal}
+.chantrang{background:#122B4D;color:#fff;margin-top:14px}
+.chantrang .khung{padding-top:22px;padding-bottom:22px}
+.chantrang .hang{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+.chantrang .brand-ft{font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+.chantrang .mota-ft{font-size:11px;color:#9FB2CC;font-style:italic}
+.chantrang .nguon{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.15);font-size:11px;color:#9FB2CC;line-height:2}
+.chantrang .nguon a{color:#8FBCF2}
+.list-bc{padding:30px 0}
+.card-ngay{display:flex;gap:22px;background:#fff;border:1px solid #DDE3EC;border-radius:10px;padding:22px 26px;margin-bottom:14px;align-items:center}
+.card-ngay:hover{border-color:#1E6FD9}
+.o-ngay{flex:none;text-align:center;border-right:1px solid #E4E9F0;padding-right:22px}
+.o-ngay .d{font-size:34px;font-weight:800;color:#122B4D;line-height:1}
+.o-ngay .my{font-size:11px;font-weight:700;letter-spacing:.1em;color:#5B6B80;text-transform:uppercase;margin-top:4px}
+.card-ngay h3{font-size:20px;font-weight:800;color:#122B4D;margin-bottom:4px}
+.card-ngay .tom{font-size:13px;color:#5B6B80;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.chip-vni{flex:none;text-align:right}
+.chip-vni .v{font-size:20px;font-weight:800}
+.chip-vni .l{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#5B6B80;font-weight:700}
+@media(max-width:760px){.hero .khung{grid-template-columns:1fr;gap:18px}.hero h1{font-size:34px}.noidung .khung{grid-template-columns:1fr}.tieude-bar{display:none}.card-ngay{flex-wrap:wrap}.qt-luoi{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+
+<header class="topbar"><div class="khung">
+  <div class="brand"><div class="logo">VN</div><div><div class="ten">Bản tin TTCK</div><div class="phu">Daily research</div></div></div>
+  <div class="tieude-bar">— Báo cáo thị trường ngày —</div>
+  <div class="meta-bar"><b>THỨ NĂM · 18.06.2026</b><br>Tổng hợp trước giờ giao dịch · <a href="index.html">tất cả bản tin</a></div>
+</div></header>
+<div class="hero"><div class="khung">
+  <div><span class="badge-ngay">Bản tin ngày · 18.06.2026</span><h1>Trụ kéo điểm, ngoại bán mạnh: dòng tiền vẫn phải kiểm định</h1></div>
+  <div><div class="diem-nhan">VN-Index 1.806,20 — <span class="xanh">phiên đã đóng 17/06; giảm 1,74 điểm sau khi hồi từ vùng 1.790</span></div><p class="dande">Phiên đã đóng 17/06 ghi nhận VN-Index giảm nhẹ 1,74 điểm (-0,10%) về 1.806,20 điểm sau khi có lúc lùi về gần 1.790 trong buổi sáng; HNX-Index trái chiều tăng 3,31%. Chất lượng dòng tiền phân hóa: thanh khoản HOSE tăng lên hơn 17,1 nghìn tỷ đồng, nhưng khối ngoại bán ròng đột biến hơn 3.174 tỷ trên HOSE và tự doanh tiếp tục bán ròng 182 tỷ. Đến trưa 18/06, VN-Index tăng mạnh nhờ nhóm Vingroup, song độ rộng HoSE vẫn nghiêng về giảm, trong khi ngoại biên bị ép bởi Fed cứng rắn, S&amp;P 500 giảm 1,21% và Brent quanh 77,34 USD/thùng.</p></div>
+</div></div>
+<div class="metrics"><div class="khung"><div class="mcard">
+    <div class="nhan">VN-Index</div>
+    <div class="so">1.806,20</div>
+    <div class="phu" style="color:#D6453D">▼ -0,10%</div>
+    <div class="chu">phiên đã đóng 17/06; giảm 1,74 điểm sau khi hồi từ vùng 1.790</div>
+  </div><div class="mcard">
+    <div class="nhan">Thanh khoản HOSE</div>
+    <div class="so">17,1 nghìn tỷ</div>
+    <div class="phu" style="color:#178A50">▲ 626 triệu cp</div>
+    <div class="chu">khớp lệnh VN-Index tăng 9,2% so với phiên trước theo Vietstock Daily</div>
+  </div><div class="mcard">
+    <div class="nhan">Tự doanh CTCK</div>
+    <div class="so">-182 tỷ</div>
+    <div class="phu" style="color:#D6453D">▼ bán ròng phiên thứ 2</div>
+    <div class="chu">HPG bị bán ròng 97 tỷ; FPT, ACB, NVL được mua ròng 21-27 tỷ mỗi mã</div>
+  </div><div class="mcard">
+    <div class="nhan">Khối ngoại</div>
+    <div class="so">-3.174 tỷ</div>
+    <div class="phu" style="color:#D6453D">▼ bán ròng HOSE</div>
+    <div class="chu">khớp lệnh bán ròng trên 1,1 nghìn tỷ; tâm điểm VIC, FPT, VHM, TCB</div>
+  </div><div class="mcard">
+    <div class="nhan">S&amp;P 500</div>
+    <div class="so">7.420,10</div>
+    <div class="phu" style="color:#D6453D">▼ -1,21%</div>
+    <div class="chu">Yahoo Finance ^GSPC · regularMarketTime 18/06 03:50 giờ VN</div>
+  </div><div class="mcard">
+    <div class="nhan">Dầu Brent</div>
+    <div class="so">77,34 USD</div>
+    <div class="phu" style="color:#D6453D">▼ -2,78%</div>
+    <div class="chu">Yahoo Finance BZ=F · regularMarketTime 18/06 13:32 giờ VN; OilPrice ghi Brent quanh 77,64 USD trưa 18/06</div>
+  </div></div></div>
+<main class="noidung"><div class="khung"><section class="sec rong">
+    <div class="dau"><span class="so-sec">§ 01</span><h2>Qua đêm — toàn cầu</h2></div>
+    <div class="ghichu-sec">Tin và giá trong 24h đến 13:38 ngày 18/06</div>
+    <div class="qt-luoi"><div class="qt-item"><div class="qt-dong"><span class="qt-ten">S&amp;P 500</span><span class="qt-so">7.420,10 <span style="color:#D6453D">▼ -1,21%</span></span></div><div class="qt-ynghia">→ VN: Fed cứng rắn làm nền định giá EM kém thuận, tạo áp lực tâm lý lên nhóm beta cao như chứng khoán, bất động sản và công nghệ</div></div><div class="qt-item"><div class="qt-dong"><span class="qt-ten">Nasdaq</span><span class="qt-so">26.021,66 <span style="color:#D6453D">▼ -1,34%</span></span></div><div class="qt-ynghia">→ VN: Cổ phiếu công nghệ Mỹ suy yếu có thể làm FPT và nhóm công nghệ trong nước nhạy cảm hơn với dòng tiền ngoại trong ngắn hạn</div></div><div class="qt-item"><div class="qt-dong"><span class="qt-ten">Fed</span><span class="qt-so">giữ 3,50-3,75% <span style="color:#B97A0F">● dot plot nghiêng về khả năng tăng lãi suất</span></span></div><div class="qt-ynghia">→ VN: Tín hiệu lãi suất cao hơn kỳ vọng làm tăng rủi ro USD mạnh và gây áp lực lên tỷ giá cùng dòng vốn ngoại vào VN</div></div><div class="qt-item"><div class="qt-dong"><span class="qt-ten">Dầu Brent</span><span class="qt-so">77,34 USD <span style="color:#D6453D">▼ -2,78%</span></span></div><div class="qt-ynghia">→ VN: Brent hạ nhiệt gây áp lực lên GAS, PVD, PVS, BSR trong ngắn hạn nhưng giảm áp lực chi phí cho vận tải, nhựa và lạm phát nhập khẩu</div></div><div class="qt-item"><div class="qt-dong"><span class="qt-ten">Nikkei 225</span><span class="qt-so">71.142,21 <span style="color:#178A50">▲ +1,77%</span></span></div><div class="qt-ynghia">→ VN: Nikkei tăng giúp tâm lý châu Á bớt xấu, nhưng tác động với VN phụ thuộc việc dòng tiền có lan ra ngoài nhóm trụ hay không</div></div><div class="qt-item"><div class="qt-dong"><span class="qt-ten">OilPrice/IEA</span><span class="qt-so">Hormuz hạ nhiệt <span style="color:#B97A0F">● 2027 có thể dư cung 5 triệu thùng/ngày</span></span></div><div class="qt-ynghia">→ VN: Câu chuyện dầu khí chuyển từ sốc cung sang rủi ro dư cung, làm biên lợi nhuận nhóm dầu khí VN phụ thuộc nhiều hơn vào tin tức và giá hàng ngày</div></div></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 02</span><h2>Địa chính trị &amp; rủi ro toàn cầu</h2></div>
+
+    <div class="diem-item"><span class="cham" style="background:#178A50"></span><span>OilPrice 18/06 ghi giá dầu giảm sau khi Mỹ và Iran ký thỏa thuận ngừng bắn và mở lại eo Hormuz; Brent trong bài quanh 77,64 USD/thùng, giảm 2,40%.<div class="qt-ynghia">→ VN: Rủi ro sốc cung dầu hạ nhiệt hỗ trợ chi phí đầu vào của vận tải, nhựa và tiêu dùng trong vài tuần tới</div></span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Dẫu vậy, OilPrice cũng ghi ngành vận tải biển vẫn thận trọng sau thỏa thuận Mỹ-Iran và cần thêm bằng chứng về an toàn luồng tàu qua Hormuz.<div class="qt-ynghia">→ VN: Nếu logistics vùng Vịnh chưa bình thường hóa, GAS, PVD, PVS và nhóm vận tải biển vẫn có thể biến động theo headline trong ngắn hạn</div></span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>VnEconomy 18/06 dẫn IEA dự báo thị trường dầu có thể chuyển sang dư cung hơn 5 triệu thùng/ngày trong năm 2027 nếu nguồn cung Trung Đông phục hồi.<div class="qt-ynghia">→ VN: Dự báo dư cung làm yếu câu chuyện giá dầu cao dài hạn của nhóm dầu khí, nhưng tích cực cho lạm phát và biên lợi nhuận các ngành tiêu thụ nhiên liệu</div></span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Cuộc họp Fed đầu tiên dưới thời Chủ tịch Kevin Warsh giữ lãi suất 3,50-3,75% nhưng dot plot cho thấy 9/19 thành viên FOMC nghĩ Fed có thể cần tăng lãi suất năm nay.<div class="qt-ynghia">→ VN: Lợi suất USD và DXY cao hơn kỳ vọng có thể gây áp lực lên tỷ giá USD/VND và dòng vốn ngoại vào thị trường mới nổi</div></span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Rủi ro Điều 301 với hàng Việt Nam chưa có tin mới trong 24h, nhưng hạn góp ý 06/07 và điều trần 07/07 vẫn là mốc lịch cần theo dõi.<div class="qt-ynghia">→ VN: Chủ đề thương mại còn treo trên nhóm xuất khẩu như dệt may, thủy sản, gỗ và KCN cho đến khi có kết quả điều trần</div></span></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 03</span><h2>Dòng tiền &amp; vị thế</h2></div>
+
+    <div class="bang-item"><div class="bang-dong"><span class="ct">Khối ngoại 17/06</span><span class="gt" style="color:#8C231D">-3.221,9 tỷ tổng; -1.085,2 tỷ khớp lệnh</span></div><div class="qt-ynghia">→ Áp lực bán đột biến, đặc biệt ở VIC, FPT, VHM và TCB, làm chất lượng phiên hồi kém bền vững với nhóm vốn hóa lớn</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Khối ngoại trên HOSE 17/06</span><span class="gt" style="color:#8C231D">-3.174,47 tỷ</span></div><div class="qt-ynghia">→ Quy mô bán ròng trên HOSE cho thấy rủi ro cơ cấu/dịch chuyển vốn đang lan sang các mã trụ, ảnh hưởng đến chỉ số trong ngắn hạn</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Tự doanh CTCK 17/06</span><span class="gt" style="color:#8C231D">-182 tỷ</span></div><div class="qt-ynghia">→ Tự doanh bán ròng phiên thứ hai liên tiếp làm dòng tiền nội kém vai trò đối ứng với áp lực ngoại</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Thanh khoản HOSE 17/06</span><span class="gt" style="color:#2C3E55">17,1 nghìn tỷ; 626 triệu cp</span></div><div class="qt-ynghia">→ Thanh khoản tăng giúp hấp thụ bớt áp lực bán, nhưng vẫn cần độ rộng và dòng tiền ngoài nhóm trụ xác nhận thêm</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Sáng 18/06</span><span class="gt" style="color:#8C231D">ngoại bán ròng thêm 988,2 tỷ HOSE</span></div><div class="qt-ynghia">→ Dòng ngoại tiếp tục rút trong phiên đang gây áp lực lên FPT, VHM, TCB, VPB, CTG và VCB</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">TPDN quý 3/2026</span><span class="gt" style="color:#7A4E05">gần 30,9 nghìn tỷ đáo hạn</span></div><div class="qt-ynghia">→ Áp lực đáo hạn trái phiếu vẫn là biến số cạnh tranh dòng tiền với nhóm bất động sản và ngân hàng trong quý 3</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Margin HOSE</span><span class="gt" style="color:#2C3E55">67 mã không đủ điều kiện; VCK thoát danh sách</span></div><div class="qt-ynghia">→ Việc VCK được mở lại margin hỗ trợ thanh khoản riêng mã, nhưng danh sách 67 mã vẫn là bộ lọc rủi ro với nhóm cổ phiếu nhỏ</div></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 04</span><h2>Trong nước — tín hiệu thị trường</h2></div>
+
+    <div class="diem-item"><span class="cham" style="background:#5B6B80"></span><span>VN-Index phiên 17/06 giảm 1,74 điểm (-0,10%) xuống 1.806,20 điểm; HNX-Index tăng 10,58 điểm (+3,31%) lên 330,20 điểm.</span></div><div class="diem-item"><span class="cham" style="background:#5B6B80"></span><span>Độ rộng toàn thị trường vẫn nghiêng về sắc xanh với 390 mã tăng và 299 mã giảm, trong khi VN30 phân hóa với 14 mã tăng, 13 mã giảm và 3 mã tham chiếu.</span></div><div class="diem-item"><span class="cham" style="background:#5B6B80"></span><span>VN-Index có lúc rơi về gần 1.790 trong buổi sáng, sau đó cầu gia tăng trong phiên chiều giúp thu hẹp gần hết mức giảm.</span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>VIC, VHM, HVN và BSR lấy đi hơn 6,03 điểm của VN-Index; chiều ngược lại BID, CTG, VJC và VCB đóng góp khoảng 4,2 điểm.</span></div><div class="diem-item"><span class="cham" style="background:#5B6B80"></span><span>Nhóm công nghiệp tăng 1,54% và là nhóm dẫn dắt; tài chính tăng 0,71%, trong khi công nghệ thông tin giảm 1,06% do áp lực ở FPT.</span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Sáng 18/06, VN-Index tăng 1,62% nhờ nhóm Vingroup, nhưng HoSE chỉ có 100 mã tăng so với 156 mã giảm; riêng VIC, VHM, VRE và VPL đóng góp hơn 32 điểm trong tổng mức tăng 29,22 điểm.</span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Tín hiệu trong phiên 18/06 là trạng thái 'xanh vỏ đỏ lòng': điểm số đẹp hơn cảm nhận danh mục, nên cần xem độ rộng và thanh khoản cuối phiên trước khi kết luận.</span></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 05</span><h2>Vĩ mô &amp; tiền tệ</h2></div>
+
+    <div class="bang-item"><div class="bang-dong"><span class="ct">Fed</span><span class="gt" style="color:#7A4E05">giữ 3,50-3,75%</span></div><div class="qt-ynghia">→ Tín hiệu có thể tăng lãi suất thêm 25 điểm cơ bản trong năm nay làm tăng rủi ro USD mạnh và ép tỷ giá khu vực</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Chính sách truyền thông Fed</span><span class="gt" style="color:#7A4E05">Warsh không đưa dự báo lãi suất cá nhân</span></div><div class="qt-ynghia">→ Fed ít forward guidance hơn có thể làm biến động lãi suất và tài sản rủi ro tăng trong các phiên gần sự kiện</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">USD/VND</span><span class="gt" style="color:#0F4187">chưa cập nhật live</span></div><div class="qt-ynghia">→ RSS có tin thị trường đặt cược USD tăng, nhưng chưa có số live tỷ giá đủ tin cậy để kết luận áp lực trong ngày</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Lãi suất liên ngân hàng</span><span class="gt" style="color:#0F4187">chưa cập nhật</span></div><div class="qt-ynghia">→ Chưa có nguồn live trong giới hạn fetch hôm nay nên không dùng làm tín hiệu thanh khoản tiền tệ</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Thuế xăng E10</span><span class="gt" style="color:#0F4187">Bộ Tài chính đánh giá lại chính sách thuế</span></div><div class="qt-ynghia">→ Điều chỉnh thuế nếu có sẽ tác động đến PLX, OIL, vận tải và chi phí tiêu dùng qua kênh giá nhiên liệu</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Khu công nghệ cao TPHCM</span><span class="gt" style="color:#0C5631">mở rộng thêm gần 195ha</span></div><div class="qt-ynghia">→ Mở rộng hạ tầng công nghệ hỗ trợ chủ đề FDI chất lượng cao và nhóm KCN quanh TPHCM trong trung hạn</div></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 06</span><h2>Doanh nghiệp &amp; giao dịch nội bộ</h2></div>
+
+    <div class="ma-item"><span class="ma-chip" style="background:#FBEAE9;color:#8C231D">DXG</span><span>Dragon Capital báo cáo bán tổng cộng 2,6 triệu cp DXG trong ngày 12/06; sau giao dịch nhóm quỹ còn sở hữu trên 74,5 triệu cp, tương ứng gần 5,9% vốn.<div class="qt-ynghia">→ DXG chịu áp lực sở hữu từ nhà đầu tư lớn trong ngắn hạn, tác động lan sang nhóm bất động sản phụ thuộc mức độ hấp thụ của dòng tiền nội</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#EDF1F6;color:#2C3E55">BID</span><span>BIDV công bố việc bầu và bổ nhiệm Chủ tịch HĐQT và Tổng Giám đốc mới từ ngày 01/07/2026.<div class="qt-ynghia">→ BID chịu tác động quản trị trong ngắn hạn, còn chiều thị trường phụ thuộc thông điệp điều hành và chất lượng tín dụng sau thay đổi nhân sự</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">PGV</span><span>EVNGENCO3 đặt mục tiêu sản lượng 2026 gần 27,7 tỷ kWh, tăng 19%; doanh thu công ty mẹ gần 48 nghìn tỷ và lãi sau thuế hơn 1,97 nghìn tỷ đồng.<div class="qt-ynghia">→ PGV được hỗ trợ bởi kế hoạch sản lượng và lợi nhuận cao trong năm 2026, tác động trung hạn phụ thuộc giá điện và nhiên liệu đầu vào</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">GVR</span><span>Tại ĐHĐCĐ thường niên, GVR cho biết giá cao su năm 2026 có thể tăng 5-10% và nhiều khu công nghiệp bắt đầu triển khai từ quý 3.<div class="qt-ynghia">→ GVR và nhóm cao su/KCN có thêm câu chuyện lợi nhuận trung hạn, nhưng tác động trong phiên phụ thuộc giá cao su và tiến độ pháp lý dự án</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">SSB</span><span>SeABank hoàn tất tăng vốn điều lệ lên 34.288 tỷ đồng sau chấp thuận của NHNN.<div class="qt-ynghia">→ SSB được cải thiện bộ đệm vốn và dư địa tăng trưởng tín dụng, tác động trung hạn phụ thuộc hiệu quả sử dụng vốn mới</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">VCK</span><span>HOSE đưa VCK ra khỏi danh sách chứng khoán không đủ điều kiện giao dịch ký quỹ; danh sách còn 67 mã bị cắt margin.<div class="qt-ynghia">→ VCK có thể được hỗ trợ thanh khoản ngắn hạn nhờ margin được mở lại, trong khi nhóm bị cắt margin vẫn chịu hạn chế dòng tiền</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#EDF1F6;color:#2C3E55">MWG</span><span>IPO Điện Máy Xanh có hơn 166 triệu cổ phiếu đã có chủ, nhà đầu tư tổ chức chiếm 90% số lượng đăng ký và tỷ lệ hấp thụ được nhắc tới quanh 93%.<div class="qt-ynghia">→ MWG/DMX được chú ý về câu chuyện định giá hệ sinh thái, tác động ngắn hạn phụ thuộc giá niêm yết và khả năng duy trì nhu cầu sau IPO</div></span></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 07</span><h2>Lịch sự kiện</h2></div>
+
+    <div class="lich-item"><span class="lich-khi" style="background:#FAF0DC;color:#7A4E05">18/06</span><span class="lich-pv" style="background:#E7F0FC;color:#0F4187">VN</span><span>Đáo hạn phái sinh VN30F2606 (dự kiến theo quy tắc thứ Năm tuần thứ 3)</span></div><div class="lich-item"><span class="lich-khi" style="background:#E7F0FC;color:#0F4187">18/06</span><span class="lich-pv" style="background:#E7F0FC;color:#0F4187">VN</span><span>Theo dõi chất lượng dòng tiền cuối phiên sau nhịp kéo mạnh của nhóm Vingroup trong buổi sáng</span></div><div class="lich-item"><span class="lich-khi" style="background:#FAF0DC;color:#7A4E05">18/06</span><span class="lich-pv" style="background:#EDF1F6;color:#2C3E55">QT</span><span>Thị trường toàn cầu hấp thụ thông điệp Fed/Warsh sau cuộc họp 16-17/06</span></div><div class="lich-item"><span class="lich-khi" style="background:#EDF1F6;color:#2C3E55">19/06</span><span class="lich-pv" style="background:#E7F0FC;color:#0F4187">VN</span><span>Ngày cơ cấu ETF kỳ quý 2, hiệu lực dự kiến 22/06</span></div><div class="lich-item"><span class="lich-khi" style="background:#FAF0DC;color:#7A4E05">quý 3/2026</span><span class="lich-pv" style="background:#E7F0FC;color:#0F4187">VN</span><span>Gần 30,9 nghìn tỷ đồng trái phiếu doanh nghiệp đáo hạn</span></div><div class="lich-item"><span class="lich-khi" style="background:#E7F0FC;color:#0F4187">01/07</span><span class="lich-pv" style="background:#E7F0FC;color:#0F4187">VN</span><span>Nhân sự lãnh đạo cấp cao mới của BIDV bắt đầu có hiệu lực</span></div><div class="lich-item"><span class="lich-khi" style="background:#FAF0DC;color:#7A4E05">06-07/07</span><span class="lich-pv" style="background:#EDF1F6;color:#2C3E55">QT</span><span>Hạn góp ý và điều trần Điều 301 với hàng Việt Nam tại Washington</span></div><div class="lich-item"><span class="lich-khi" style="background:#E7F0FC;color:#0F4187">cuối tháng 06</span><span class="lich-pv" style="background:#E7F0FC;color:#0F4187">VN</span><span>Theo dõi CPI, IIP, bán lẻ và xuất nhập khẩu tháng 06 (dự kiến)</span></div>
+  </section><section class="sec">
+    <div class="dau"><span class="so-sec">§ 08</span><h2>Góc nhìn &amp; chiến lược</h2></div>
+    <div class="ghichu-sec">Nhận định từ Vietstock/VnEconomy/CTCK — không phải fact</div>
+    <div class="mucgia"><span class="nhan" style="background:#E7F0FC;color:#0F4187;border-color:#1E6FD9">1.780-1.790</span><span>VnEconomy tổng hợp CTCK coi đây là vùng hỗ trợ ngắn hạn trong biên độ tích lũy của VN-Index</span></div><div class="mucgia"><span class="nhan" style="background:#EDF1F6;color:#2C3E55;border-color:#5B6B80">1.810-1.820</span><span>Đây là vùng trên của biên dao động hẹp hiện tại theo nhận định CTCK, nên cần độ rộng và thanh khoản xác nhận nếu chỉ số tiếp cận</span></div><div class="mucgia"><span class="nhan" style="background:#EDF1F6;color:#2C3E55;border-color:#5B6B80">1.835-1.840</span><span>Một CTCK kỳ vọng VN-Index có thể thử thách vùng cản MA50 này vào cuối tháng 06 nếu dòng tiền ủng hộ</span></div><div class="mucgia"><span class="nhan" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">SMA 100 ngày</span><span>Vietstock Daily 18/06 nhận định VN-Index vẫn giằng co quanh SMA100, nằm dưới Middle Bollinger Bands và MACD dưới ngưỡng 0</span></div><div class="mucgia"><span class="nhan" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">Phái sinh</span><span>Vietstock nhận định phái sinh ngày 18/06 tiếp tục giằng co, phù hợp với ngày đáo hạn và nền biến động trong phiên cao</span></div><div class="mucgia"><span class="nhan" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">Xanh vỏ đỏ lòng</span><span>VnEconomy sáng 18/06 lưu ý chỉ số tăng mạnh nhưng phần lớn nhờ nhóm Vin, trong khi độ rộng HoSE vẫn nghiêng về giảm</span></div>
+  </section></div></main>
+<div class="quote"><div class="khung"><div class="hop"><div class="dau-nhay">"</div><div><div class="dg-tieude">Đánh giá của desk</div><p>Phe bull có lý do để giữ kỳ vọng khi VN-Index phiên 17/06 hồi mạnh từ vùng 1.790, thanh khoản HOSE tăng và sáng 18/06 chỉ số được nhóm Vingroup kéo lên rõ rệt. Phe bear vẫn nắm lợi thế về chất lượng dòng tiền: khối ngoại bán ròng đột biến hơn 3.200 tỷ, tự doanh bán ròng, Fed phát tín hiệu cứng rắn và phiên sáng 18/06 có trạng thái xanh vỏ đỏ lòng. Biến số 24h tới là dòng tiền có lan ra ngoài nhóm trụ hay không, mức bán ròng của khối ngoại sau đáo hạn phái sinh và phản ứng của Brent quanh vùng 77-80 USD. Nếu độ rộng không cải thiện, nhịp tăng điểm có thể là bài kiểm tra cung hơn là xác nhận xu hướng mới.</p><div class="ai">— Agent tổng hợp tin tức · 18.06.2026 · diễn giải tác động, không phải khuyến nghị</div></div></div></div></div>
+<footer class="chantrang"><div class="khung">
+  <div class="hang"><span class="brand-ft">Bản tin TTCK Việt Nam</span><span class="mota-ft">Tài liệu tham khảo tổng hợp tự động · các dòng → là diễn giải tác động của agent · không phải khuyến nghị giao dịch chứng khoán</span></div>
+  <div class="nguon">Nguồn: <a href="http://vietstock.vn/2026/06/1806-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1455552.htm" target="_blank" rel="noopener">Vietstock 18/06 06:00 — 18/06: Đọc gì trước giờ giao dịch chứng khoán?</a> · <a href="http://vietstock.vn/2026/06/theo-dau-dong-tien-ca-map-1706-khoi-ngoai-co-phien-ban-rong-ngan-ty-dau-tien-trong-thang-830-1455431.htm" target="_blank" rel="noopener">Vietstock 17/06 19:02 — Theo dấu dòng tiền cá mập 17/06</a> · <a href="http://vietstock.vn/2026/06/nhip-dap-thi-truong-1706-thi-truong-phan-hoa-vic-tiep-tuc-co-giao-dich-thoa-thuan-khung-1636-1455192.htm" target="_blank" rel="noopener">Vietstock 17/06 17:02 — Nhịp đập Thị trường 17/06</a> · <a href="http://vietstock.vn/2026/06/vietstock-daily-18062026-chua-het-rung-lac-1636-1455371.htm" target="_blank" rel="noopener">Vietstock 17/06 18:22 — Vietstock Daily 18/06/2026</a> · <a href="http://vietstock.vn/2026/06/nhom-quy-dragon-capital-tiep-tuc-ban-hang-trieu-co-phieu-dxg-739-1455724.htm" target="_blank" rel="noopener">Vietstock 18/06 11:58 — Dragon Capital tiếp tục bán DXG</a> · <a href="http://vietstock.vn/2026/06/ky-nguyen-kevin-warsh-va-su-chuyen-doi-chinh-sach-tien-te-761-1455588.htm" target="_blank" rel="noopener">Vietstock 18/06 11:02 — Kỷ nguyên Kevin Warsh và chính sách tiền tệ</a> · <a href="https://vneconomy.vn/khoi-ngoai-xa-rong-dot-bien-hon-3200-ty-dong.htm" target="_blank" rel="noopener">VnEconomy 17/06 21:53 — Khối ngoại xả ròng đột biến hơn 3.200 tỷ đồng</a> · <a href="https://vneconomy.vn/chung-khoan-my-ban-thao-sau-cuoc-hop-fed-gia-dau-hoi-phuc-nhe.htm" target="_blank" rel="noopener">VnEconomy 18/06 08:02 — Chứng khoán Mỹ giảm mạnh, giá dầu hồi phục sau Fed</a> · <a href="https://vneconomy.vn/5-diem-chinh-cua-cuoc-hop-fed-dau-tien-thoi-chu-tich-kevin-warsh.htm" target="_blank" rel="noopener">VnEconomy 18/06 09:19 — 5 điểm nổi bật từ cuộc họp Fed dưới thời Warsh</a> · <a href="https://vneconomy.vn/iea-the-gioi-sap-chuyen-tu-cu-soc-nguon-cung-dau-sang-thua-mua-dau.htm" target="_blank" rel="noopener">VnEconomy 18/06 11:03 — IEA: Thế giới chuyển từ sốc dầu sang thừa cung</a> · <a href="https://vneconomy.vn/gan-31000-ty-dong-trai-phieu-dao-han-trong-quy-32026.htm" target="_blank" rel="noopener">VnEconomy 18/06 11:04 — Gần 31.000 tỷ đồng trái phiếu đáo hạn trong quý 3/2026</a> · <a href="https://vneconomy.vn/co-phieu-vck-ra-khoi-danh-sach-bi-cat-margin-hose-con-67-ma-khong-du-dieu-kien.htm" target="_blank" rel="noopener">VnEconomy 18/06 09:18 — VCK thoát danh sách cắt margin</a> · <a href="https://vneconomy.vn/tru-kich-chi-so-tang-bung-no-thi-truong-van-tho-o.htm" target="_blank" rel="noopener">VnEconomy 18/06 12:00 — Trụ kích chỉ số tăng bùng nổ, thị trường vẫn thờ ơ</a> · <a href="https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-After-US-and-Iran-Sign-Ceasefire-Agreement.html" target="_blank" rel="noopener">OilPrice 18/06 12:51 — Oil Prices Slide After U.S. and Iran Sign Ceasefire Agreement</a> · <a href="https://feeds.content.dowjones.io/public/rss/RSSMarketsMain" target="_blank" rel="noopener">WSJ Markets RSS 17-18/06 — Fed hints at higher rates, market slide</a> · <a href="https://finance.yahoo.com/" target="_blank" rel="noopener">Yahoo Finance 18/06 — ^GSPC, BZ=F, ^N225 chart metadata</a></div>
+</div></footer>
+</body>
+</html>
