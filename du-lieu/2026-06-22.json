@@ -146,16 +146,34 @@
           "y_nghia": "Các dự án quy mô lớn hỗ trợ kỳ vọng trung hạn cho xây dựng, vật liệu và hạ tầng đô thị, nhưng chưa phải dòng tiền thực trong phiên"
         },
         {
-          "chi_tieu": "USD/VND",
-          "gia_tri": "chưa cập nhật live",
-          "tone": "info",
-          "y_nghia": "Fed cứng rắn làm tăng nhu cầu theo dõi tỷ giá, nhưng chưa có số live đủ tin cậy trong giới hạn fetch sáng nay"
+          "chi_tieu": "USD/VND (XE)",
+          "gia_tri": "26.317,46; 24h -38,83 (-0,15%); 30 ngày +114,55 (+0,44%)",
+          "tone": "tot",
+          "y_nghia": "USD/VND giảm 0,15% trong 24h phản ánh VND mạnh hơn, giúp hạ áp lực chi phí USD với nhập khẩu và doanh nghiệp vay ngoại tệ trong ngắn hạn"
         },
         {
-          "chi_tieu": "Lãi suất liên ngân hàng",
-          "gia_tri": "chưa cập nhật",
-          "tone": "info",
-          "y_nghia": "Chưa có nguồn live trong vòng fetch nên chưa dùng để kết luận áp lực thanh khoản tiền tệ"
+          "chi_tieu": "Lãi suất liên ngân hàng ON",
+          "gia_tri": "4,50%; +47 bp so với trước (19/06/2026)",
+          "tone": "canh_bao",
+          "y_nghia": "ON +47 bp lên 4,50% cho thấy chi phí vốn ngắn hạn trên liên ngân hàng tăng, cần theo dõi tác động tới ngân hàng và dòng tiền chứng khoán trong vài phiên tới"
+        },
+        {
+          "chi_tieu": "Tỷ giá SBV/NHTM/tự do",
+          "gia_tri": "TT 25.183 (+2); NHTM 26.442 (+2); tự do 26.780 (+240)",
+          "tone": "canh_bao",
+          "y_nghia": "Tỷ giá tự do biến động +240 trong ngày là tín hiệu cần soi cùng USD/VND và bán ròng ngoại để đánh giá áp lực tỷ giá ngắn hạn"
+        },
+        {
+          "chi_tieu": "Lãi suất OMO",
+          "gia_tri": "4,50%; không đổi (22/06/2026)",
+          "tone": "trung_tinh",
+          "y_nghia": "OMO ở 4,50% cho thấy mặt bằng điều hành ngắn hạn chưa đổi, nên áp lực thanh khoản cần đọc thêm qua ON và hoạt động bơm/hút của SBV"
+        },
+        {
+          "chi_tieu": "Tín dụng & cung tiền",
+          "gia_tri": "Tín dụng 18,25% YoY; M2 5,86% YoY; huy động 10,76% YoY (T04/2026)",
+          "tone": "trung_tinh",
+          "y_nghia": "Tín dụng tăng nhanh hơn M2/huy động là nền hỗ trợ tăng trưởng nhưng cũng làm thị trường nhạy hơn với biến động lãi suất và thanh khoản tiền đồng"
         },
         {
           "chi_tieu": "KQKD quý 2",
@@ -256,6 +274,8 @@
     { "ten": "VnEconomy 21/06 09:03 — Dấu ấn kinh tế thế giới tuần 14-20/6/2026", "url": "https://vneconomy.vn/dau-an-kinh-te-the-gioi-tuan-14-2062026-my-va-iran-ky-thoa-thuan-fed-phat-tin-hieu-cung-ran.htm" },
     { "ten": "OilPrice RSS 22/06 — Hormuz crisis, pipelines, India energy strategy", "url": "https://oilprice.com/rss/main" },
     { "ten": "WSJ Markets RSS 21/06 — All the Money Flooding Into AI Is a Giant Warning Sign", "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain" },
-    { "ten": "Yahoo Finance 22/06 — ^GSPC, BZ=F, ^N225 chart metadata", "url": "https://finance.yahoo.com/" }
+    { "ten": "Yahoo Finance 22/06 — ^GSPC, BZ=F, ^N225 chart metadata", "url": "https://finance.yahoo.com/" },
+    { "ten": "XE 20:27 22-06 ICT — USD/VND charting-rates (tạm dùng)", "url": "https://www.xe.com/currencycharts/?from=USD&to=VND" },
+    { "ten": "VietnamBiz Data 19/06/2026 — currency-interest-rate", "url": "https://data.vietnambiz.vn/currency-interest-rate" }
   ]
 }
