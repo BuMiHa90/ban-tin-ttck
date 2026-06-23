@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1781264395.2273922,
-    "ast_hash": "cab5519a90ee42fc7da0f15e1635fecf",
+    "mtime": 1782136245.5156682,
+    "ast_hash": "b8832347de6891fb2d3a65ce719a9dac",
     "semantic_hash": ""
   },
   "DESIGN.md": {
@@ -80,33 +80,33 @@
     "semantic_hash": ""
   },
   "docs/2026-06-10.html": {
-    "mtime": 1782086623.4566805,
+    "mtime": 1782173524.779106,
     "ast_hash": "0e461c1efe903c5382e6ac3a5065ae74",
     "semantic_hash": ""
   },
   "docs/2026-06-11.html": {
-    "mtime": 1782086623.4566805,
+    "mtime": 1782173524.779106,
     "ast_hash": "eff592e0536976f21a4669843327cd45",
     "semantic_hash": ""
   },
   "docs/2026-06-12.html": {
-    "mtime": 1782086623.4556844,
+    "mtime": 1782173524.779106,
     "ast_hash": "1bf988394bb4a25e6f16dbe3f3dfa8dd",
     "semantic_hash": ""
   },
   "docs/2026-06-15.html": {
-    "mtime": 1782086623.4556844,
+    "mtime": 1782173524.779106,
     "ast_hash": "70819bc568331879d05259b76235147a",
     "semantic_hash": ""
   },
   "docs/index.html": {
-    "mtime": 1782086623.4576828,
-    "ast_hash": "8c479ff65a12a6868f222142c3fa399e",
+    "mtime": 1782173573.4870276,
+    "ast_hash": "e8dc07b2cf03dd7633d04585f28b73e1",
     "semantic_hash": ""
   },
   "nguon-rss.md": {
-    "mtime": 1781095925.565398,
-    "ast_hash": "d8033c24c04ff1173cbe728ff329b2ff",
+    "mtime": 1782136257.0329351,
+    "ast_hash": "a6456aeeae02a922dd9ec2a0ed60d1b4",
     "semantic_hash": ""
   },
   "bao-cao/2026-06-15.md": {
@@ -155,7 +155,7 @@
     "semantic_hash": ""
   },
   "docs/2026-06-16.html": {
-    "mtime": 1782086623.4546819,
+    "mtime": 1782173524.779106,
     "ast_hash": "41f2490d6cc9b00b90eeb9209eefc3f6",
     "semantic_hash": ""
   },
@@ -170,7 +170,7 @@
     "semantic_hash": ""
   },
   "docs/2026-06-17.html": {
-    "mtime": 1782086623.4546819,
+    "mtime": 1782173524.779106,
     "ast_hash": "32058d7e6f0a7fb543ff1bbf419daf7d",
     "semantic_hash": ""
   },
@@ -185,23 +185,48 @@
     "semantic_hash": ""
   },
   "docs/2026-06-18.html": {
-    "mtime": 1782086645.094224,
+    "mtime": 1782173573.4870276,
     "ast_hash": "9f51b694d9c06635ee28369ad4478722",
     "semantic_hash": ""
   },
   "du-lieu/2026-06-22.json": {
-    "mtime": 1782086607.1527178,
-    "ast_hash": "d62e68fa27f184a2898a82cc069eaee7",
+    "mtime": 1782136075.520656,
+    "ast_hash": "1b652e490e688d3af9b1f8f9660345cb",
     "semantic_hash": ""
   },
   "bao-cao/2026-06-22.md": {
-    "mtime": 1782086607.348783,
-    "ast_hash": "7d1c52a813bdf1ef07d809eaaa3c9371",
+    "mtime": 1782136023.8113127,
+    "ast_hash": "a228a196d01f73a46885e23fb762cd53",
     "semantic_hash": ""
   },
   "docs/2026-06-22.html": {
-    "mtime": 1782086645.0987515,
-    "ast_hash": "d25c0bd37fe9b50aae6764aa29c34694",
+    "mtime": 1782173573.4870276,
+    "ast_hash": "44341270be05473a8be13f42cd522bfe",
+    "semantic_hash": ""
+  },
+  "du-lieu/2026-06-23.json": {
+    "mtime": 1782173473.143191,
+    "ast_hash": "827e5518e48c98c018e8b14e08a9448f",
+    "semantic_hash": ""
+  },
+  "scripts/cap-nhat-ty-gia-xe.js": {
+    "mtime": 1782135011.013508,
+    "ast_hash": "933f0a873997a3f2b540956bc795385c",
+    "semantic_hash": ""
+  },
+  "scripts/cap-nhat-vi-mo-vietnambiz.js": {
+    "mtime": 1782136000.5150855,
+    "ast_hash": "dbbabbf269e7c90853d3b89b86cab614",
+    "semantic_hash": ""
+  },
+  "bao-cao/2026-06-23.md": {
+    "mtime": 1782173494.4016416,
+    "ast_hash": "d71115c8ec60f5c16279a9e159290695",
+    "semantic_hash": ""
+  },
+  "docs/2026-06-23.html": {
+    "mtime": 1782173573.499031,
+    "ast_hash": "40e1d7cacd7e5d0f9a9f3db0ff9bc81a",
     "semantic_hash": ""
   }
 }

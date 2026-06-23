@@ -4,14 +4,154 @@
   "graph": {},
   "nodes": [
     {
+      "label": "2026-06-23.md",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23",
+      "community": 5,
+      "norm_label": "2026-06-23.md"
+    },
+    {
+      "label": "B\u1ea3n tin s\u00e1ng 23/06/2026",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "community": 5,
+      "norm_label": "ban tin sang 23/06/2026"
+    },
+    {
+      "label": "T\u00f3m t\u1eaft nhanh",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_t\u00f3m_t\u1eaft_nhanh",
+      "community": 5,
+      "norm_label": "tom tat nhanh"
+    },
+    {
+      "label": "Di\u1ec5n bi\u1ebfn th\u1ecb tr\u01b0\u1eddng",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng",
+      "community": 5,
+      "norm_label": "dien bien thi truong"
+    },
+    {
+      "label": "Tin theo nh\u00f3m",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "community": 5,
+      "norm_label": "tin theo nhom"
+    },
+    {
+      "label": "\u00a701 Qua \u0111\u00eam \u2014 to\u00e0n c\u1ea7u",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u",
+      "community": 5,
+      "norm_label": "\u00a701 qua \u0111em \u2014 toan cau"
+    },
+    {
+      "label": "\u00a702 \u0110\u1ecba ch\u00ednh tr\u1ecb & r\u1ee7i ro to\u00e0n c\u1ea7u",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u",
+      "community": 5,
+      "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau"
+    },
+    {
+      "label": "\u00a703 D\u00f2ng ti\u1ec1n & v\u1ecb th\u1ebf",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf",
+      "community": 5,
+      "norm_label": "\u00a703 dong tien & vi the"
+    },
+    {
+      "label": "\u00a704 Trong n\u01b0\u1edbc \u2014 t\u00edn hi\u1ec7u th\u1ecb tr\u01b0\u1eddng",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng",
+      "community": 5,
+      "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong"
+    },
+    {
+      "label": "\u00a705 V\u0129 m\u00f4 & ti\u1ec1n t\u1ec7",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7",
+      "community": 5,
+      "norm_label": "\u00a705 vi mo & tien te"
+    },
+    {
+      "label": "\u00a706 Doanh nghi\u1ec7p & giao d\u1ecbch n\u1ed9i b\u1ed9",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9",
+      "community": 5,
+      "norm_label": "\u00a706 doanh nghiep & giao dich noi bo"
+    },
+    {
+      "label": "\u0110\u00e1ng ch\u00fa \u00fd s\u1eafp t\u1edbi",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi",
+      "community": 5,
+      "norm_label": "\u0111ang chu y sap toi"
+    },
+    {
+      "label": "\u0110\u00e1nh gi\u00e1 c\u1ee7a desk",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk",
+      "community": 5,
+      "norm_label": "\u0111anh gia cua desk"
+    },
+    {
+      "label": "Ngu\u1ed3n",
+      "file_type": "document",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "bao_cao_2026_06_23_ngu\u1ed3n",
+      "community": 5,
+      "norm_label": "nguon"
+    },
+    {
       "label": "2026-06-22.md",
       "file_type": "document",
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22",
       "community": 9,
-      "norm_label": "2026-06-22.md"
+      "norm_label": "2026-06-22.md",
+      "id": "bao_cao_2026_06_22"
     },
     {
       "label": "B\u1ea3n tin s\u00e1ng 22/06/2026",
@@ -19,9 +159,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
       "community": 9,
-      "norm_label": "ban tin sang 22/06/2026"
+      "norm_label": "ban tin sang 22/06/2026",
+      "id": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026"
     },
     {
       "label": "T\u00f3m t\u1eaft nhanh",
@@ -29,9 +169,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_t\u00f3m_t\u1eaft_nhanh",
       "community": 9,
-      "norm_label": "tom tat nhanh"
+      "norm_label": "tom tat nhanh",
+      "id": "bao_cao_2026_06_22_t\u00f3m_t\u1eaft_nhanh"
     },
     {
       "label": "Di\u1ec5n bi\u1ebfn th\u1ecb tr\u01b0\u1eddng",
@@ -39,9 +179,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng",
       "community": 9,
-      "norm_label": "dien bien thi truong"
+      "norm_label": "dien bien thi truong",
+      "id": "bao_cao_2026_06_22_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "label": "Tin theo nh\u00f3m",
@@ -49,9 +189,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "community": 10,
-      "norm_label": "tin theo nhom"
+      "community": 9,
+      "norm_label": "tin theo nhom",
+      "id": "bao_cao_2026_06_22_tin_theo_nh\u00f3m"
     },
     {
       "label": "\u00a701 Qua \u0111\u00eam \u2014 to\u00e0n c\u1ea7u",
@@ -59,9 +199,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u",
-      "community": 10,
-      "norm_label": "\u00a701 qua \u0111em \u2014 toan cau"
+      "community": 9,
+      "norm_label": "\u00a701 qua \u0111em \u2014 toan cau",
+      "id": "bao_cao_2026_06_22_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
     {
       "label": "\u00a702 \u0110\u1ecba ch\u00ednh tr\u1ecb & r\u1ee7i ro to\u00e0n c\u1ea7u",
@@ -69,9 +209,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u",
-      "community": 10,
-      "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau"
+      "community": 9,
+      "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau",
+      "id": "bao_cao_2026_06_22_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
     {
       "label": "\u00a703 D\u00f2ng ti\u1ec1n & v\u1ecb th\u1ebf",
@@ -79,9 +219,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf",
-      "community": 10,
-      "norm_label": "\u00a703 dong tien & vi the"
+      "community": 9,
+      "norm_label": "\u00a703 dong tien & vi the",
+      "id": "bao_cao_2026_06_22_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
     {
       "label": "\u00a704 Trong n\u01b0\u1edbc \u2014 t\u00edn hi\u1ec7u th\u1ecb tr\u01b0\u1eddng",
@@ -89,9 +229,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng",
-      "community": 10,
-      "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong"
+      "community": 9,
+      "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong",
+      "id": "bao_cao_2026_06_22_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "label": "\u00a705 V\u0129 m\u00f4 & ti\u1ec1n t\u1ec7",
@@ -99,9 +239,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7",
-      "community": 10,
-      "norm_label": "\u00a705 vi mo & tien te"
+      "community": 9,
+      "norm_label": "\u00a705 vi mo & tien te",
+      "id": "bao_cao_2026_06_22_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
     {
       "label": "\u00a706 Doanh nghi\u1ec7p & giao d\u1ecbch n\u1ed9i b\u1ed9",
@@ -109,9 +249,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L59",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9",
-      "community": 10,
-      "norm_label": "\u00a706 doanh nghiep & giao dich noi bo"
+      "community": 9,
+      "norm_label": "\u00a706 doanh nghiep & giao dich noi bo",
+      "id": "bao_cao_2026_06_22_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
     {
       "label": "\u0110\u00e1ng ch\u00fa \u00fd s\u1eafp t\u1edbi",
@@ -119,9 +259,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi",
       "community": 9,
-      "norm_label": "\u0111ang chu y sap toi"
+      "norm_label": "\u0111ang chu y sap toi",
+      "id": "bao_cao_2026_06_22_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi"
     },
     {
       "label": "\u0110\u00e1nh gi\u00e1 c\u1ee7a desk",
@@ -129,9 +269,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L77",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk",
       "community": 9,
-      "norm_label": "\u0111anh gia cua desk"
+      "norm_label": "\u0111anh gia cua desk",
+      "id": "bao_cao_2026_06_22_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk"
     },
     {
       "label": "Ngu\u1ed3n",
@@ -139,9 +279,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L83",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_22_ngu\u1ed3n",
       "community": 9,
-      "norm_label": "nguon"
+      "norm_label": "nguon",
+      "id": "bao_cao_2026_06_22_ngu\u1ed3n"
     },
     {
       "label": "2026-06-18.md",
@@ -189,7 +329,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "tin theo nhom",
       "id": "bao_cao_2026_06_18_tin_theo_nh\u00f3m"
     },
@@ -199,7 +339,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u00a701 qua \u0111em \u2014 toan cau",
       "id": "bao_cao_2026_06_18_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
@@ -209,7 +349,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau",
       "id": "bao_cao_2026_06_18_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
@@ -219,7 +359,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u00a703 dong tien & vi the",
       "id": "bao_cao_2026_06_18_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
@@ -229,7 +369,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong",
       "id": "bao_cao_2026_06_18_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
@@ -239,7 +379,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u00a705 vi mo & tien te",
       "id": "bao_cao_2026_06_18_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
@@ -249,7 +389,7 @@
       "source_file": "bao-cao/2026-06-18.md",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u00a706 doanh nghiep & giao dich noi bo",
       "id": "bao_cao_2026_06_18_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
@@ -329,7 +469,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "tin theo nhom",
       "id": "bao_cao_2026_06_17_tin_theo_nh\u00f3m"
     },
@@ -339,7 +479,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "\u00a701 qua \u0111em \u2014 toan cau",
       "id": "bao_cao_2026_06_17_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
@@ -349,7 +489,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau",
       "id": "bao_cao_2026_06_17_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
@@ -359,7 +499,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "\u00a703 dong tien & vi the",
       "id": "bao_cao_2026_06_17_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
@@ -369,7 +509,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong",
       "id": "bao_cao_2026_06_17_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
@@ -379,7 +519,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "\u00a705 vi mo & tien te",
       "id": "bao_cao_2026_06_17_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
@@ -389,7 +529,7 @@
       "source_file": "bao-cao/2026-06-17.md",
       "source_location": "L54",
       "_origin": "ast",
-      "community": 6,
+      "community": 3,
       "norm_label": "\u00a706 doanh nghiep & giao dich noi bo",
       "id": "bao_cao_2026_06_17_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
@@ -469,7 +609,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "tin theo nhom",
       "id": "bao_cao_2026_06_16_tin_theo_nh\u00f3m"
     },
@@ -479,7 +619,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u00a701 qua \u0111em \u2014 toan cau",
       "id": "bao_cao_2026_06_16_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
@@ -489,7 +629,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau",
       "id": "bao_cao_2026_06_16_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
@@ -499,7 +639,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u00a703 dong tien & vi the",
       "id": "bao_cao_2026_06_16_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
@@ -509,7 +649,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong",
       "id": "bao_cao_2026_06_16_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
@@ -519,7 +659,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u00a705 vi mo & tien te",
       "id": "bao_cao_2026_06_16_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
@@ -529,7 +669,7 @@
       "source_file": "bao-cao/2026-06-16.md",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u00a706 doanh nghiep & giao dich noi bo",
       "id": "bao_cao_2026_06_16_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
@@ -848,12 +988,142 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23",
+      "target": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "target": "bao_cao_2026_06_23_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "target": "bao_cao_2026_06_23_ngu\u1ed3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "target": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "target": "bao_cao_2026_06_23_t\u00f3m_t\u1eaft_nhanh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "target": "bao_cao_2026_06_23_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
+      "target": "bao_cao_2026_06_23_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "target": "bao_cao_2026_06_23_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "target": "bao_cao_2026_06_23_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "target": "bao_cao_2026_06_23_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "target": "bao_cao_2026_06_23_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "target": "bao_cao_2026_06_23_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bao-cao/2026-06-23.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
+      "target": "bao_cao_2026_06_23_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22",
-      "target": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026"
     },
     {
       "relation": "contains",
@@ -861,9 +1131,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "target": "bao_cao_2026_06_22_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "relation": "contains",
@@ -871,9 +1141,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "target": "bao_cao_2026_06_22_ngu\u1ed3n",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_ngu\u1ed3n"
     },
     {
       "relation": "contains",
@@ -881,9 +1151,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "target": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_tin_theo_nh\u00f3m"
     },
     {
       "relation": "contains",
@@ -891,9 +1161,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "target": "bao_cao_2026_06_22_t\u00f3m_t\u1eaft_nhanh",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_t\u00f3m_t\u1eaft_nhanh"
     },
     {
       "relation": "contains",
@@ -901,9 +1171,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "target": "bao_cao_2026_06_22_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi"
     },
     {
       "relation": "contains",
@@ -911,9 +1181,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_b\u1ea3n_tin_s\u00e1ng_22_06_2026",
-      "target": "bao_cao_2026_06_22_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk"
     },
     {
       "relation": "contains",
@@ -921,9 +1191,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_22_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
     {
       "relation": "contains",
@@ -931,9 +1201,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_22_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
     {
       "relation": "contains",
@@ -941,9 +1211,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_22_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
     {
       "relation": "contains",
@@ -951,9 +1221,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_22_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "relation": "contains",
@@ -961,9 +1231,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_22_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
     {
       "relation": "contains",
@@ -971,9 +1241,9 @@
       "source_file": "bao-cao/2026-06-22.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_22_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_22_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_22_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
     {
       "relation": "contains",
@@ -1627,5 +1897,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ec236bc7df4315b92410368592bb0d0ad84aeda8"
+  "built_at_commit": "54c3f7146d2ff992093af54ed14d6ae54da8df9c"
 }
