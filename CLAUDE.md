@@ -45,6 +45,12 @@ Giao tiếp và viết báo cáo bằng tiếng Việt. Giữ nguyên thuật ng
 - **§08 Góc nhìn & chiến lược** (loai `muc_gia`): levels hỗ trợ/kháng cự, kịch bản — ghi rõ là nhận định CTCK.
 - **Đánh giá của desk** (trường `danh_gia`, hiển thị ở khối cuối trang): 3–4 câu phân tích tổng hợp của agent theo khung: bài của phe bull / bài của phe bear / biến số quyết định 24h tới. Đây là phân tích TÁC ĐỘNG và kịch bản có điều kiện — TUYỆT ĐỐI không dùng động từ hành động (mua/bán/bắt đáy/chốt lời) như lời khuyên. Trường `quote` cũ giữ làm fallback.
 
+## Quy tắc ngắn gọn ô số (tránh vỡ layout — sự cố bản tin 23/06)
+- `gia_tri` trong `chi_so` (dashboard) và bảng §03/§05 phải là **số + đơn vị ngắn** (~≤25 ký tự), chỉ một con số chính; nhiều chỉ tiêu nối bằng `·`. KHÔNG nhét cả câu hay trích nguồn kép vào ô giá trị.
+- `ghi_chu` của `chi_so` ≤ ~40 ký tự (gợi ý ngắn, không phải câu trích nguồn).
+- Mọi diễn giải / đối chiếu nguồn / số phụ để trong `y_nghia` hoặc trong `bao-cao/*.md`.
+- Bảng §03/§05 là **chỉ tiêu : số**; một mẩu tin không phải chỉ tiêu thì để ở §04/§06 dạng `text`, đừng nhét vào bảng.
+
 ## Ranh giới phân tích (áp dụng mọi dòng `y_nghia` và `danh_gia`)
 - Được: "tin X tạo áp lực lên nhóm Y trong khung thời gian Z", "nếu A thì kịch bản B".
 - Không được: khuyên mua/bán/nắm giữ, mục tiêu giá của riêng agent, "nên/không nên" hành động.

@@ -69,9 +69,9 @@ a{color:#1E6FD9;text-decoration:none}a:hover{text-decoration:underline}
 .diem-item .cham{flex:none;width:8px;height:8px;border-radius:50%;margin-top:7px}
 .bang-item{padding:8px 0;border-bottom:1px dashed #E4E9F0}
 .bang-item:last-child{border-bottom:none}
-.bang-dong{display:flex;justify-content:space-between;gap:14px;font-size:13.5px}
-.bang-dong .ct{color:#44546A}
-.bang-dong .gt{font-weight:800;white-space:nowrap;text-align:right}
+.bang-dong{display:flex;justify-content:space-between;gap:14px;font-size:13.5px;align-items:baseline}
+.bang-dong .ct{color:#44546A;flex:0 0 38%;min-width:0}
+.bang-dong .gt{font-weight:800;text-align:right;flex:1 1 auto;min-width:0;overflow-wrap:anywhere}
 .ma-item{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
 .ma-item:last-child{border-bottom:none}
 .ma-chip{flex:none;font-size:11.5px;font-weight:800;padding:2px 9px;border-radius:4px;margin-top:2px;letter-spacing:.04em}

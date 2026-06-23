@@ -9,42 +9,42 @@
       "gia_tri": "1.857,91",
       "phu": "+1,83%",
       "huong": "tang",
-      "ghi_chu": "phiên đã đóng 22/06; tăng 33,38 điểm theo Vietstock"
+      "ghi_chu": "phiên 22/06 · +33,38 điểm"
     },
     {
       "ten": "Thanh khoản HOSE",
-      "gia_tri": "12,3 nghìn tỷ",
-      "phu": "443 triệu cp",
+      "gia_tri": "12.261 tỷ",
+      "phu": "−20% · 443tr cp",
       "huong": "canh_bao",
-      "ghi_chu": "Vietstock ghi giá trị khớp lệnh HOSE hơn 12 nghìn tỷ; VnEconomy ghi giảm 20% còn 12.261 tỷ"
+      "ghi_chu": "khớp lệnh tụt về vùng thấp"
     },
     {
       "ten": "Tự doanh CTCK",
-      "gia_tri": "-154 tỷ",
-      "phu": "khớp lệnh -259 tỷ",
+      "gia_tri": "−154 tỷ",
+      "phu": "khớp lệnh −259 tỷ",
       "huong": "giam",
-      "ghi_chu": "VnEconomy ghi tự doanh bán ròng 153,9 tỷ; Vietstock ghi bán ròng hơn 154 tỷ trên HOSE"
+      "ghi_chu": "bán ròng trên HOSE"
     },
     {
       "ten": "Khối ngoại",
-      "gia_tri": "-205 tỷ",
-      "phu": "khớp lệnh -185 tỷ",
+      "gia_tri": "−205 tỷ",
+      "phu": "khớp lệnh −185 tỷ",
       "huong": "giam",
-      "ghi_chu": "áp lực bán ròng hạ nhiệt mạnh; VIC và VHM được mua ròng, FPT tiếp tục bị bán"
+      "ghi_chu": "hạ nhiệt; VIC/VHM được gom, FPT bị bán"
     },
     {
       "ten": "S&P 500",
       "gia_tri": "7.472,79",
       "phu": "+0,56%",
       "huong": "tang",
-      "ghi_chu": "Yahoo Finance ^GSPC · regularMarketTime 23/06 03:45 giờ VN"
+      "ghi_chu": "Yahoo ^GSPC · 03:45 23/06"
     },
     {
       "ten": "Dầu Brent",
       "gia_tri": "78,17 USD",
-      "phu": "-1,00%",
+      "phu": "−1,00%",
       "huong": "giam",
-      "ghi_chu": "Yahoo Finance BZ=F · regularMarketTime 23/06 06:32 giờ VN; giá dầu không xác nhận cú sốc Hormuz mới"
+      "ghi_chu": "Yahoo · chưa xác nhận sốc Hormuz"
     }
   ],
   "muc": [
@@ -138,45 +138,45 @@
       "items": [
         {
           "chi_tieu": "Khối ngoại 22/06",
-          "gia_tri": "-205,3 tỷ; khớp lệnh -184,9 tỷ",
+          "gia_tri": "−205 tỷ",
           "tone": "xau",
           "y_nghia": "Bán ròng thu hẹp giúp giảm áp lực lên chỉ số, nhưng FPT, VNM, TCB, VPB và VCB vẫn chịu lực rút vốn trong phiên"
         },
         {
-          "chi_tieu": "Khối ngoại mua Vingroup",
-          "gia_tri": "VIC +375 tỷ; VHM +81 tỷ theo Vietstock",
+          "chi_tieu": "Ngoại gom nhóm Vingroup",
+          "gia_tri": "VIC +375 · VHM +81 tỷ",
           "tone": "tot",
           "y_nghia": "Dòng tiền ngoại quay lại VIC, VHM hỗ trợ tâm lý nhóm trụ trong phiên, nhưng chưa đồng nghĩa với đảo chiều xu hướng bán ròng quý 2"
         },
         {
-          "chi_tieu": "Bán ròng quý 2 của khối ngoại",
-          "gia_tri": "hơn 46 nghìn tỷ từ đầu Q2",
+          "chi_tieu": "Ngoại bán ròng lũy kế Q2",
+          "gia_tri": ">46.000 tỷ",
           "tone": "canh_bao",
           "y_nghia": "Nền bán ròng lớn từ đầu quý vẫn là lực cản với bluechip, đặc biệt nếu tỷ giá và lợi suất USD không hạ nhiệt"
         },
         {
           "chi_tieu": "Tự doanh CTCK 22/06",
-          "gia_tri": "-153,9 tỷ; khớp lệnh -259,2 tỷ",
+          "gia_tri": "−154 tỷ",
           "tone": "xau",
           "y_nghia": "Tự doanh đảo chiều bán ròng làm chất lượng dòng tiền kém hơn, nhất là khi thanh khoản toàn thị trường thấp"
         },
         {
           "chi_tieu": "Cá nhân trong nước",
-          "gia_tri": "+325,1 tỷ; khớp lệnh +543,5 tỷ",
+          "gia_tri": "+325 tỷ",
           "tone": "tot",
           "y_nghia": "Tiền nội tiếp tục hấp thụ một phần cung ngoại, nhưng sức bền cần nhìn qua việc có lan tỏa ngoài Vingroup hay không"
         },
         {
           "chi_tieu": "Thanh khoản 3 sàn",
-          "gia_tri": "chưa đến 15.000 tỷ khớp lệnh",
+          "gia_tri": "<15.000 tỷ",
           "tone": "canh_bao",
           "y_nghia": "Thanh khoản thấp khiến nhịp tăng 33 điểm chưa đủ xác nhận dòng tiền quay lại diện rộng"
         },
         {
           "chi_tieu": "Giao dịch thỏa thuận",
-          "gia_tri": "2.465,9 tỷ; MSN hơn 9,8 triệu cp, 712 tỷ",
+          "gia_tri": "2.466 tỷ · MSN 712 tỷ",
           "tone": "trung_tinh",
-          "y_nghia": "Thỏa thuận lớn làm tổng giá trị giao dịch bớt xấu trên bề mặt, nhưng không thay thế được cầu khớp lệnh lan tỏa"
+          "y_nghia": "Thỏa thuận lớn (MSN hơn 9,8 triệu cp) làm tổng giá trị giao dịch bớt xấu trên bề mặt, nhưng không thay thế được cầu khớp lệnh lan tỏa"
         }
       ]
     },
@@ -221,46 +221,40 @@
       "loai": "bang",
       "items": [
         {
-          "chi_tieu": "NHNN Thông tư 25/2026",
-          "gia_tri": "nới tỷ lệ vốn ngắn hạn cho vay trung, dài hạn lên 40% từ 01/07/2026",
+          "chi_tieu": "Thông tư 25/2026 — vốn ngắn hạn cho vay TDH",
+          "gia_tri": "trần 40% · từ 01/07",
           "tone": "tot",
-          "y_nghia": "Ngân hàng và bất động sản có thêm dư địa cấu trúc vốn trung hạn, nhưng tác động thực tế phụ thuộc tăng trưởng tín dụng và chất lượng tài sản"
+          "y_nghia": "NHNN nới trần lên 40% từ 01/07/2026: ngân hàng và bất động sản có thêm dư địa cấu trúc vốn trung hạn, nhưng tác động thực tế phụ thuộc tăng trưởng tín dụng và chất lượng tài sản"
         },
         {
           "chi_tieu": "USD/VND (XE)",
-          "gia_tri": "26.286,06; 24h +4,94 (+0,02%); 30 ngày -65,97 (-0,25%)",
+          "gia_tri": "26.286 · 24h +0,02%",
           "tone": "trung_tinh",
-          "y_nghia": "USD/VND gần như đi ngang trong 24h, nên tỷ giá chưa tạo thêm tín hiệu mới cho nhóm nhập khẩu, xuất khẩu và nợ USD"
+          "y_nghia": "USD/VND gần như đi ngang trong 24h (30 ngày −0,25%), nên tỷ giá chưa tạo thêm tín hiệu mới cho nhóm nhập khẩu, xuất khẩu và nợ USD"
         },
         {
-          "chi_tieu": "Lãi suất liên ngân hàng ON",
-          "gia_tri": "4,50%; +47 bp so với trước (19/06/2026)",
+          "chi_tieu": "Lãi suất ON liên ngân hàng",
+          "gia_tri": "4,50% · +47bp (19/06)",
           "tone": "canh_bao",
-          "y_nghia": "ON +47 bp lên 4,50% cho thấy chi phí vốn ngắn hạn trên liên ngân hàng tăng, cần theo dõi tác động tới ngân hàng và dòng tiền chứng khoán trong vài phiên tới"
+          "y_nghia": "ON +47bp lên 4,50% cho thấy chi phí vốn ngắn hạn trên liên ngân hàng tăng, cần theo dõi tác động tới ngân hàng và dòng tiền chứng khoán trong vài phiên tới"
         },
         {
-          "chi_tieu": "Tỷ giá SBV/NHTM/tự do",
-          "gia_tri": "TT 25.183 (+2); NHTM 26.442 (+2); tự do 26.780 (+240)",
+          "chi_tieu": "Tỷ giá tự do / trung tâm",
+          "gia_tri": "Tự do 26.780 (+240)",
           "tone": "canh_bao",
-          "y_nghia": "Tỷ giá tự do biến động +240 trong ngày là tín hiệu cần soi cùng USD/VND và bán ròng ngoại để đánh giá áp lực tỷ giá ngắn hạn"
+          "y_nghia": "Tự do +240 trong ngày (TT 25.183, NHTM 26.442) là tín hiệu cần soi cùng USD/VND và bán ròng ngoại để đánh giá áp lực tỷ giá ngắn hạn"
         },
         {
           "chi_tieu": "Lãi suất OMO",
-          "gia_tri": "4,50%; không đổi (22/06/2026)",
+          "gia_tri": "4,50% · không đổi",
           "tone": "trung_tinh",
           "y_nghia": "OMO ở 4,50% cho thấy mặt bằng điều hành ngắn hạn chưa đổi, nên áp lực thanh khoản cần đọc thêm qua ON và hoạt động bơm/hút của SBV"
         },
         {
-          "chi_tieu": "Tín dụng & cung tiền",
-          "gia_tri": "Tín dụng 18,25% YoY; M2 5,86% YoY; huy động 10,76% YoY (T04/2026)",
+          "chi_tieu": "Tín dụng / M2 / huy động (T4)",
+          "gia_tri": "18,25% · 5,86% · 10,76%",
           "tone": "trung_tinh",
-          "y_nghia": "Tín dụng tăng nhanh hơn M2/huy động là nền hỗ trợ tăng trưởng nhưng cũng làm thị trường nhạy hơn với biến động lãi suất và thanh khoản tiền đồng"
-        },
-        {
-          "chi_tieu": "Quy hoạch tăng trưởng",
-          "gia_tri": "Vietstock 22/06: hoàn thành đúng hạn các quy hoạch phục vụ mục tiêu tăng trưởng hai con số",
-          "tone": "trung_tinh",
-          "y_nghia": "Tin quy hoạch hỗ trợ tâm lý hạ tầng, xây dựng và vật liệu trung hạn, nhưng chưa tạo dòng tiền tức thời trong phiên"
+          "y_nghia": "Tín dụng (18,25% YoY) tăng nhanh hơn M2 và huy động là nền hỗ trợ tăng trưởng nhưng cũng làm thị trường nhạy hơn với biến động lãi suất và thanh khoản tiền đồng"
         }
       ]
     },
