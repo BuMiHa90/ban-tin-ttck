@@ -4,14 +4,604 @@
   "graph": {},
   "nodes": [
     {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents",
+      "community": 1,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "B\u1eaft bu\u1ed9c: ki\u1ec3m tra m\u00f4i tr\u01b0\u1eddng tr\u01b0\u1edbc khi ch\u1ea1y",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
+      "community": 1,
+      "norm_label": "bat buoc: kiem tra moi truong truoc khi chay"
+    },
+    {
+      "label": "1. Ki\u1ec3m tra PowerShell 7",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "agents_1_ki\u1ec3m_tra_powershell_7",
+      "community": 1,
+      "norm_label": "1. kiem tra powershell 7"
+    },
+    {
+      "label": "2. Ki\u1ec3m tra Python absolute path",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "agents_2_ki\u1ec3m_tra_python_absolute_path",
+      "community": 1,
+      "norm_label": "2. kiem tra python absolute path"
+    },
+    {
+      "label": "3. Ch\u1ea1y pipeline c\u1ee7a d\u1ef1 \u00e1n n\u00e0y b\u1eb1ng PowerShell 7 + absolute path",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "agents_3_ch\u1ea1y_pipeline_c\u1ee7a_d\u1ef1_\u00e1n_n\u00e0y_b\u1eb1ng_powershell_7_absolute_path",
+      "community": 1,
+      "norm_label": "3. chay pipeline cua du an nay bang powershell 7 + absolute path"
+    },
+    {
+      "label": "Agent B\u1ea3n Tin TTCK Vi\u1ec7t Nam \u2014 Quy tr\u00ecnh th\u1ef1c thi",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
+      "community": 1,
+      "norm_label": "agent ban tin ttck viet nam \u2014 quy trinh thuc thi"
+    },
+    {
+      "label": "\u26d4 Giao th\u1ee9c ch\u1ed1ng tin c\u0169 (B\u1eaeT BU\u1ed8C \u2014 l\u1ed7i nghi\u00eam tr\u1ecdng nh\u1ea5t l\u00e0 tr\u1ed9n tin c\u0169 th\u00e0nh tin m\u1edbi)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "agents_giao_th\u1ee9c_ch\u1ed1ng_tin_c\u0169_b\u1eaft_bu\u1ed9c_l\u1ed7i_nghi\u00eam_tr\u1ecdng_nh\u1ea5t_l\u00e0_tr\u1ed9n_tin_c\u0169_th\u00e0nh_tin_m\u1edbi",
+      "community": 1,
+      "norm_label": "\u26d4 giao thuc chong tin cu (bat buoc \u2014 loi nghiem trong nhat la tron tin cu thanh tin moi)"
+    },
+    {
+      "label": "\u2699\ufe0f V\u1eadn h\u00e0nh (sau 2 l\u1ea7n ch\u1ea1y n\u1ec1n ch\u1ebft gi\u1eefa ch\u1eebng v\u00ec h\u1ebft h\u1ea1n m\u1ee9c)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "agents_v\u1eadn_h\u00e0nh_sau_2_l\u1ea7n_ch\u1ea1y_n\u1ec1n_ch\u1ebft_gi\u1eefa_ch\u1eebng_v\u00ec_h\u1ebft_h\u1ea1n_m\u1ee9c",
+      "community": 1,
+      "norm_label": "\u2699\ufe0f van hanh (sau 2 lan chay nen chet giua chung vi het han muc)"
+    },
+    {
+      "label": "Tr\u00ecnh t\u1ef1 th\u1ef1c hi\u1ec7n",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "agents_tr\u00ecnh_t\u1ef1_th\u1ef1c_hi\u1ec7n",
+      "community": 1,
+      "norm_label": "trinh tu thuc hien"
+    },
+    {
+      "label": "Schema JSON (8 m\u1ee5c \u00a701\u2013\u00a708)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "agents_schema_json_8_m\u1ee5c_01_08",
+      "community": 1,
+      "norm_label": "schema json (8 muc \u00a701\u2013\u00a708)"
+    },
+    {
+      "label": "\u26a0\ufe0f Quy t\u1eafc NG\u1eaeN G\u1eccN \u00f4 s\u1ed1 (tr\u00e1nh v\u1ee1 layout \u2014 l\u1ed7i b\u1ea3n tin 23/06)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "agents_quy_t\u1eafc_ng\u1eafn_g\u1ecdn_\u00f4_s\u1ed1_tr\u00e1nh_v\u1ee1_layout_l\u1ed7i_b\u1ea3n_tin_23_06",
+      "community": 1,
+      "norm_label": "\u26a0\ufe0f quy tac ngan gon o so (tranh vo layout \u2014 loi ban tin 23/06)"
+    },
+    {
+      "label": "Ranh gi\u1edbi ph\u00e2n t\u00edch (\u00e1p d\u1ee5ng m\u1ecdi `y_nghia` v\u00e0 `danh_gia`)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "agents_ranh_gi\u1edbi_ph\u00e2n_t\u00edch_\u00e1p_d\u1ee5ng_m\u1ecdi_y_nghia_v\u00e0_danh_gia",
+      "community": 1,
+      "norm_label": "ranh gioi phan tich (ap dung moi `y_nghia` va `danh_gia`)"
+    },
+    {
+      "label": "GitNexus \u2014 Code Intelligence",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "agents_gitnexus_code_intelligence",
+      "community": 1,
+      "norm_label": "gitnexus \u2014 code intelligence"
+    },
+    {
+      "label": "Always Do",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "agents_always_do",
+      "community": 1,
+      "norm_label": "always do"
+    },
+    {
+      "label": "Never Do",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "agents_never_do",
+      "community": 1,
+      "norm_label": "never do"
+    },
+    {
+      "label": "Resources",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "agents_resources",
+      "community": 1,
+      "norm_label": "resources"
+    },
+    {
+      "label": "CLI",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L169",
+      "_origin": "ast",
+      "id": "agents_cli",
+      "community": 1,
+      "norm_label": "cli"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 8,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Agent T\u1ed5ng H\u1ee3p Tin T\u1ee9c \u2014 Th\u1ecb Tr\u01b0\u1eddng Ch\u1ee9ng Kho\u00e1n Vi\u1ec7t Nam",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "community": 6,
+      "norm_label": "agent tong hop tin tuc \u2014 thi truong chung khoan viet nam"
+    },
+    {
+      "label": "Vai tr\u00f2",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "claude_vai_tr\u00f2",
+      "community": 6,
+      "norm_label": "vai tro"
+    },
+    {
+      "label": "Ng\u00f4n ng\u1eef",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_ng\u00f4n_ng\u1eef",
+      "community": 6,
+      "norm_label": "ngon ngu"
+    },
+    {
+      "label": "Ngu\u1ed3n tin \u01b0u ti\u00ean",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_ngu\u1ed3n_tin_\u01b0u_ti\u00ean",
+      "community": 6,
+      "norm_label": "nguon tin uu tien"
+    },
+    {
+      "label": "Ngu\u1ed3n tin: RSS-FIRST \u2014 KH\u00d4NG d\u00f9ng WebSearch \u0111\u1ec3 l\u1ea5y tin (quy t\u1eafc t\u1eeb 10/06/2026)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "claude_ngu\u1ed3n_tin_rss_first_kh\u00f4ng_d\u00f9ng_websearch_\u0111\u1ec3_l\u1ea5y_tin_quy_t\u1eafc_t\u1eeb_10_06_2026",
+      "community": 6,
+      "norm_label": "nguon tin: rss-first \u2014 khong dung websearch \u0111e lay tin (quy tac tu 10/06/2026)"
+    },
+    {
+      "label": "Giao th\u1ee9c ch\u1ed1ng tin c\u0169 (s\u1ef1 c\u1ed1 10/06/2026: b\u1ea3n tin tr\u1ed9n b\u00e0i th\u00e1ng 3\u20135 th\u00e0nh \"tin h\u00f4m nay\")",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "claude_giao_th\u1ee9c_ch\u1ed1ng_tin_c\u0169_s\u1ef1_c\u1ed1_10_06_2026_b\u1ea3n_tin_tr\u1ed9n_b\u00e0i_th\u00e1ng_3_5_th\u00e0nh_tin_h\u00f4m_nay",
+      "community": 6,
+      "norm_label": "giao thuc chong tin cu (su co 10/06/2026: ban tin tron bai thang 3\u20135 thanh \"tin hom nay\")"
+    },
+    {
+      "label": "C\u1ea5u tr\u00fac b\u1ea3n tin s\u00e1ng (chu\u1ea9n ph\u00f2ng ph\u00e2n t\u00edch t\u1ef1 doanh, ch\u1ed1t 2026-06-10)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "claude_c\u1ea5u_tr\u00fac_b\u1ea3n_tin_s\u00e1ng_chu\u1ea9n_ph\u00f2ng_ph\u00e2n_t\u00edch_t\u1ef1_doanh_ch\u1ed1t_2026_06_10",
+      "community": 6,
+      "norm_label": "cau truc ban tin sang (chuan phong phan tich tu doanh, chot 2026-06-10)"
+    },
+    {
+      "label": "Quy t\u1eafc ng\u1eafn g\u1ecdn \u00f4 s\u1ed1 (tr\u00e1nh v\u1ee1 layout \u2014 s\u1ef1 c\u1ed1 b\u1ea3n tin 23/06)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "claude_quy_t\u1eafc_ng\u1eafn_g\u1ecdn_\u00f4_s\u1ed1_tr\u00e1nh_v\u1ee1_layout_s\u1ef1_c\u1ed1_b\u1ea3n_tin_23_06",
+      "community": 6,
+      "norm_label": "quy tac ngan gon o so (tranh vo layout \u2014 su co ban tin 23/06)"
+    },
+    {
+      "label": "Ranh gi\u1edbi ph\u00e2n t\u00edch (\u00e1p d\u1ee5ng m\u1ecdi d\u00f2ng `y_nghia` v\u00e0 `danh_gia`)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "claude_ranh_gi\u1edbi_ph\u00e2n_t\u00edch_\u00e1p_d\u1ee5ng_m\u1ecdi_d\u00f2ng_y_nghia_v\u00e0_danh_gia",
+      "community": 6,
+      "norm_label": "ranh gioi phan tich (ap dung moi dong `y_nghia` va `danh_gia`)"
+    },
+    {
+      "label": "D\u1eef li\u1ec7u \u2014 l\u1ed9 tr\u00ecnh 2 giai \u0111o\u1ea1n",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "claude_d\u1eef_li\u1ec7u_l\u1ed9_tr\u00ecnh_2_giai_\u0111o\u1ea1n",
+      "community": 6,
+      "norm_label": "du lieu \u2014 lo trinh 2 giai \u0111oan"
+    },
+    {
+      "label": "C\u1ea5u tr\u00fac folder",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "claude_c\u1ea5u_tr\u00fac_folder",
+      "community": 6,
+      "norm_label": "cau truc folder"
+    },
+    {
+      "label": "Pipeline h\u1eb1ng ng\u00e0y (\u0111\u00e3 c\u00f3 scheduled task `ban-tin-ttck-hang-ngay`, 7h30 th\u1ee9 2\u20136)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "claude_pipeline_h\u1eb1ng_ng\u00e0y_\u0111\u00e3_c\u00f3_scheduled_task_ban_tin_ttck_hang_ngay_7h30_th\u1ee9_2_6",
+      "community": 6,
+      "norm_label": "pipeline hang ngay (\u0111a co scheduled task `ban-tin-ttck-hang-ngay`, 7h30 thu 2\u20136)"
+    },
+    {
+      "label": "Format b\u00e1o c\u00e1o ng\u00e0y (`bao-cao/YYYY-MM-DD.md`)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "claude_format_b\u00e1o_c\u00e1o_ng\u00e0y_bao_cao_yyyy_mm_dd_md",
+      "community": 6,
+      "norm_label": "format bao cao ngay (`bao-cao/yyyy-mm-dd.md`)"
+    },
+    {
+      "label": "Nguy\u00ean t\u1eafc",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "claude_nguy\u00ean_t\u1eafc",
+      "community": 6,
+      "norm_label": "nguyen tac"
+    },
+    {
+      "label": "GitNexus \u2014 Code Intelligence",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "claude_gitnexus_code_intelligence",
+      "community": 8,
+      "norm_label": "gitnexus \u2014 code intelligence"
+    },
+    {
+      "label": "Always Do",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "claude_always_do",
+      "community": 8,
+      "norm_label": "always do"
+    },
+    {
+      "label": "Never Do",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "claude_never_do",
+      "community": 8,
+      "norm_label": "never do"
+    },
+    {
+      "label": "Resources",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "claude_resources",
+      "community": 8,
+      "norm_label": "resources"
+    },
+    {
+      "label": "CLI",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "claude_cli",
+      "community": 8,
+      "norm_label": "cli"
+    },
+    {
+      "label": "render.js",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "render",
+      "community": 2,
+      "norm_label": "render.js"
+    },
+    {
+      "label": "fs",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "render_fs",
+      "community": 2,
+      "norm_label": "fs"
+    },
+    {
+      "label": "path",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "render_path",
+      "community": 2,
+      "norm_label": "path"
+    },
+    {
+      "label": "DIR_DATA",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "render_dir_data",
+      "community": 2,
+      "norm_label": "dir_data"
+    },
+    {
+      "label": "DIR_OUT",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "render_dir_out",
+      "community": 2,
+      "norm_label": "dir_out"
+    },
+    {
+      "label": "esc()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "render_esc",
+      "community": 2,
+      "norm_label": "esc()"
+    },
+    {
+      "label": "THU",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "render_thu",
+      "community": 2,
+      "norm_label": "thu"
+    },
+    {
+      "label": "ngayVN()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "render_ngayvn",
+      "community": 2,
+      "norm_label": "ngayvn()"
+    },
+    {
+      "label": "TONE",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "render_tone",
+      "community": 2,
+      "norm_label": "tone"
+    },
+    {
+      "label": "HUONG",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "render_huong",
+      "community": 2,
+      "norm_label": "huong"
+    },
+    {
+      "label": "khungTrang()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "render_khungtrang",
+      "community": 2,
+      "norm_label": "khungtrang()"
+    },
+    {
+      "label": "topbar()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "render_topbar",
+      "community": 2,
+      "norm_label": "topbar()"
+    },
+    {
+      "label": "secDiem()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "render_secdiem",
+      "community": 2,
+      "norm_label": "secdiem()"
+    },
+    {
+      "label": "secBang()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "render_secbang",
+      "community": 2,
+      "norm_label": "secbang()"
+    },
+    {
+      "label": "secMa()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "render_secma",
+      "community": 2,
+      "norm_label": "secma()"
+    },
+    {
+      "label": "secMucGia()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "render_secmucgia",
+      "community": 2,
+      "norm_label": "secmucgia()"
+    },
+    {
+      "label": "secQuocTe()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L154",
+      "_origin": "ast",
+      "id": "render_secquocte",
+      "community": 2,
+      "norm_label": "secquocte()"
+    },
+    {
+      "label": "secLich()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "render_seclich",
+      "community": 2,
+      "norm_label": "seclich()"
+    },
+    {
+      "label": "RENDER_MUC",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "render_render_muc",
+      "community": 2,
+      "norm_label": "render_muc"
+    },
+    {
+      "label": "trangNgay()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L173",
+      "_origin": "ast",
+      "id": "render_trangngay",
+      "community": 2,
+      "norm_label": "trangngay()"
+    },
+    {
+      "label": "trangIndex()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L216",
+      "_origin": "ast",
+      "id": "render_trangindex",
+      "community": 2,
+      "norm_label": "trangindex()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "render.js",
+      "source_location": "L239",
+      "_origin": "ast",
+      "id": "render_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
       "label": "2026-06-23.md",
       "file_type": "document",
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23",
       "community": 5,
-      "norm_label": "2026-06-23.md"
+      "norm_label": "2026-06-23.md",
+      "id": "bao_cao_2026_06_23"
     },
     {
       "label": "B\u1ea3n tin s\u00e1ng 23/06/2026",
@@ -19,9 +609,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
       "community": 5,
-      "norm_label": "ban tin sang 23/06/2026"
+      "norm_label": "ban tin sang 23/06/2026",
+      "id": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026"
     },
     {
       "label": "T\u00f3m t\u1eaft nhanh",
@@ -29,9 +619,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_t\u00f3m_t\u1eaft_nhanh",
       "community": 5,
-      "norm_label": "tom tat nhanh"
+      "norm_label": "tom tat nhanh",
+      "id": "bao_cao_2026_06_23_t\u00f3m_t\u1eaft_nhanh"
     },
     {
       "label": "Di\u1ec5n bi\u1ebfn th\u1ecb tr\u01b0\u1eddng",
@@ -39,9 +629,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng",
       "community": 5,
-      "norm_label": "dien bien thi truong"
+      "norm_label": "dien bien thi truong",
+      "id": "bao_cao_2026_06_23_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "label": "Tin theo nh\u00f3m",
@@ -49,9 +639,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
       "community": 5,
-      "norm_label": "tin theo nhom"
+      "norm_label": "tin theo nhom",
+      "id": "bao_cao_2026_06_23_tin_theo_nh\u00f3m"
     },
     {
       "label": "\u00a701 Qua \u0111\u00eam \u2014 to\u00e0n c\u1ea7u",
@@ -59,9 +649,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u",
       "community": 5,
-      "norm_label": "\u00a701 qua \u0111em \u2014 toan cau"
+      "norm_label": "\u00a701 qua \u0111em \u2014 toan cau",
+      "id": "bao_cao_2026_06_23_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
     {
       "label": "\u00a702 \u0110\u1ecba ch\u00ednh tr\u1ecb & r\u1ee7i ro to\u00e0n c\u1ea7u",
@@ -69,9 +659,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u",
       "community": 5,
-      "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau"
+      "norm_label": "\u00a702 \u0111ia chinh tri & rui ro toan cau",
+      "id": "bao_cao_2026_06_23_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
     {
       "label": "\u00a703 D\u00f2ng ti\u1ec1n & v\u1ecb th\u1ebf",
@@ -79,9 +669,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf",
       "community": 5,
-      "norm_label": "\u00a703 dong tien & vi the"
+      "norm_label": "\u00a703 dong tien & vi the",
+      "id": "bao_cao_2026_06_23_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
     {
       "label": "\u00a704 Trong n\u01b0\u1edbc \u2014 t\u00edn hi\u1ec7u th\u1ecb tr\u01b0\u1eddng",
@@ -89,9 +679,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng",
       "community": 5,
-      "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong"
+      "norm_label": "\u00a704 trong nuoc \u2014 tin hieu thi truong",
+      "id": "bao_cao_2026_06_23_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "label": "\u00a705 V\u0129 m\u00f4 & ti\u1ec1n t\u1ec7",
@@ -99,9 +689,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7",
       "community": 5,
-      "norm_label": "\u00a705 vi mo & tien te"
+      "norm_label": "\u00a705 vi mo & tien te",
+      "id": "bao_cao_2026_06_23_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
     {
       "label": "\u00a706 Doanh nghi\u1ec7p & giao d\u1ecbch n\u1ed9i b\u1ed9",
@@ -109,9 +699,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9",
       "community": 5,
-      "norm_label": "\u00a706 doanh nghiep & giao dich noi bo"
+      "norm_label": "\u00a706 doanh nghiep & giao dich noi bo",
+      "id": "bao_cao_2026_06_23_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
     {
       "label": "\u0110\u00e1ng ch\u00fa \u00fd s\u1eafp t\u1edbi",
@@ -119,9 +709,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi",
       "community": 5,
-      "norm_label": "\u0111ang chu y sap toi"
+      "norm_label": "\u0111ang chu y sap toi",
+      "id": "bao_cao_2026_06_23_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi"
     },
     {
       "label": "\u0110\u00e1nh gi\u00e1 c\u1ee7a desk",
@@ -129,9 +719,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L84",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk",
       "community": 5,
-      "norm_label": "\u0111anh gia cua desk"
+      "norm_label": "\u0111anh gia cua desk",
+      "id": "bao_cao_2026_06_23_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk"
     },
     {
       "label": "Ngu\u1ed3n",
@@ -139,9 +729,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L90",
       "_origin": "ast",
-      "id": "bao_cao_2026_06_23_ngu\u1ed3n",
       "community": 5,
-      "norm_label": "nguon"
+      "norm_label": "nguon",
+      "id": "bao_cao_2026_06_23_ngu\u1ed3n"
     },
     {
       "label": "2026-06-22.md",
@@ -704,166 +1294,6 @@
       "id": "bao_cao_2026_06_16_ngu\u1ed3n"
     },
     {
-      "label": "AGENTS.md",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "agents.md",
-      "id": "agents"
-    },
-    {
-      "label": "B\u1eaft bu\u1ed9c: ki\u1ec3m tra m\u00f4i tr\u01b0\u1eddng tr\u01b0\u1edbc khi ch\u1ea1y",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "bat buoc: kiem tra moi truong truoc khi chay",
-      "id": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y"
-    },
-    {
-      "label": "1. Ki\u1ec3m tra PowerShell 7",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "1. kiem tra powershell 7",
-      "id": "agents_1_ki\u1ec3m_tra_powershell_7"
-    },
-    {
-      "label": "2. Ki\u1ec3m tra Python absolute path",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "2. kiem tra python absolute path",
-      "id": "agents_2_ki\u1ec3m_tra_python_absolute_path"
-    },
-    {
-      "label": "3. Ch\u1ea1y pipeline b\u1eb1ng PowerShell 7 + Python absolute path",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L50",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "3. chay pipeline bang powershell 7 + python absolute path",
-      "id": "agents_3_ch\u1ea1y_pipeline_b\u1eb1ng_powershell_7_python_absolute_path"
-    },
-    {
-      "label": "Agent B\u1ea3n Tin TTCK Vi\u1ec7t Nam \u2014 Quy tr\u00ecnh th\u1ef1c thi",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L66",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "agent ban tin ttck viet nam \u2014 quy trinh thuc thi",
-      "id": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi"
-    },
-    {
-      "label": "\u26d4 Giao th\u1ee9c ch\u1ed1ng tin c\u0169 (B\u1eaeT BU\u1ed8C \u2014 l\u1ed7i nghi\u00eam tr\u1ecdng nh\u1ea5t l\u00e0 tr\u1ed9n tin c\u0169 th\u00e0nh tin m\u1edbi)",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L70",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "\u26d4 giao thuc chong tin cu (bat buoc \u2014 loi nghiem trong nhat la tron tin cu thanh tin moi)",
-      "id": "agents_giao_th\u1ee9c_ch\u1ed1ng_tin_c\u0169_b\u1eaft_bu\u1ed9c_l\u1ed7i_nghi\u00eam_tr\u1ecdng_nh\u1ea5t_l\u00e0_tr\u1ed9n_tin_c\u0169_th\u00e0nh_tin_m\u1edbi"
-    },
-    {
-      "label": "\u2699\ufe0f V\u1eadn h\u00e0nh (sau 2 l\u1ea7n ch\u1ea1y n\u1ec1n ch\u1ebft gi\u1eefa ch\u1eebng v\u00ec h\u1ebft h\u1ea1n m\u1ee9c)",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L78",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "\u2699\ufe0f van hanh (sau 2 lan chay nen chet giua chung vi het han muc)",
-      "id": "agents_v\u1eadn_h\u00e0nh_sau_2_l\u1ea7n_ch\u1ea1y_n\u1ec1n_ch\u1ebft_gi\u1eefa_ch\u1eebng_v\u00ec_h\u1ebft_h\u1ea1n_m\u1ee9c"
-    },
-    {
-      "label": "Tr\u00ecnh t\u1ef1 th\u1ef1c hi\u1ec7n",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L82",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "trinh tu thuc hien",
-      "id": "agents_tr\u00ecnh_t\u1ef1_th\u1ef1c_hi\u1ec7n"
-    },
-    {
-      "label": "Schema JSON (8 m\u1ee5c \u00a701\u2013\u00a708)",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L103",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "schema json (8 muc \u00a701\u2013\u00a708)",
-      "id": "agents_schema_json_8_m\u1ee5c_01_08"
-    },
-    {
-      "label": "Ranh gi\u1edbi ph\u00e2n t\u00edch (\u00e1p d\u1ee5ng m\u1ecdi `y_nghia` v\u00e0 `danh_gia`)",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L119",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "ranh gioi phan tich (ap dung moi `y_nghia` va `danh_gia`)",
-      "id": "agents_ranh_gi\u1edbi_ph\u00e2n_t\u00edch_\u00e1p_d\u1ee5ng_m\u1ecdi_y_nghia_v\u00e0_danh_gia"
-    },
-    {
-      "label": "GitNexus \u2014 Code Intelligence",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L125",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "gitnexus \u2014 code intelligence",
-      "id": "agents_gitnexus_code_intelligence"
-    },
-    {
-      "label": "Always Do",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L131",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "always do",
-      "id": "agents_always_do"
-    },
-    {
-      "label": "Never Do",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L139",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "never do",
-      "id": "agents_never_do"
-    },
-    {
-      "label": "Resources",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L146",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "resources",
-      "id": "agents_resources"
-    },
-    {
-      "label": "CLI",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L155",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "cli",
-      "id": "agents_cli"
-    },
-    {
       "label": "2026-06-15.md",
       "file_type": "document",
       "source_file": "bao-cao/2026-06-15.md",
@@ -988,12 +1418,682 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents",
+      "target": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents",
+      "target": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents",
+      "target": "agents_gitnexus_code_intelligence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
+      "target": "agents_1_ki\u1ec3m_tra_powershell_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
+      "target": "agents_2_ki\u1ec3m_tra_python_absolute_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
+      "target": "agents_3_ch\u1ea1y_pipeline_c\u1ee7a_d\u1ef1_\u00e1n_n\u00e0y_b\u1eb1ng_powershell_7_absolute_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
+      "target": "agents_giao_th\u1ee9c_ch\u1ed1ng_tin_c\u0169_b\u1eaft_bu\u1ed9c_l\u1ed7i_nghi\u00eam_tr\u1ecdng_nh\u1ea5t_l\u00e0_tr\u1ed9n_tin_c\u0169_th\u00e0nh_tin_m\u1edbi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
+      "target": "agents_ranh_gi\u1edbi_ph\u00e2n_t\u00edch_\u00e1p_d\u1ee5ng_m\u1ecdi_y_nghia_v\u00e0_danh_gia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
+      "target": "agents_schema_json_8_m\u1ee5c_01_08"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
+      "target": "agents_tr\u00ecnh_t\u1ef1_th\u1ef1c_hi\u1ec7n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
+      "target": "agents_v\u1eadn_h\u00e0nh_sau_2_l\u1ea7n_ch\u1ea1y_n\u1ec1n_ch\u1ebft_gi\u1eefa_ch\u1eebng_v\u00ec_h\u1ebft_h\u1ea1n_m\u1ee9c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "agents_schema_json_8_m\u1ee5c_01_08",
+      "target": "agents_quy_t\u1eafc_ng\u1eafn_g\u1ecdn_\u00f4_s\u1ed1_tr\u00e1nh_v\u1ee1_layout_l\u1ed7i_b\u1ea3n_tin_23_06",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_gitnexus_code_intelligence",
+      "target": "agents_always_do"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_gitnexus_code_intelligence",
+      "target": "agents_cli"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_gitnexus_code_intelligence",
+      "target": "agents_never_do"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_gitnexus_code_intelligence",
+      "target": "agents_resources"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_gitnexus_code_intelligence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_c\u1ea5u_tr\u00fac_b\u1ea3n_tin_s\u00e1ng_chu\u1ea9n_ph\u00f2ng_ph\u00e2n_t\u00edch_t\u1ef1_doanh_ch\u1ed1t_2026_06_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_c\u1ea5u_tr\u00fac_folder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_d\u1eef_li\u1ec7u_l\u1ed9_tr\u00ecnh_2_giai_\u0111o\u1ea1n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_format_b\u00e1o_c\u00e1o_ng\u00e0y_bao_cao_yyyy_mm_dd_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_giao_th\u1ee9c_ch\u1ed1ng_tin_c\u0169_s\u1ef1_c\u1ed1_10_06_2026_b\u1ea3n_tin_tr\u1ed9n_b\u00e0i_th\u00e1ng_3_5_th\u00e0nh_tin_h\u00f4m_nay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_nguy\u00ean_t\u1eafc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_ngu\u1ed3n_tin_rss_first_kh\u00f4ng_d\u00f9ng_websearch_\u0111\u1ec3_l\u1ea5y_tin_quy_t\u1eafc_t\u1eeb_10_06_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_ngu\u1ed3n_tin_\u01b0u_ti\u00ean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_ng\u00f4n_ng\u1eef",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_pipeline_h\u1eb1ng_ng\u00e0y_\u0111\u00e3_c\u00f3_scheduled_task_ban_tin_ttck_hang_ngay_7h30_th\u1ee9_2_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_quy_t\u1eafc_ng\u1eafn_g\u1ecdn_\u00f4_s\u1ed1_tr\u00e1nh_v\u1ee1_layout_s\u1ef1_c\u1ed1_b\u1ea3n_tin_23_06",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_ranh_gi\u1edbi_ph\u00e2n_t\u00edch_\u00e1p_d\u1ee5ng_m\u1ecdi_d\u00f2ng_y_nghia_v\u00e0_danh_gia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_agent_t\u1ed5ng_h\u1ee3p_tin_t\u1ee9c_th\u1ecb_tr\u01b0\u1eddng_ch\u1ee9ng_kho\u00e1n_vi\u1ec7t_nam",
+      "target": "claude_vai_tr\u00f2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "claude_gitnexus_code_intelligence",
+      "target": "claude_always_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "claude_gitnexus_code_intelligence",
+      "target": "claude_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "claude_gitnexus_code_intelligence",
+      "target": "claude_never_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "claude_gitnexus_code_intelligence",
+      "target": "claude_resources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_dir_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_dir_out",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_esc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_fs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_huong",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_khungtrang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_ngayvn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_render_muc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_secbang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_secdiem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_seclich",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_secma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_secmucgia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_secquocte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_thu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_tone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_topbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_trangindex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "render",
+      "target": "render_trangngay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "render_khungtrang",
+      "target": "render_esc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "render_topbar",
+      "target": "render_esc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "render_trangngay",
+      "target": "render_esc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "render_trangngay",
+      "target": "render_ngayvn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "render_trangindex",
+      "target": "render_khungtrang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "render_trangngay",
+      "target": "render_khungtrang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "render_trangindex",
+      "target": "render_topbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "render_trangngay",
+      "target": "render_topbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "render_main",
+      "target": "render_trangngay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "render.js",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "render_main",
+      "target": "render_trangindex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23",
-      "target": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026"
     },
     {
       "relation": "contains",
@@ -1001,9 +2101,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "target": "bao_cao_2026_06_23_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_di\u1ec5n_bi\u1ebfn_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "relation": "contains",
@@ -1011,9 +2111,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "target": "bao_cao_2026_06_23_ngu\u1ed3n",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_ngu\u1ed3n"
     },
     {
       "relation": "contains",
@@ -1021,9 +2121,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "target": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_tin_theo_nh\u00f3m"
     },
     {
       "relation": "contains",
@@ -1031,9 +2131,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "target": "bao_cao_2026_06_23_t\u00f3m_t\u1eaft_nhanh",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_t\u00f3m_t\u1eaft_nhanh"
     },
     {
       "relation": "contains",
@@ -1041,9 +2141,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "target": "bao_cao_2026_06_23_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_\u0111\u00e1ng_ch\u00fa_\u00fd_s\u1eafp_t\u1edbi"
     },
     {
       "relation": "contains",
@@ -1051,9 +2151,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_b\u1ea3n_tin_s\u00e1ng_23_06_2026",
-      "target": "bao_cao_2026_06_23_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_\u0111\u00e1nh_gi\u00e1_c\u1ee7a_desk"
     },
     {
       "relation": "contains",
@@ -1061,9 +2161,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_23_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_01_qua_\u0111\u00eam_to\u00e0n_c\u1ea7u"
     },
     {
       "relation": "contains",
@@ -1071,9 +2171,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_23_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_02_\u0111\u1ecba_ch\u00ednh_tr\u1ecb_r\u1ee7i_ro_to\u00e0n_c\u1ea7u"
     },
     {
       "relation": "contains",
@@ -1081,9 +2181,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_23_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_03_d\u00f2ng_ti\u1ec1n_v\u1ecb_th\u1ebf"
     },
     {
       "relation": "contains",
@@ -1091,9 +2191,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_23_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_04_trong_n\u01b0\u1edbc_t\u00edn_hi\u1ec7u_th\u1ecb_tr\u01b0\u1eddng"
     },
     {
       "relation": "contains",
@@ -1101,9 +2201,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_23_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_05_v\u0129_m\u00f4_ti\u1ec1n_t\u1ec7"
     },
     {
       "relation": "contains",
@@ -1111,9 +2211,9 @@
       "source_file": "bao-cao/2026-06-23.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bao_cao_2026_06_23_tin_theo_nh\u00f3m",
-      "target": "bao_cao_2026_06_23_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9",
-      "confidence_score": 1.0
+      "target": "bao_cao_2026_06_23_06_doanh_nghi\u1ec7p_giao_d\u1ecbch_n\u1ed9i_b\u1ed9"
     },
     {
       "relation": "contains",
@@ -1638,156 +2738,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents",
-      "target": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents",
-      "target": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents",
-      "target": "agents_gitnexus_code_intelligence"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
-      "target": "agents_1_ki\u1ec3m_tra_powershell_7"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
-      "target": "agents_2_ki\u1ec3m_tra_python_absolute_path"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_b\u1eaft_bu\u1ed9c_ki\u1ec3m_tra_m\u00f4i_tr\u01b0\u1eddng_tr\u01b0\u1edbc_khi_ch\u1ea1y",
-      "target": "agents_3_ch\u1ea1y_pipeline_b\u1eb1ng_powershell_7_python_absolute_path"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
-      "target": "agents_giao_th\u1ee9c_ch\u1ed1ng_tin_c\u0169_b\u1eaft_bu\u1ed9c_l\u1ed7i_nghi\u00eam_tr\u1ecdng_nh\u1ea5t_l\u00e0_tr\u1ed9n_tin_c\u0169_th\u00e0nh_tin_m\u1edbi"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
-      "target": "agents_ranh_gi\u1edbi_ph\u00e2n_t\u00edch_\u00e1p_d\u1ee5ng_m\u1ecdi_y_nghia_v\u00e0_danh_gia"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
-      "target": "agents_schema_json_8_m\u1ee5c_01_08"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
-      "target": "agents_tr\u00ecnh_t\u1ef1_th\u1ef1c_hi\u1ec7n"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_agent_b\u1ea3n_tin_ttck_vi\u1ec7t_nam_quy_tr\u00ecnh_th\u1ef1c_thi",
-      "target": "agents_v\u1eadn_h\u00e0nh_sau_2_l\u1ea7n_ch\u1ea1y_n\u1ec1n_ch\u1ebft_gi\u1eefa_ch\u1eebng_v\u00ec_h\u1ebft_h\u1ea1n_m\u1ee9c"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_gitnexus_code_intelligence",
-      "target": "agents_always_do"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L90",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_gitnexus_code_intelligence",
-      "target": "agents_cli"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L74",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_gitnexus_code_intelligence",
-      "target": "agents_never_do"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AGENTS.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_gitnexus_code_intelligence",
-      "target": "agents_resources"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "bao-cao/2026-06-15.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -1897,5 +2847,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "54c3f7146d2ff992093af54ed14d6ae54da8df9c"
+  "built_at_commit": "613a569ae9765a98f00b17595f67b72387d6e845"
 }

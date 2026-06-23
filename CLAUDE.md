@@ -77,7 +77,7 @@ Hàng hóa trong §01 mở rộng cả **nông sản & mềm** khi có biến đ
 4. Chạy `node render.js` để cập nhật web (output vào `docs/`)
 5. Deploy: `git add -A && git commit && git push` — GitHub Pages (repo BuMiHa90/ban-tin-ttck, serve từ `/docs` nhánh main) tự cập nhật sau ~1 phút
 
-Muốn đổi giao diện web: sửa `render.js` (template + CSS nằm trong đó), không sửa file HTML output. Thiết kế chuẩn theo style AWMFUND: navy đậm, số liệu lớn, badge đỏ/xanh, section đánh số §, quote chốt, disclaimer "không phải khuyến nghị". Xem thử local: mở `docs/index.html` hoặc chạy server `web-ban-tin` trong `.claude/launch.json`.
+Muốn đổi giao diện web: sửa `render.js` — layout dùng **Tailwind CSS import từ CDN** (`cdn.tailwindcss.com`), các lớp utility nằm thẳng trong template (KHÔNG tự viết CSS thủ công, không sửa file HTML output). Thiết kế chuẩn theo style AWMFUND: navy đậm, số liệu lớn, badge đỏ/xanh, section đánh số §, quote chốt, disclaimer "không phải khuyến nghị". Xem thử local: mở `docs/index.html` hoặc chạy server `web-ban-tin` trong `.claude/launch.json`.
 
 ## Format báo cáo ngày (`bao-cao/YYYY-MM-DD.md`)
 1. **Tóm tắt nhanh** — 3-5 gạch đầu dòng quan trọng nhất

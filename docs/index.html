@@ -7,140 +7,71 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Be Vietnam Pro',system-ui,sans-serif;background:#EDF0F5;color:#122B4D;line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:#1E6FD9;text-decoration:none}a:hover{text-decoration:underline}
-.khung{max-width:1100px;margin:0 auto;padding:0 20px}
-.topbar{background:#fff;border-bottom:3px solid #122B4D}
-.topbar .khung{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;gap:12px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:10px}
-.brand .logo{width:30px;height:30px;border-radius:50%;background:#122B4D;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px}
-.brand .ten{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
-.brand .phu{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#1E6FD9;font-weight:600}
-.tieude-bar{font-size:18px;font-weight:800;color:#122B4D}
-.meta-bar{text-align:right;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5B6B80;font-weight:600;line-height:1.8}
-.meta-bar b{color:#122B4D}
-.hero{background:#fff;border-bottom:1px solid #DDE3EC}
-.hero .khung{display:grid;grid-template-columns:minmax(220px,1fr) 2fr;gap:32px;padding-top:34px;padding-bottom:34px}
-.badge-ngay{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1E6FD9;border:1.5px solid #1E6FD9;padding:5px 12px;border-radius:4px;margin-bottom:14px}
-.hero h1{font-size:46px;line-height:1.08;font-weight:800;color:#122B4D;letter-spacing:-.01em}
-.hero .diem-nhan{font-size:21px;font-weight:700;line-height:1.4;margin-bottom:10px}
-.hero .diem-nhan .xanh{color:#1E6FD9}
-.hero .dande{font-size:14.5px;color:#44546A;font-style:italic}
-.metrics{background:#fff;padding:6px 0 26px}
-.metrics .khung{display:grid;grid-template-columns:repeat(auto-fit,minmax(152px,1fr));gap:14px}
-.mcard{border:1px solid #DDE3EC;border-radius:8px;padding:14px 16px;background:#fff}
-.mcard .nhan{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#5B6B80;margin-bottom:6px}
-.mcard .so{font-size:25px;font-weight:800;color:#122B4D;letter-spacing:-.01em;line-height:1.1}
-.mcard .phu{font-size:13px;font-weight:700;margin-top:3px}
-.mcard .chu{margin-top:9px;font-size:11px;color:#5B6B80;border-left:3px solid #DDE3EC;padding:2px 0 2px 9px;font-style:italic;line-height:1.45}
-.noidung{padding:26px 0 8px}
-.noidung .khung{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.sec{background:#fff;border:1px solid #DDE3EC;border-radius:10px;padding:22px 24px}
-.sec .dau{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
-.sec .so-sec{font-size:13px;font-weight:800;color:#1E6FD9;letter-spacing:.06em}
-.sec h2{font-size:19px;font-weight:800;color:#122B4D}
-.sec .ghichu-sec{font-size:11px;color:#8593A6;font-style:italic;margin-bottom:10px}
-.diem-item{display:flex;gap:11px;padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
-.diem-item:last-child{border-bottom:none}
-.diem-item .cham{flex:none;width:8px;height:8px;border-radius:50%;margin-top:7px}
-.bang-item{padding:8px 0;border-bottom:1px dashed #E4E9F0}
-.bang-item:last-child{border-bottom:none}
-.bang-dong{display:flex;justify-content:space-between;gap:14px;font-size:13.5px;align-items:baseline}
-.bang-dong .ct{color:#44546A;flex:0 0 38%;min-width:0}
-.bang-dong .gt{font-weight:800;text-align:right;flex:1 1 auto;min-width:0;overflow-wrap:anywhere}
-.ma-item{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
-.ma-item:last-child{border-bottom:none}
-.ma-chip{flex:none;font-size:11.5px;font-weight:800;padding:2px 9px;border-radius:4px;margin-top:2px;letter-spacing:.04em}
-.mucgia{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#44546A}
-.mucgia:last-child{border-bottom:none}
-.mucgia .nhan{flex:none;min-width:64px;text-align:center;font-weight:800;font-size:15px;padding:5px 10px;border-radius:5px;border-left:4px solid}
-.sec.rong{grid-column:1/-1}
-.qt-luoi{display:grid;grid-template-columns:1fr 1fr;gap:0 32px}
-.qt-item{padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px}
-.qt-dong{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
-.qt-ten{font-weight:600;color:#2C3E55}
-.qt-so{font-weight:800;color:#122B4D;white-space:nowrap}
-.qt-ynghia{margin-top:2px;font-size:12px;color:#0F4187;font-style:italic;line-height:1.5}
-.lich-item{display:flex;gap:9px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
-.lich-item:last-child{border-bottom:none}
-.lich-khi{flex:none;min-width:88px;text-align:center;font-weight:800;font-size:12px;padding:3px 8px;border-radius:4px}
-.lich-pv{flex:none;font-size:10px;font-weight:800;letter-spacing:.08em;padding:2px 6px;border-radius:3px;margin-top:3px}
-.quote{padding:10px 0 26px}
-.quote .hop{background:#E7F0FC;border-radius:10px;padding:26px 32px;display:flex;gap:18px;align-items:flex-start}
-.quote .dau-nhay{font-size:52px;font-weight:800;color:#1E6FD9;line-height:.8;font-family:Georgia,serif}
-.dg-tieude{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#1E6FD9;margin-bottom:7px}
-.quote p{font-size:16.5px;font-style:italic;font-weight:500;color:#0F4187;line-height:1.65}
-.quote .ai{margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#1E6FD9;font-style:normal}
-.chantrang{background:#122B4D;color:#fff;margin-top:14px}
-.chantrang .khung{padding-top:22px;padding-bottom:22px}
-.chantrang .hang{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
-.chantrang .brand-ft{font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
-.chantrang .mota-ft{font-size:11px;color:#9FB2CC;font-style:italic}
-.chantrang .nguon{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.15);font-size:11px;color:#9FB2CC;line-height:2}
-.chantrang .nguon a{color:#8FBCF2}
-.list-bc{padding:30px 0}
-.card-ngay{display:flex;gap:22px;background:#fff;border:1px solid #DDE3EC;border-radius:10px;padding:22px 26px;margin-bottom:14px;align-items:center}
-.card-ngay:hover{border-color:#1E6FD9}
-.o-ngay{flex:none;text-align:center;border-right:1px solid #E4E9F0;padding-right:22px}
-.o-ngay .d{font-size:34px;font-weight:800;color:#122B4D;line-height:1}
-.o-ngay .my{font-size:11px;font-weight:700;letter-spacing:.1em;color:#5B6B80;text-transform:uppercase;margin-top:4px}
-.card-ngay h3{font-size:20px;font-weight:800;color:#122B4D;margin-bottom:4px}
-.card-ngay .tom{font-size:13px;color:#5B6B80;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.chip-vni{flex:none;text-align:right}
-.chip-vni .v{font-size:20px;font-weight:800}
-.chip-vni .l{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#5B6B80;font-weight:700}
-@media(max-width:760px){.hero .khung{grid-template-columns:1fr;gap:18px}.hero h1{font-size:34px}.noidung .khung{grid-template-columns:1fr}.tieude-bar{display:none}.card-ngay{flex-wrap:wrap}.qt-luoi{grid-template-columns:1fr}}
-</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { fontFamily: { sans: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'] } } } };
+</script>
 </head>
-<body>
+<body class="font-sans bg-[#EDF0F5] text-[#122B4D] antialiased leading-relaxed" style="background:#EDF0F5">
 
 
-<header class="topbar"><div class="khung">
-  <div class="brand"><div class="logo">VN</div><div><div class="ten">Bản tin TTCK</div><div class="phu">Daily research</div></div></div>
-  <div class="tieude-bar">— Lưu trữ bản tin —</div>
-  <div class="meta-bar"><b>9 bản tin</b><br>Cập nhật mỗi sáng trước giờ giao dịch</div>
-</div></header>
-<main class="list-bc"><div class="khung"><a class="card-ngay" href="2026-06-23.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">23</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Trụ Vingroup kéo chỉ số, dòng tiền vẫn cần xác nhận</h3><div class="tom">Bản tin sáng 23/06 dùng phiên gần nhất đã đóng là 22/06: VN-Index tăng 33,38 điểm (+1,83%) lên 1.857,91 điểm, nhưng sức kéo đến chủ yếu từ VIC và VHM trong khi thanh khoản HOSE giảm về quanh 12,3 nghìn tỷ đồng. Khối ngoại vẫn bán ròng nhưng quy mô hạ nhiệt về khoảng 200 tỷ, tự doanh bán ròng gần 154 tỷ, và cá nhân trong nước tiếp tục hấp thụ một phần áp lực. Ngoại biên sáng nay nghiêng trung tính: S&amp;P 500 tăng nhẹ, Brent giảm về quanh 78 USD, còn rủi ro Hormuz/Mỹ-Iran cần đọc như headline rủi ro hơn là cú sốc giá dầu mới.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#178A50">1.857,91</div></div>
-  </a><a class="card-ngay" href="2026-06-22.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">22</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Giữ 1.800 nhờ trụ, nhưng độ rộng vẫn là bài kiểm tra</h3><div class="tom">Bản tin sáng 22/06 dùng phiên gần nhất đã đóng là 19/06: VN-Index giảm 5,94 điểm (-0,32%) về 1.824,53 điểm, HNX-Index giảm 3,37%, độ rộng toàn thị trường nghiêng mạnh về bên bán với 423 mã giảm và 262 mã tăng. Thanh khoản HOSE tăng lên hơn 15,3 nghìn tỷ đồng nhưng dòng tiền vẫn thận trọng khi khối ngoại bán ròng trên 1.600 tỷ, trong khi tự doanh mua ròng gần 449 tỷ chủ yếu nhờ giao dịch thỏa thuận LPB. Ngoại biên sáng 22/06 đỡ xấu hơn ở điểm số Mỹ và Nhật, nhưng rủi ro Hormuz quay lại, Fed cứng rắn và dòng tiền ngoại rút ra vẫn là ba biến số cần soi kỹ.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#D6453D">1.824,53</div></div>
-  </a><a class="card-ngay" href="2026-06-18.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">18</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Trụ kéo điểm, ngoại bán mạnh: dòng tiền vẫn phải kiểm định</h3><div class="tom">Phiên đã đóng 17/06 ghi nhận VN-Index giảm nhẹ 1,74 điểm (-0,10%) về 1.806,20 điểm sau khi có lúc lùi về gần 1.790 trong buổi sáng; HNX-Index trái chiều tăng 3,31%. Chất lượng dòng tiền phân hóa: thanh khoản HOSE tăng lên hơn 17,1 nghìn tỷ đồng, nhưng khối ngoại bán ròng đột biến hơn 3.174 tỷ trên HOSE và tự doanh tiếp tục bán ròng 182 tỷ. Đến trưa 18/06, VN-Index tăng mạnh nhờ nhóm Vingroup, song độ rộng HoSE vẫn nghiêng về giảm, trong khi ngoại biên bị ép bởi Fed cứng rắn, S&amp;P 500 giảm 1,21% và Brent quanh 77,34 USD/thùng.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#D6453D">1.806,20</div></div>
-  </a><a class="card-ngay" href="2026-06-17.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">17</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Giữ 1.800, nhưng tiền chưa thật dày</h3><div class="tom">Phiên 16/06 ghi nhận VN-Index tăng 8,63 điểm (+0,48%) và giữ được vùng trên 1.800, trong khi độ rộng cải thiện rõ với nhóm chứng khoán, bất động sản và tiêu dùng không thiết yếu nổi bật. Điểm trừ là thanh khoản khớp lệnh ba sàn giảm còn hơn 18,3 nghìn tỷ đồng, khối ngoại vẫn bán ròng và tự doanh quay sang bán ròng trên HOSE. Ngoại biên sáng 17/06 không còn thuận một chiều: S&amp;P 500 giảm 0,57%, Brent rơi về 79,46 USD khi phần bù chiến tranh bị tháo bớt, còn Nikkei tăng mạnh theo Yahoo Finance.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#178A50">khoảng 1.808</div></div>
-  </a><a class="card-ngay" href="2026-06-16.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">16</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Tiền quay lại, nhưng chưa sạch tín hiệu</h3><div class="tom">Phiên 15/06 cho thấy nhịp hồi rõ hơn: VN-Index tăng 7,66 điểm lên 1.799,31, thanh khoản HOSE khớp lệnh hơn 16,9 nghìn tỷ và độ rộng nghiêng mạnh về bên mua. Bức tranh dòng tiền cũng đảo chiều nhờ giao dịch thỏa thuận VIC: khối ngoại tổng cộng mua ròng 4,12 nghìn tỷ, tự doanh mua ròng hơn 1,26 nghìn tỷ với tâm điểm TCB. Ngoại biên tiếp tục thuận khi S&amp;P 500 đóng cửa tăng khoảng 1,65%, Nikkei duy trì vùng cao theo Yahoo Finance và Brent rơi về quanh 83,75 USD sau thỏa thuận Mỹ-Iran, nhưng mốc 1.800 vẫn chưa được chinh phục dứt khoát.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#178A50">1.799,31</div></div>
-  </a><a class="card-ngay" href="2026-06-15.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">15</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Thế giới mừng hòa bình, riêng VN vẫn đỏ</h3><div class="tom">Cuối tuần đảo chiều địa chính trị: Mỹ-Iran tuyên bố đạt thỏa thuận kết thúc chiến tranh, mở cửa lại eo Hormuz và gia hạn ngừng bắn 60 ngày — dầu Brent lao dốc về $83 (-4,5%), vàng vọt qua $4.200, chứng khoán toàn cầu tràn ngập sắc xanh (Nikkei sáng nay +5,4%). Nhưng VN-Index đi một mình: phiên 12/06 giảm về 1.791,65, đánh dấu tuần giảm thứ 4 liên tiếp với thanh khoản cạn và cả tự doanh lẫn khối ngoại cùng bán ròng mạnh. Câu hỏi của tuần FOMC: gió thuận thế giới có kéo nổi tiền quay lại không.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#D6453D">1.791,65</div></div>
-  </a><a class="card-ngay" href="2026-06-12.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">12</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Trump hủy không kích — risk-on trở lại</h3><div class="tom">Đêm qua đảo chiều hoàn toàn: Trump tuyên bố hủy kế hoạch không kích Iran, Dow bật +930 điểm lấy lại toàn bộ phiên tệ nhất năm, Nasdaq +2,54%, Nikkei sáng nay +4%, dầu hạ về $89 và vàng hồi mạnh. Nhưng lạm phát chưa buông: PPI Mỹ vọt 6,5% và ECB tăng lãi suất lần đầu từ 2023. Trong nước, VN-Index mất lại mốc 1.800 với thanh khoản HOSE 10.133 tỷ — đáy hơn một năm; sáng nay có gió thuận ngoại biên, câu hỏi duy nhất là tiền có quay lại không.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#D6453D">1.798,61</div></div>
-  </a><a class="card-ngay" href="2026-06-11.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">11</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Cú đúp CPI nóng và Iran</h3><div class="tom">Phố Wall có phiên tệ nhất 2026: Dow −953 điểm sau khi CPI Mỹ tháng 5 vọt lên 4,2% (đỉnh 3 năm) và Trump tuyên bố nối lại không kích Iran — Brent bật lên $95, một phần thị trường bắt đầu định giá khả năng Fed TĂNG lãi suất trở lại. Trong nước, VN-Index lấy lại mốc 1.800 hôm qua nhưng nội lực mỏng: cả tự doanh lẫn khối ngoại cùng bán ròng, sáng nay đối mặt cú sốc ngoại biên với Nikkei đang giảm 1,25%.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#178A50">1.803,71</div></div>
-  </a><a class="card-ngay" href="2026-06-10.html" style="text-decoration:none">
-    <div class="o-ngay"><div class="d">10</div><div class="my">Th6 · 2026</div></div>
-    <div style="flex:1;min-width:200px"><h3>Thận trọng bao trùm</h3><div class="tom">VN-Index hồi nhẹ +0,14% lên 1.793 điểm nhưng thanh khoản HOSE rơi về đáy hơn một năm. Đêm qua Mỹ bán tháo công nghệ trở lại, châu Á còn dư chấn cú rơi chip/AI — CPI Mỹ tháng 5 công bố tối nay là số lạm phát cuối trước kỳ họp Fed 16–17/6, trong khi rủi ro thuế Điều 301 của Mỹ với hàng Việt nổi lên là biến số lớn cho xuất khẩu nửa cuối năm.</div></div>
-    <div class="chip-vni"><div class="l">VN-Index</div><div class="v" style="color:#178A50">1.793,05</div></div>
+<header class="bg-white border-b-[3px] border-[#122B4D]">
+  <div class="max-w-[1100px] mx-auto px-5 py-3.5 flex justify-between items-center gap-3 flex-wrap">
+    <div class="flex items-center gap-2.5">
+      <div class="w-[30px] h-[30px] rounded-full bg-[#122B4D] text-white flex items-center justify-center font-extrabold text-[13px]">VN</div>
+      <div>
+        <div class="text-xs font-bold tracking-[0.14em] uppercase">Bản tin TTCK</div>
+        <div class="text-[10px] tracking-[0.18em] uppercase text-[#1E6FD9] font-semibold">Daily research</div>
+      </div>
+    </div>
+    <div class="text-lg font-extrabold text-[#122B4D] max-md:hidden">— Lưu trữ bản tin —</div>
+    <div class="text-right text-[10px] tracking-[0.14em] uppercase text-[#5B6B80] font-semibold leading-[1.8] [&_b]:text-[#122B4D] [&_a]:text-[#1E6FD9] hover:[&_a]:underline"><b>9 bản tin</b><br>Cập nhật mỗi sáng trước giờ giao dịch</div>
+  </div>
+</header>
+<main class="py-[30px]"><div class="max-w-[1100px] mx-auto px-5"><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-23.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">23</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Trụ Vingroup kéo chỉ số, dòng tiền vẫn cần xác nhận</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Bản tin sáng 23/06 dùng phiên gần nhất đã đóng là 22/06: VN-Index tăng 33,38 điểm (+1,83%) lên 1.857,91 điểm, nhưng sức kéo đến chủ yếu từ VIC và VHM trong khi thanh khoản HOSE giảm về quanh 12,3 nghìn tỷ đồng. Khối ngoại vẫn bán ròng nhưng quy mô hạ nhiệt về khoảng 200 tỷ, tự doanh bán ròng gần 154 tỷ, và cá nhân trong nước tiếp tục hấp thụ một phần áp lực. Ngoại biên sáng nay nghiêng trung tính: S&amp;P 500 tăng nhẹ, Brent giảm về quanh 78 USD, còn rủi ro Hormuz/Mỹ-Iran cần đọc như headline rủi ro hơn là cú sốc giá dầu mới.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#178A50">1.857,91</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-22.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">22</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Giữ 1.800 nhờ trụ, nhưng độ rộng vẫn là bài kiểm tra</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Bản tin sáng 22/06 dùng phiên gần nhất đã đóng là 19/06: VN-Index giảm 5,94 điểm (-0,32%) về 1.824,53 điểm, HNX-Index giảm 3,37%, độ rộng toàn thị trường nghiêng mạnh về bên bán với 423 mã giảm và 262 mã tăng. Thanh khoản HOSE tăng lên hơn 15,3 nghìn tỷ đồng nhưng dòng tiền vẫn thận trọng khi khối ngoại bán ròng trên 1.600 tỷ, trong khi tự doanh mua ròng gần 449 tỷ chủ yếu nhờ giao dịch thỏa thuận LPB. Ngoại biên sáng 22/06 đỡ xấu hơn ở điểm số Mỹ và Nhật, nhưng rủi ro Hormuz quay lại, Fed cứng rắn và dòng tiền ngoại rút ra vẫn là ba biến số cần soi kỹ.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#D6453D">1.824,53</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-18.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">18</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Trụ kéo điểm, ngoại bán mạnh: dòng tiền vẫn phải kiểm định</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Phiên đã đóng 17/06 ghi nhận VN-Index giảm nhẹ 1,74 điểm (-0,10%) về 1.806,20 điểm sau khi có lúc lùi về gần 1.790 trong buổi sáng; HNX-Index trái chiều tăng 3,31%. Chất lượng dòng tiền phân hóa: thanh khoản HOSE tăng lên hơn 17,1 nghìn tỷ đồng, nhưng khối ngoại bán ròng đột biến hơn 3.174 tỷ trên HOSE và tự doanh tiếp tục bán ròng 182 tỷ. Đến trưa 18/06, VN-Index tăng mạnh nhờ nhóm Vingroup, song độ rộng HoSE vẫn nghiêng về giảm, trong khi ngoại biên bị ép bởi Fed cứng rắn, S&amp;P 500 giảm 1,21% và Brent quanh 77,34 USD/thùng.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#D6453D">1.806,20</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-17.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">17</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Giữ 1.800, nhưng tiền chưa thật dày</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Phiên 16/06 ghi nhận VN-Index tăng 8,63 điểm (+0,48%) và giữ được vùng trên 1.800, trong khi độ rộng cải thiện rõ với nhóm chứng khoán, bất động sản và tiêu dùng không thiết yếu nổi bật. Điểm trừ là thanh khoản khớp lệnh ba sàn giảm còn hơn 18,3 nghìn tỷ đồng, khối ngoại vẫn bán ròng và tự doanh quay sang bán ròng trên HOSE. Ngoại biên sáng 17/06 không còn thuận một chiều: S&amp;P 500 giảm 0,57%, Brent rơi về 79,46 USD khi phần bù chiến tranh bị tháo bớt, còn Nikkei tăng mạnh theo Yahoo Finance.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#178A50">khoảng 1.808</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-16.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">16</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Tiền quay lại, nhưng chưa sạch tín hiệu</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Phiên 15/06 cho thấy nhịp hồi rõ hơn: VN-Index tăng 7,66 điểm lên 1.799,31, thanh khoản HOSE khớp lệnh hơn 16,9 nghìn tỷ và độ rộng nghiêng mạnh về bên mua. Bức tranh dòng tiền cũng đảo chiều nhờ giao dịch thỏa thuận VIC: khối ngoại tổng cộng mua ròng 4,12 nghìn tỷ, tự doanh mua ròng hơn 1,26 nghìn tỷ với tâm điểm TCB. Ngoại biên tiếp tục thuận khi S&amp;P 500 đóng cửa tăng khoảng 1,65%, Nikkei duy trì vùng cao theo Yahoo Finance và Brent rơi về quanh 83,75 USD sau thỏa thuận Mỹ-Iran, nhưng mốc 1.800 vẫn chưa được chinh phục dứt khoát.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#178A50">1.799,31</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-15.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">15</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Thế giới mừng hòa bình, riêng VN vẫn đỏ</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Cuối tuần đảo chiều địa chính trị: Mỹ-Iran tuyên bố đạt thỏa thuận kết thúc chiến tranh, mở cửa lại eo Hormuz và gia hạn ngừng bắn 60 ngày — dầu Brent lao dốc về $83 (-4,5%), vàng vọt qua $4.200, chứng khoán toàn cầu tràn ngập sắc xanh (Nikkei sáng nay +5,4%). Nhưng VN-Index đi một mình: phiên 12/06 giảm về 1.791,65, đánh dấu tuần giảm thứ 4 liên tiếp với thanh khoản cạn và cả tự doanh lẫn khối ngoại cùng bán ròng mạnh. Câu hỏi của tuần FOMC: gió thuận thế giới có kéo nổi tiền quay lại không.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#D6453D">1.791,65</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-12.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">12</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Trump hủy không kích — risk-on trở lại</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Đêm qua đảo chiều hoàn toàn: Trump tuyên bố hủy kế hoạch không kích Iran, Dow bật +930 điểm lấy lại toàn bộ phiên tệ nhất năm, Nasdaq +2,54%, Nikkei sáng nay +4%, dầu hạ về $89 và vàng hồi mạnh. Nhưng lạm phát chưa buông: PPI Mỹ vọt 6,5% và ECB tăng lãi suất lần đầu từ 2023. Trong nước, VN-Index mất lại mốc 1.800 với thanh khoản HOSE 10.133 tỷ — đáy hơn một năm; sáng nay có gió thuận ngoại biên, câu hỏi duy nhất là tiền có quay lại không.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#D6453D">1.798,61</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-11.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">11</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Cú đúp CPI nóng và Iran</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">Phố Wall có phiên tệ nhất 2026: Dow −953 điểm sau khi CPI Mỹ tháng 5 vọt lên 4,2% (đỉnh 3 năm) và Trump tuyên bố nối lại không kích Iran — Brent bật lên $95, một phần thị trường bắt đầu định giá khả năng Fed TĂNG lãi suất trở lại. Trong nước, VN-Index lấy lại mốc 1.800 hôm qua nhưng nội lực mỏng: cả tự doanh lẫn khối ngoại cùng bán ròng, sáng nay đối mặt cú sốc ngoại biên với Nikkei đang giảm 1,25%.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#178A50">1.803,71</div></div>
+  </a><a class="flex gap-[22px] bg-white border border-[#DDE3EC] rounded-[10px] px-[26px] py-[22px] mb-3.5 items-center no-underline hover:border-[#1E6FD9] max-md:flex-wrap" href="2026-06-10.html">
+    <div class="shrink-0 text-center border-r border-[#E4E9F0] pr-[22px]"><div class="text-[34px] font-extrabold text-[#122B4D] leading-none">10</div><div class="text-[11px] font-bold tracking-[0.1em] text-[#5B6B80] uppercase mt-1">Th6 · 2026</div></div>
+    <div class="flex-1 min-w-[200px]"><h3 class="text-xl font-extrabold text-[#122B4D] mb-1">Thận trọng bao trùm</h3><div class="text-[13px] text-[#5B6B80] line-clamp-2">VN-Index hồi nhẹ +0,14% lên 1.793 điểm nhưng thanh khoản HOSE rơi về đáy hơn một năm. Đêm qua Mỹ bán tháo công nghệ trở lại, châu Á còn dư chấn cú rơi chip/AI — CPI Mỹ tháng 5 công bố tối nay là số lạm phát cuối trước kỳ họp Fed 16–17/6, trong khi rủi ro thuế Điều 301 của Mỹ với hàng Việt nổi lên là biến số lớn cho xuất khẩu nửa cuối năm.</div></div>
+    <div class="shrink-0 text-right"><div class="text-[10px] tracking-[0.12em] uppercase text-[#5B6B80] font-bold">VN-Index</div><div class="text-xl font-extrabold" style="color:#178A50">1.793,05</div></div>
   </a></div></main>
-<footer class="chantrang"><div class="khung">
-  <div class="hang"><span class="brand-ft">Bản tin TTCK Việt Nam</span><span class="mota-ft">Tài liệu tham khảo tổng hợp tự động · không phải khuyến nghị giao dịch chứng khoán</span></div>
-</div></footer>
+<footer class="bg-[#122B4D] text-white mt-3.5">
+  <div class="max-w-[1100px] mx-auto px-5 py-[22px]">
+    <div class="flex justify-between gap-4 flex-wrap items-center">
+      <span class="font-extrabold tracking-[0.12em] uppercase text-[13px]">Bản tin TTCK Việt Nam</span>
+      <span class="text-[11px] text-[#9FB2CC] italic">Tài liệu tham khảo tổng hợp tự động · không phải khuyến nghị giao dịch chứng khoán</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
