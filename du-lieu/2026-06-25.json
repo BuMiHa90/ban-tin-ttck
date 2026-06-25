@@ -1,0 +1,464 @@
+{
+  "ngay": "2026-06-25",
+  "phien": "2026-06-24",
+  "tieu_de": "Chỉ số tăng tiếp, nhưng dòng tiền vẫn lệch trụ",
+  "dan_de": "Bản tin sáng 25/06 dùng phiên gần nhất đã đóng là 24/06: VN-Index tăng 0,48% lên 1.878,02 điểm, trong khi HNX-Index giảm 2,49% còn 318,24 điểm. Vietstock ghi dòng tiền tiếp tục tập trung vào VHM, VIC, LPB; thanh khoản HOSE giảm 28,9% còn 494 triệu cp và khối ngoại bán ròng gần 621 tỷ đồng, kéo dài chuỗi bán ròng sang phiên thứ 13. Ngoại biên sáng nay không tạo cú hích rõ: S&P 500 gần như đi ngang, Nasdaq giảm nhẹ, Brent rơi về quanh 73,2 USD/thùng.",
+  "chi_so": [
+    {
+      "ten": "VN-Index",
+      "gia_tri": "1.878,02",
+      "phu": "+0,48%",
+      "huong": "tang",
+      "ghi_chu": "phiên 24/06 · +gần 9 điểm"
+    },
+    {
+      "ten": "Thanh khoản HOSE",
+      "gia_tri": "494tr cp",
+      "phu": "−28,9%",
+      "huong": "giam",
+      "ghi_chu": "khớp lệnh giảm"
+    },
+    {
+      "ten": "Tự doanh CTCK",
+      "gia_tri": "+62 tỷ",
+      "phu": "đảo chiều",
+      "huong": "tang",
+      "ghi_chu": "mua ròng HOSE"
+    },
+    {
+      "ten": "Khối ngoại",
+      "gia_tri": "−621 tỷ",
+      "phu": "phiên thứ 13",
+      "huong": "canh_bao",
+      "ghi_chu": "bán ròng tiếp diễn"
+    },
+    {
+      "ten": "S&P 500",
+      "gia_tri": "7.358,22",
+      "phu": "−0,10%",
+      "huong": "trung_tinh",
+      "ghi_chu": "Yahoo · 25/06 03:41"
+    },
+    {
+      "ten": "Dầu Brent",
+      "gia_tri": "73,22 USD",
+      "phu": "−5,01%",
+      "huong": "giam",
+      "ghi_chu": "Yahoo · 25/06 06:53"
+    }
+  ],
+  "muc": [
+    {
+      "so": "01",
+      "ten": "Qua đêm — toàn cầu",
+      "loai": "quoc_te",
+      "rong": true,
+      "ghi_chu": "Tin và giá trong 24h đến 07:05 ngày 25/06; số VN là phiên 24/06 đã đóng",
+      "items": [
+        {
+          "ten": "S&P 500",
+          "gia_tri": "7.358,22",
+          "thay_doi": "−0,10%",
+          "huong": "trung_tinh",
+          "y_nghia": "Mỹ đi ngang không tạo thêm lực kéo tâm lý cho VN, nên chất lượng dòng tiền nội sẽ quan trọng hơn biến động chỉ số Mỹ"
+        },
+        {
+          "ten": "Nasdaq",
+          "gia_tri": "25.476,64",
+          "thay_doi": "−0,43%",
+          "huong": "giam",
+          "y_nghia": "Công nghệ Mỹ còn yếu khiến FPT và nhóm tăng trưởng nhạy với định giá toàn cầu trong ngắn hạn"
+        },
+        {
+          "ten": "Dow Jones",
+          "gia_tri": "51.848,90",
+          "thay_doi": "+0,35%",
+          "huong": "tang",
+          "y_nghia": "Sự phân hóa giữa Dow và Nasdaq cho thấy khẩu vị rủi ro chưa đồng thuận, ảnh hưởng tới nhóm bluechip hơn là midcap VN"
+        },
+        {
+          "ten": "Brent",
+          "gia_tri": "73,22 USD",
+          "thay_doi": "−5,01%",
+          "huong": "giam",
+          "y_nghia": "Dầu giảm làm áp lực chi phí với HVN, vận tải và nhựa bớt căng, nhưng tạo nền kém thuận cho GAS, PVD, PVS, BSR"
+        },
+        {
+          "ten": "Nikkei 225",
+          "gia_tri": "69.174,97",
+          "thay_doi": "−4,39%",
+          "huong": "giam",
+          "y_nghia": "Yahoo chưa có tick sáng 25/06, nên latest close của Nhật chỉ là tín hiệu thận trọng chứ không phải xác nhận phiên châu Á hôm nay"
+        },
+        {
+          "ten": "DXY",
+          "gia_tri": "101,61",
+          "thay_doi": "+0,20%",
+          "huong": "canh_bao",
+          "y_nghia": "USD nhích lên cần đọc cùng tỷ giá trong nước và chuỗi bán ròng của khối ngoại"
+        },
+        {
+          "ten": "UST 10Y",
+          "gia_tri": "4,40%",
+          "thay_doi": "−4,9bp",
+          "huong": "trung_tinh",
+          "y_nghia": "Lợi suất Mỹ hạ nhẹ giúp giảm bớt áp lực định giá, nhưng chưa đủ bù cho bán ròng ngoại tại VN"
+        },
+        {
+          "ten": "Vàng",
+          "gia_tri": "4.026,6 USD",
+          "thay_doi": "−2,50%",
+          "huong": "giam",
+          "y_nghia": "Vàng giảm làm tín hiệu trú ẩn hạ nhiệt, còn tác động tới VN phụ thuộc chênh lệch vàng trong nước và tỷ giá"
+        },
+        {
+          "ten": "Bitcoin",
+          "gia_tri": "60.991 USD",
+          "thay_doi": "−2,68%",
+          "huong": "giam",
+          "y_nghia": "BTC giảm phản ánh khẩu vị rủi ro retail yếu hơn, tác động chủ yếu ở lớp tâm lý thị trường"
+        }
+      ]
+    },
+    {
+      "so": "02",
+      "ten": "Địa chính trị & rủi ro toàn cầu",
+      "loai": "diem",
+      "items": [
+        {
+          "text": "WSJ 25/06 ghi dầu tiếp tục giảm sâu trong khi cổ phiếu công nghệ còn chật vật; Brent live quanh 73,2 USD xác nhận áp lực giá dầu hạ nhiệt.",
+          "tone": "trung_tinh",
+          "y_nghia": "Rủi ro dầu chuyển từ sốc cung sang câu chuyện cầu/đàm phán, làm nhóm dầu khí VN kém thuận hơn nhóm hưởng lợi chi phí"
+        },
+        {
+          "text": "WSJ 25/06 ghi Micron có kết quả kinh doanh mạnh, nhưng Nasdaq vẫn giảm nhẹ theo chart metadata của Yahoo.",
+          "tone": "trung_tinh",
+          "y_nghia": "Tin riêng ngành bán dẫn có thể hỗ trợ tâm lý công nghệ, nhưng FPT và nhóm tăng trưởng VN vẫn cần xác nhận bằng dòng tiền thực"
+        },
+        {
+          "text": "OilPrice RSS trong lần kiểm 25/06 chỉ có bài mới nhất ngày 14/06, nên không dùng làm tin mới trong bản tin hôm nay.",
+          "tone": "info",
+          "y_nghia": "Việc loại feed cũ giúp tránh kéo headline năng lượng quá hạn vào đánh giá nhóm GAS, PVD, PVS, BSR"
+        },
+        {
+          "text": "Rủi ro Điều 301 với hàng Việt Nam chưa có tin mới trong 24h, nhưng hạn góp ý 06/07 và điều trần 07/07 vẫn là mốc lịch cần bám.",
+          "tone": "canh_bao",
+          "y_nghia": "Dệt may, thủy sản, gỗ và KCN vẫn chịu rủi ro thương mại theo lịch dù chưa phải catalyst của phiên 25/06"
+        }
+      ]
+    },
+    {
+      "so": "03",
+      "ten": "Dòng tiền & vị thế",
+      "loai": "bang",
+      "items": [
+        {
+          "chi_tieu": "Khối ngoại HOSE",
+          "gia_tri": "−610,9 tỷ",
+          "tone": "xau",
+          "y_nghia": "Khối ngoại quay lại bán ròng mạnh trên HOSE, tập trung FPT, CTG, VPB và TCB nên áp lực không chỉ nằm ở một mã riêng lẻ"
+        },
+        {
+          "chi_tieu": "Khối ngoại tổng",
+          "gia_tri": "−621 tỷ",
+          "tone": "canh_bao",
+          "y_nghia": "Chuỗi bán ròng 13 phiên giữ sức ép lên tâm lý thị trường và làm chỉ số phụ thuộc nhiều hơn vào dòng tiền nội"
+        },
+        {
+          "chi_tieu": "Tự doanh CTCK",
+          "gia_tri": "+62 tỷ",
+          "tone": "tot",
+          "y_nghia": "Tự doanh đảo chiều mua ròng sau hai phiên bán, nhưng quy mô còn nhỏ so với áp lực bán ngoại"
+        },
+        {
+          "chi_tieu": "HOSE khớp lệnh",
+          "gia_tri": "494tr cp",
+          "tone": "trung_tinh",
+          "y_nghia": "Khối lượng giảm 28,9% cho thấy phiên tăng điểm chưa đi kèm sự mở rộng rõ của dòng tiền"
+        },
+        {
+          "chi_tieu": "HNX khớp lệnh",
+          "gia_tri": "43tr cp",
+          "tone": "xau",
+          "y_nghia": "HNX giảm cả điểm số lẫn thanh khoản, làm nền midcap/đầu cơ yếu hơn VN-Index"
+        },
+        {
+          "chi_tieu": "YEG/TCB tự doanh",
+          "gia_tri": "mua ròng mạnh",
+          "tone": "info",
+          "y_nghia": "Dòng tự doanh tập trung ở YEG và TCB giúp vài mã có điểm tựa riêng, nhưng chưa xác nhận lan tỏa toàn thị trường"
+        },
+        {
+          "chi_tieu": "FPT/CTG ngoại",
+          "gia_tri": ">100 tỷ/mã",
+          "tone": "xau",
+          "y_nghia": "FPT và CTG chịu áp lực bán ngoại lớn trong phiên, ảnh hưởng ngắn hạn tới công nghệ và ngân hàng"
+        }
+      ]
+    },
+    {
+      "so": "04",
+      "ten": "Trong nước — tín hiệu thị trường",
+      "loai": "diem",
+      "items": [
+        {
+          "text": "Phiên 24/06, VN-Index tăng 0,48% lên 1.878,02 điểm, nhưng HNX-Index giảm 2,49% về 318,24 điểm.",
+          "tone": "trung_tinh"
+        },
+        {
+          "text": "Vietstock Daily ghi thị trường phân hóa, dòng tiền tập trung vào từng nhóm cổ phiếu thay vì lan tỏa diện rộng.",
+          "tone": "canh_bao"
+        },
+        {
+          "text": "VHM là mã đóng góp tích cực nhất cho VN-Index với 3,22 điểm; VIC và LPB cộng thêm tổng 4,44 điểm.",
+          "tone": "tot"
+        },
+        {
+          "text": "BID và VCB là hai mã kéo giảm mạnh nhất, lấy đi tổng cộng 1,37 điểm của VN-Index.",
+          "tone": "xau"
+        },
+        {
+          "text": "VN30-Index tăng 15,03 điểm lên 2.010,15 điểm, nhưng độ rộng rổ phái sinh không đủ để kết luận dòng tiền lan tỏa.",
+          "tone": "trung_tinh"
+        },
+        {
+          "text": "Nhóm năng lượng tăng 1,49% với BSR, PVS, PVD phục hồi, trái chiều với giá Brent đang giảm mạnh sáng 25/06.",
+          "tone": "trung_tinh"
+        },
+        {
+          "text": "Nhóm công nghiệp giảm mạnh nhất, chịu tác động từ ACV, VJC và THD theo ghi nhận của Vietstock.",
+          "tone": "xau"
+        }
+      ]
+    },
+    {
+      "so": "05",
+      "ten": "Vĩ mô & tiền tệ",
+      "loai": "bang",
+      "items": [
+        {
+          "chi_tieu": "USD/VND (XE)",
+          "gia_tri": "26.312 · +0,00%",
+          "tone": "trung_tinh",
+          "y_nghia": "USD/VND gần như đi ngang trong 24h, nên tỷ giá chưa tạo thêm tín hiệu mới cho nhóm nhập khẩu, xuất khẩu và nợ USD"
+        },
+        {
+          "chi_tieu": "Lãi suất LNH ON",
+          "gia_tri": "6,20% · +179bp",
+          "tone": "canh_bao",
+          "y_nghia": "ON +179 bp lên 6,20% theo dữ liệu 22/06, tạo điểm cần theo dõi với ngân hàng và dòng tiền chứng khoán trong vài phiên tới"
+        },
+        {
+          "chi_tieu": "Tỷ giá TT/NH/tự do",
+          "gia_tri": "25.192/26.451/26.780",
+          "tone": "trung_tinh",
+          "y_nghia": "Tỷ giá tự do không đổi trong ngày, nhưng DXY nhích lên và khối ngoại bán ròng khiến áp lực tỷ giá vẫn cần quan sát"
+        },
+        {
+          "chi_tieu": "Lãi suất OMO",
+          "gia_tri": "4,50% · không đổi",
+          "tone": "trung_tinh",
+          "y_nghia": "OMO ở 4,50% cho thấy mặt bằng điều hành ngắn hạn chưa đổi, nên áp lực thanh khoản cần đọc thêm qua ON và hoạt động bơm/hút của SBV"
+        },
+        {
+          "chi_tieu": "Tín dụng/M2/huy động",
+          "gia_tri": "18,25% · 5,86% · 10,76%",
+          "tone": "trung_tinh",
+          "y_nghia": "Tín dụng tăng nhanh hơn M2 và huy động là nền hỗ trợ tăng trưởng nhưng cũng làm thị trường nhạy hơn với biến động lãi suất tiền đồng"
+        },
+        {
+          "chi_tieu": "Lãi suất chính sách",
+          "gia_tri": "không đổi",
+          "tone": "trung_tinh",
+          "y_nghia": "Standard Chartered nhận định lãi suất chính sách giữ nguyên, nên biến số chính chuyển sang lạm phát và thanh khoản tiền đồng nửa cuối năm"
+        },
+        {
+          "chi_tieu": "Lạm phát H2",
+          "gia_tri": "áp lực tăng",
+          "tone": "canh_bao",
+          "y_nghia": "Động lực lạm phát nửa cuối năm có thể khiến nhóm ngân hàng, bất động sản và tiêu dùng nhạy hơn với kỳ vọng lãi suất"
+        }
+      ]
+    },
+    {
+      "so": "06",
+      "ten": "Doanh nghiệp & giao dịch nội bộ",
+      "loai": "ma",
+      "items": [
+        {
+          "ma": "DGC",
+          "tone": "canh_bao",
+          "text": "HOSE đưa cổ phiếu DGC vào diện cảnh báo từ ngày 30/06/2026 và tiếp tục theo dõi diện hạn chế giao dịch.",
+          "y_nghia": "DGC chịu áp lực tâm lý quản trị trong ngắn hạn, dù phản ứng giá còn phụ thuộc giải trình và dòng tiền ngành hóa chất"
+        },
+        {
+          "ma": "LTG/RDP",
+          "tone": "xau",
+          "text": "HNX đình chỉ giao dịch LTG và RDP trên UPCoM; RDP còn bị hạn chế giao dịch và thuộc diện cảnh báo.",
+          "y_nghia": "LTG và RDP chịu rủi ro thanh khoản trực tiếp, đồng thời làm nhóm cổ phiếu quản trị yếu bị soi kỹ hơn trong vài tuần"
+        },
+        {
+          "ma": "HMR",
+          "tone": "trung_tinh",
+          "text": "Giám đốc HMR đăng ký mua 1 triệu cổ phiếu; cổ phiếu tăng trần lên 10.200 đồng/cp trong phiên 24/06.",
+          "y_nghia": "HMR có tín hiệu hỗ trợ tâm lý từ giao dịch lãnh đạo, nhưng thanh khoản thấp làm tác động ngắn hạn dễ nhiễu"
+        },
+        {
+          "ma": "ITD",
+          "tone": "tot",
+          "text": "Công ty liên quan Phó Chủ tịch mua 1 triệu cổ phiếu ITD, nâng sở hữu từ 3,9% lên 7,79%.",
+          "y_nghia": "ITD có biến động sở hữu cổ đông liên quan ban lãnh đạo theo chiều tích cực trong vài tuần"
+        },
+        {
+          "ma": "VRE",
+          "tone": "info",
+          "text": "Vincom Retail chốt quyền chia cổ tức tiền mặt năm 2025, ngày giao dịch không hưởng quyền là 30/06.",
+          "y_nghia": "VRE có catalyst cổ tức ngắn hạn, nhưng chiều tác động còn phụ thuộc sức kéo chung của nhóm Vingroup"
+        },
+        {
+          "ma": "VHM/VIC/LPB",
+          "tone": "tot",
+          "text": "VHM, VIC và LPB tiếp tục là nhóm trụ đóng góp lớn nhất cho VN-Index phiên 24/06.",
+          "y_nghia": "VHM, VIC và LPB có vai trò nâng chỉ số trong phiên, nhưng việc phụ thuộc trụ làm thị trường dễ nhạy với chốt lời ngắn hạn"
+        }
+      ]
+    },
+    {
+      "so": "07",
+      "ten": "Lịch sự kiện",
+      "loai": "lich",
+      "items": [
+        {
+          "khi": "25/06",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "Theo dõi VN-Index kiểm định vùng 1.878-1.880 sau ba phiên tăng liên tiếp"
+        },
+        {
+          "khi": "25/06",
+          "pham_vi": "VN",
+          "tone": "canh_bao",
+          "su_kien": "Kiểm chứng chuỗi bán ròng 13 phiên của khối ngoại có tiếp tục gây áp lực lên FPT, CTG, VPB, TCB hay không"
+        },
+        {
+          "khi": "30/06",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "DGC vào diện cảnh báo; VRE giao dịch không hưởng quyền cổ tức tiền mặt năm 2025"
+        },
+        {
+          "khi": "cuối tháng 06",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "Theo dõi CPI, IIP, bán lẻ, xuất nhập khẩu và tín hiệu lợi nhuận quý 2 (dự kiến)"
+        },
+        {
+          "khi": "01/07",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "Quy định nâng tỷ lệ vốn ngắn hạn cho vay trung, dài hạn lên 40% bắt đầu có hiệu lực"
+        },
+        {
+          "khi": "06-07/07",
+          "pham_vi": "QT",
+          "tone": "canh_bao",
+          "su_kien": "Hạn góp ý và điều trần Điều 301 với hàng Việt Nam tại Washington"
+        }
+      ]
+    },
+    {
+      "so": "08",
+      "ten": "Góc nhìn & chiến lược",
+      "loai": "muc_gia",
+      "ghi_chu": "Nhận định từ Vietstock/CTCK — không phải khuyến nghị",
+      "items": [
+        {
+          "nhan": "1.878",
+          "tone": "info",
+          "text": "VN-Index đóng cửa tại 1.878,02 điểm, tăng phiên thứ 3 liên tiếp nhưng vẫn cần kiểm tra độ lan tỏa"
+        },
+        {
+          "nhan": "Upper Band",
+          "tone": "tot",
+          "text": "Vietstock Daily ghi VN-Index bám sát Upper Band của Bollinger Bands, phản ánh đà phục hồi kỹ thuật còn duy trì"
+        },
+        {
+          "nhan": "SMA50",
+          "tone": "tot",
+          "text": "Chỉ số duy trì trên SMA 50 ngày, là điểm cộng kỹ thuật cho kịch bản giữ nền ngắn hạn"
+        },
+        {
+          "nhan": "MACD",
+          "tone": "tot",
+          "text": "MACD nới rộng khoảng cách với signal và vượt lên ngưỡng 0 theo Vietstock Daily"
+        },
+        {
+          "nhan": "Phân hóa",
+          "tone": "canh_bao",
+          "text": "Dòng tiền vẫn tập trung vào trụ và một số nhóm riêng, nên rủi ro là chỉ số đẹp hơn danh mục trung bình"
+        },
+        {
+          "nhan": "HNX",
+          "tone": "xau",
+          "text": "HNX-Index xuất hiện mẫu hình Big Black Candle và Stochastic rời vùng overbought, cho thấy rủi ro ngắn hạn ở nhóm ngoài trụ"
+        }
+      ]
+    }
+  ],
+  "quote": "Điểm số đang tiến sát 1.880, nhưng câu hỏi chính là dòng tiền có lan ra ngoài VHM, VIC, LPB hay không.",
+  "danh_gia": "Phe bull có điểm tựa ở VN-Index tăng phiên thứ 3, VN30 vượt 2.010 điểm, nhóm Vingroup tiếp tục kéo chỉ số và tự doanh đảo chiều mua ròng. Phe bear vẫn có lập luận rõ: HOSE khớp lệnh giảm gần 29%, HNX giảm mạnh, khối ngoại bán ròng phiên thứ 13 và lực kéo vẫn tập trung ở vài trụ. Biến số 24h tới là liệu cầu nội có đủ hấp thụ bán ròng ngoại tại FPT, CTG, VPB, TCB và mở rộng sang midcap hay không. Brent giảm sâu hỗ trợ câu chuyện chi phí, nhưng cũng làm nhóm dầu khí cần xác nhận lại sau phiên hồi kỹ thuật.",
+  "nguon": [
+    {
+      "ten": "Vietstock 25/06 06:00 — 25/06: Đọc gì trước giờ giao dịch chứng khoán?",
+      "url": "http://vietstock.vn/2026/06/2506-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1458234.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 19:04 — Theo dấu dòng tiền cá mập 24/06",
+      "url": "http://vietstock.vn/2026/06/theo-dau-dong-tien-ca-map-2406-khoi-ngoai-ban-rong-13-phien-lien-tiep-830-1458159.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 17:22 — Nhịp đập Thị trường 24/06",
+      "url": "http://vietstock.vn/2026/06/nhip-dap-thi-truong-2406-vn-index-tien-ve-sat-moc-1880-diem-nhom-vingroup-tiep-tuc-dan-dat-1636-1457770.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 18:17 — Vietstock Daily 25/06/2026",
+      "url": "http://vietstock.vn/2026/06/vietstock-daily-25062026-tang-diem-trong-the-phan-hoa-1636-1458088.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 22:15 — DGC vào diện cảnh báo",
+      "url": "http://vietstock.vn/2026/06/dgc-vao-dien-canh-bao-van-bi-theo-doi-han-che-giao-dich-830-1458229.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 12:04 — Cổ phiếu LTG, RDP bị đình chỉ giao dịch",
+      "url": "http://vietstock.vn/2026/06/co-phieu-ltg-rdp-bi-dinh-chi-giao-dich-830-1457798.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 17:25 — Giám đốc đăng ký mua 1 triệu cổ phiếu HMR",
+      "url": "http://vietstock.vn/2026/06/giam-doc-dang-ky-mua-1-trieu-co-phieu-hmr-tang-tran-739-1457974.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 16:58 — Công ty liên quan Phó Chủ tịch mua 1 triệu cổ phiếu ITD",
+      "url": "http://vietstock.vn/2026/06/cong-ty-lien-quan-pho-chu-tich-mua-1-trieu-co-phieu-itd-739-1457971.htm"
+    },
+    {
+      "ten": "Vietstock 24/06 12:08 — Standard Chartered về lãi suất và lạm phát",
+      "url": "http://vietstock.vn/2026/06/ngan-hang-standard-chartered-lai-suat-chinh-sach-khong-thay-doi-dong-luc-thuc-day-lam-phat-tiep-tuc-trong-nua-cuoi-nam-761-1457822.htm"
+    },
+    {
+      "ten": "WSJ Markets 24-25/06 — Micron, stress test, oil slump, tech stocks",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
+    },
+    {
+      "ten": "Yahoo Finance 25/06 — ^GSPC, ^IXIC, ^DJI, BZ=F, GC=F, BTC-USD, ^N225, DXY, ^TNX chart metadata",
+      "url": "https://finance.yahoo.com/"
+    },
+    {
+      "ten": "VietnamBiz Data 22/06/2026 — currency-interest-rate",
+      "url": "https://data.vietnambiz.vn/currency-interest-rate"
+    },
+    {
+      "ten": "XE 07:07 25-06 ICT — USD/VND charting-rates (tạm dùng)",
+      "url": "https://www.xe.com/currencycharts/?from=USD&to=VND"
+    }
+  ]
+}
