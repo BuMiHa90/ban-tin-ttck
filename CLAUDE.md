@@ -45,6 +45,15 @@ Giao tiếp và viết báo cáo bằng tiếng Việt. Giữ nguyên thuật ng
 - **§08 Góc nhìn & chiến lược** (loai `muc_gia`): levels hỗ trợ/kháng cự, kịch bản — ghi rõ là nhận định CTCK.
 - **Đánh giá của desk** (trường `danh_gia`, hiển thị ở khối cuối trang): 3–4 câu phân tích tổng hợp của agent theo khung: bài của phe bull / bài của phe bear / biến số quyết định 24h tới. Đây là phân tích TÁC ĐỘNG và kịch bản có điều kiện — TUYỆT ĐỐI không dùng động từ hành động (mua/bán/bắt đáy/chốt lời) như lời khuyên. Trường `quote` cũ giữ làm fallback.
 
+## Nâng cấp từ bản đối chiếu (benchmark bản tin của đệ tử, 30/06/2026)
+Những mảng nên làm SÂU hơn (đã có trong spec nhưng hay bị thực thi sơ sài). KHÔNG được chép số từ bản tin tham chiếu — luôn tự xác minh từ RSS/nguồn gốc; tin không xác minh được thì ghi "(dự kiến)" hoặc bỏ.
+- **Crypto sâu hơn dòng giá**: ngoài giá BTC, theo dõi dòng vốn ETF Bitcoin giao ngay quốc tế (IBIT/spot BTC ETF: vào/ra ròng), khung pháp lý (MiCA EU, FCA Anh, SEC Mỹ), tổ chức hóa (BlackRock, ARK, JPMorgan), put-call ratio — đọc như nhiệt kế khẩu vị rủi ro retail. Đưa vào §01 (dòng BTC) hoặc §03.
+- **Kỳ review rổ chỉ số là sự kiện §07 định kỳ**: VN30/VNDiamond/VNFINLEAD review bán niên (kết quả ~giữa tháng 1 & 7, hiệu lực đầu tháng 2 & 8); FTSE Vietnam & MarketVector (VNM ETF) review theo quý. Khi đến kỳ: nêu mã thêm/loại + quy mô ETF mô phỏng cần cơ cấu + ngày hiệu lực ở §03/§07 (số cụ thể phải từ nguồn gốc, chưa có thì ghi "dự kiến").
+- **Kịch bản hàng hóa forward**: khi CTCK/tổ chức (ING, Goldman...) đưa vùng giá dự báo (vd "dầu Q3 88–95 USD"), đưa vào §01 hoặc §08 và GẮN NHÃN rõ là dự báo của bên nào — không phải nhận định của agent.
+- **Mùa KQKD — màu sắc theo ngành**: khi vào mùa báo cáo, §04 hoặc §06 nêu nhóm ngành dẫn dắt lợi nhuận (chứng khoán, ngân hàng, bán lẻ...) kèm khoảng tăng %, nhóm nào hụt hơi — thay vì chỉ một câu "lợi nhuận tăng/giảm".
+- **Địa chính trị mở rộng**: ngoài Mỹ-Iran/Điều 301, theo dõi căng thẳng nước lớn khác khi tác động thị trường (Trung–Nhật, Trung–Mỹ công nghệ, Biển Đỏ/cước biển...).
+- **Giữ điểm mạnh riêng** mà bản đối chiếu thiếu: số live qua script (§05 lãi LNH/OMO/tỷ giá), số tự doanh + khối ngoại chi tiết (bài cá mập), độ rộng (mã tăng/giảm, VN30), levels kỹ thuật §08, và kỷ luật chống tin cũ. KHÔNG dùng emoji/icon trong dữ liệu — giữ phong cách desk sạch.
+
 ## Quy tắc ngắn gọn ô số (tránh vỡ layout — sự cố bản tin 23/06)
 - `gia_tri` trong `chi_so` (dashboard) và bảng §03/§05 phải là **số + đơn vị ngắn** (~≤25 ký tự), chỉ một con số chính; nhiều chỉ tiêu nối bằng `·`. KHÔNG nhét cả câu hay trích nguồn kép vào ô giá trị.
 - `ghi_chu` của `chi_so` ≤ ~40 ký tự (gợi ý ngắn, không phải câu trích nguồn).

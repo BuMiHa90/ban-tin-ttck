@@ -91,6 +91,13 @@
           "y_nghia": "Vàng giảm sâu do triển vọng Fed giữ lãi suất cao kéo dài — giảm sức hút kênh trú ẩn, nhưng SJC trong nước vẫn có thể neo chênh cao"
         },
         {
+          "ten": "Bitcoin",
+          "gia_tri": "58.619 USD",
+          "thay_doi": "−1,24% (24h)",
+          "huong": "giam",
+          "y_nghia": "BTC giảm cùng pha vàng và áp lực lãi suất cao — nhiệt kế khẩu vị rủi ro retail toàn cầu đang nguội, gián tiếp kém thuận cho dòng tiền đầu cơ nhóm vốn hóa nhỏ tại VN"
+        },
+        {
           "ten": "Chỉ số USD (DXY)",
           "gia_tri": "Mạnh nhất tháng/năm",
           "thay_doi": "",
@@ -275,8 +282,8 @@
         {
           "ma": "VKC",
           "tone": "trung_tinh",
-          "text": "VKC thông qua kế hoạch tái cấu trúc, chuyển hướng sang sản xuất hàng dệt may.",
-          "y_nghia": "Tái cấu trúc tạo kỳ vọng mới nhưng cũng kèm rủi ro thực thi, cần theo dõi dòng tiền và kết quả các quý tới"
+          "text": "VKC thông qua đổi tên, đổi ngành và đầu tư dự án may mặc 7.600 tỷ đồng — chuyển hẳn sang sản xuất dệt may.",
+          "y_nghia": "Tái cấu trúc quy mô lớn tạo kỳ vọng mới nhưng kèm rủi ro thực thi và pha loãng, cần theo dõi nguồn vốn và kết quả các quý tới"
         },
         {
           "ma": "MWG",
@@ -308,6 +315,12 @@
           "pham_vi": "QT",
           "tone": "info",
           "su_kien": "PMI sản xuất tháng 6 (VN và toàn cầu) công bố — tín hiệu sớm về cầu đơn hàng (dự kiến)"
+        },
+        {
+          "khi": "Giữa tháng 7",
+          "pham_vi": "VN",
+          "tone": "info",
+          "su_kien": "Kỳ review bán niên các rổ chỉ số HOSE (VN30, VNDiamond, VNFINLEAD) — kết quả dự kiến công bố giữa tháng 7, hiệu lực đầu tháng 8; các ETF mô phỏng sẽ cơ cấu theo (dự kiến)"
         },
         {
           "khi": "06–07/07",
