@@ -27,10 +27,10 @@
     },
     {
       "ten": "Khối ngoại",
-      "gia_tri": "+95 tỷ",
-      "phu": "HOSE +330,3 tỷ",
+      "gia_tri": "+133 tỷ",
+      "phu": "Tổng 3 sàn",
       "huong": "tang",
-      "ghi_chu": "VPB, HDB, MCH được mua"
+      "ghi_chu": "CafeF netVal 3 sàn 07-01"
     },
     {
       "ten": "S&P 500",
@@ -158,28 +158,46 @@
       "loai": "bang",
       "items": [
         {
-          "chi_tieu": "Khối ngoại tổng",
-          "gia_tri": "+95 tỷ",
-          "tone": "tot",
-          "y_nghia": "Khối ngoại đảo chiều mua ròng dù quy mô nhỏ, giúp cải thiện tâm lý sau chuỗi bán ròng mạnh cuối tháng 6"
-        },
-        {
           "chi_tieu": "Khối ngoại HOSE",
-          "gia_tri": "+330,3 tỷ",
+          "gia_tri": "+331 tỷ",
           "tone": "tot",
-          "y_nghia": "Lực mua HOSE tập trung ở VPB, HDB, VIC, MCH và FPT, hỗ trợ ngân hàng, tiêu dùng và công nghệ"
+          "y_nghia": "Số netVal có cấu trúc từ CafeF cho HOSE/VNINDEX, dùng làm số chuẩn thay vì suy luận từ bài tin"
         },
         {
           "chi_tieu": "Khối ngoại HNX",
-          "gia_tri": "−27 tỷ",
+          "gia_tri": "-27 tỷ",
           "tone": "xau",
-          "y_nghia": "Bán ròng HNX tập trung ở IDC, SHS, CEO và MBS nên áp lực vẫn còn ở một số mã vừa và nhóm chứng khoán"
+          "y_nghia": "Số netVal có cấu trúc từ CafeF cho HNX-INDEX, dùng làm số chuẩn thay vì suy luận từ bài tin"
+        },
+        {
+          "chi_tieu": "Khối ngoại UPCoM",
+          "gia_tri": "-172 tỷ",
+          "tone": "xau",
+          "y_nghia": "Số netVal có cấu trúc từ CafeF cho UPCOM-INDEX, dùng làm số chuẩn thay vì suy luận từ bài tin"
+        },
+        {
+          "chi_tieu": "Khối ngoại tổng",
+          "gia_tri": "+133 tỷ",
+          "tone": "tot",
+          "y_nghia": "Tổng cộng HOSE, HNX và UPCoM theo cùng nguồn CafeF API, dễ đối chiếu với từng sàn"
+        },
+        {
+          "chi_tieu": "Khối ngoại 5 phiên",
+          "gia_tri": "-2.657 tỷ",
+          "tone": "xau",
+          "y_nghia": "Lũy kế 5 phiên gần nhất của cả 3 sàn cho biết áp lực dòng vốn ngoại là một phiên đơn lẻ hay xu hướng ngắn hạn"
         },
         {
           "chi_tieu": "Tự doanh CTCK",
           "gia_tri": "+298 tỷ",
           "tone": "tot",
           "y_nghia": "Tự doanh mua ròng phiên thứ 6 liên tiếp, cho thấy tổ chức nội tiếp tục đỡ thị trường trong nhịp hồi"
+        },
+        {
+          "chi_tieu": "Thanh khoản HOSE",
+          "gia_tri": "13,2k tỷ",
+          "tone": "trung_tinh",
+          "y_nghia": "Giá tăng trong khi thanh khoản giảm cho thấy lực bán yếu đi, nhưng chưa xác nhận một pha bùng nổ dòng tiền"
         },
         {
           "chi_tieu": "MCH tự doanh",
@@ -192,12 +210,6 @@
           "gia_tri": "+169 tỷ",
           "tone": "tot",
           "y_nghia": "MWG được tự doanh mua mạnh trong ngày Điện Máy Xanh hoàn tất IPO, hỗ trợ tâm lý nhóm bán lẻ"
-        },
-        {
-          "chi_tieu": "Thanh khoản HOSE",
-          "gia_tri": "13,2k tỷ",
-          "tone": "trung_tinh",
-          "y_nghia": "Giá tăng trong khi thanh khoản giảm cho thấy lực bán yếu đi, nhưng chưa xác nhận một pha bùng nổ dòng tiền"
         },
         {
           "chi_tieu": "VN30 giao dịch HOSE",
@@ -502,6 +514,10 @@
     {
       "ten": "XE 08:14 02-07 ICT — USD/VND charting-rates (tạm dùng)",
       "url": "https://www.xe.com/currencycharts/?from=USD&to=VND"
+    },
+    {
+      "ten": "CafeF 01/07 — khối ngoại 3 sàn qua msh-appdata",
+      "url": "https://cafef.vn/du-lieu.chn"
     }
   ]
 }

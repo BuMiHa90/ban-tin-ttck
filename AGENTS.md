@@ -107,9 +107,9 @@ Nếu PowerShell 7, Python hoặc Node không OK, không được chạy tiếp 
 ## Trình tự thực hiện
 1. **`Get-Date`** lấy ngày giờ. Xác định `phien` = phiên giao dịch gần nhất ĐÃ đóng cửa (sáng thứ Hai thì phiên gần nhất là thứ Sáu).
 2. **Thu thập lõi — 6 lượt RSS** (WebFetch):
-   - Vietstock cổ phiếu `https://vietstock.vn/830/chung-khoan/co-phieu.rss` → lấy link 3 bài: "Theo dấu dòng tiền cá mập [hôm qua]" (số **tự doanh + khối ngoại**), "Nhịp đập Thị trường [hôm qua]" (VN-Index, thanh khoản, độ rộng), "[hôm nay]: Đọc gì trước giờ giao dịch".
+   - Vietstock cổ phiếu `https://vietstock.vn/830/chung-khoan/co-phieu.rss` → lấy link 3 bài: "Theo dấu dòng tiền cá mập [hôm qua]" (mã mua/bán nổi bật, tự doanh; **không dùng để suy luận số khối ngoại chuẩn**), "Nhịp đập Thị trường [hôm qua]" (VN-Index, thanh khoản, độ rộng), "[hôm nay]: Đọc gì trước giờ giao dịch".
    - WebFetch bài "Đọc gì trước giờ giao dịch" hôm nay (tổng hợp trong nước + quốc tế + vĩ mô).
-   - WebFetch bài "cá mập" hôm qua (số tự doanh/khối ngoại cụ thể).
+   - WebFetch bài "cá mập" hôm qua (mã mua/bán, bối cảnh; số khối ngoại chỉ dùng đối chiếu, không thay API).
    - WSJ Markets `https://feeds.content.dowjones.io/public/rss/RSSMarketsMain` (phiên Mỹ đêm qua + lý do, Fed, địa chính trị).
    - OilPrice `https://oilprice.com/rss/main` (dầu, Trung Đông/Hormuz, năng lượng).
    - VnEconomy `https://vneconomy.vn/chung-khoan.rss` (thanh khoản, khối ngoại, nhận định, vĩ mô VN).
@@ -117,7 +117,13 @@ Nếu PowerShell 7, Python hoặc Node không OK, không được chạy tiếp 
 4. **Tùy chọn** (chỉ khi bước 2–3 trơn, ≤3 lượt): Vietstock giao dịch nội bộ `https://vietstock.vn/739/chung-khoan/giao-dich-noi-bo.rss` (cho §06); Vietstock vĩ mô `https://vietstock.vn/761/kinh-te/vi-mo.rss`; 1 bài gốc cần đào sâu.
 5. **Ghi `du-lieu/YYYY-MM-DD.json`** — mở file JSON gần nhất trong `du-lieu/` để theo ĐÚNG schema (xem mục dưới).
 6. **Viết `bao-cao/YYYY-MM-DD.md`** theo format trong `CLAUDE.md` (tóm tắt nhanh → diễn biến → tin theo nhóm → đánh giá desk).
-7. **Render + Deploy**:
+7. **Cập nhật số liệu chuẩn khối ngoại 3 sàn từ CafeF API** (bắt buộc trước render; dùng `phien` đã đóng, không dùng ngày bản tin nếu sáng thứ Hai/ngày nghỉ):
+   ```powershell
+   $sys = Get-Content -Raw -LiteralPath "F:\systeminfohelper.json" | ConvertFrom-Json
+   & $sys.node.path "F:\Hai BUi\Agent tổng hợp tin tức\scripts\cap-nhat-khoi-ngoai-cafef.js" --date YYYY-MM-DD --apply
+   ```
+   Script lấy `netVal` từ `msh-appdata.cafef.vn ... OverviewOrgnizaztion` cho 3 symbol `VNINDEX`, `HNX-INDEX`, `UPCOM-INDEX`, cập nhật ô dashboard **Khối ngoại** theo tổng 3 sàn và §03 tách `Khối ngoại HOSE` / `HNX` / `UPCoM` / `tổng` / `5 phiên`. Đây là số chuẩn; bài tin chỉ dùng để lấy mã nổi bật và diễn giải, không suy luận số.
+8. **Render + Deploy**:
    ```powershell
    $sys = Get-Content -Raw -LiteralPath "F:\systeminfohelper.json" | ConvertFrom-Json
    & $sys.node.path "F:\Hai BUi\Agent tổng hợp tin tức\render.js"
